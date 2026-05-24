@@ -1,0 +1,18 @@
+       Error Diagnostics for Analysis/Assembly Failure
+
+  All position constraints can't be simultaneously satisfied. 
+The following position constraints can't be satisfied:
+
+
+1) The rigid body body6 connected by Connection_73 in model ASMJOEDELL can't be
+properly oriented. 
+
+
+2) The following kinematic loop can't be closed: Ground - body1 - body6 -
+Ground.
+
+
+3) The following kinematic loop can't be closed: Ground - body1 - body6 -
+Ground.
+
+
