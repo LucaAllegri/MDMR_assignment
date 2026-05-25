@@ -4,11 +4,11 @@
 The following position constraints can't be satisfied:
 
 
-1) The rigid body body6 connected by Connection_47 in model ASMJOEDELL can't be
+1) The rigid body body4 connected by Connection_80 in model ASMJOEDELL can't be
 properly oriented. 
 
 
-2) The following kinematic loop can't be closed: Ground - body1 - body6 -
+2) The following kinematic loop can't be closed: Ground - body2 - body4 -
 Ground.
 
 

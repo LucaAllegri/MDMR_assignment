@@ -4,15 +4,23 @@
 The following position constraints can't be satisfied:
 
 
-1) The rigid body body6 connected by Connection_73 in model ASMJOEDELL can't be
+1) Lower limit of the axis in slot Connection_82 in model ASMJOEDELL can't be
+satisfied.
+
+
+2) The rigid body body4 connected by Connection_82 in model ASMJOEDELL can't be
 properly oriented. 
 
 
-2) The following kinematic loop can't be closed: Ground - body1 - body6 -
+3) The rigid body body5 connected by Connection_69 in model ASMJOEDELL can't be
+properly oriented. 
+
+
+4) The following kinematic loop can't be closed: Ground - body2 - body4 -
 Ground.
 
 
-3) The following kinematic loop can't be closed: Ground - body1 - body6 -
+5) The following kinematic loop can't be closed: Ground - body2 - body4 -
 Ground.
 
 
