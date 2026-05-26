@@ -38221,3 +38221,2802 @@
 ~ Move `main_dlg_cur` `proe_win` 9 1263 142 0 1538 1496 693 1920 1080 6591325
 ~ Move `main_dlg_cur` `proe_win` 9 1267 142 0 514 1496 693 1920 1080 6591336
 ~ MButtonDisarm `main_dlg_cur` `proe_win` 9 1268 141 0 1536 1496 693 1920 1080 6591578
+~ LButtonArm `main_dlg_cur` `proe_win` 9 679 252 0 1537 1496 693 1920 1080 6688578
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 679 252 0 0 1496 693 1920 1080 6688668
+@sel_pz_xyz 415.9902597403 536.9318181818 448.6960368978 501.5961732699 -1214.6838291887
+@ sel view 0
+ -4.304232 -1.362788 -0.706150 0.674618 0.208710 -4.514819
+ 1.378670 -4.356777 0.004601 553.434349 102.136678 -1288.147266 3.338512 0.000000 0
+@ stack attr 8
+@ stack attr -1 -1  1
+@ stack attr twk_s_eps
+@ stack idx 0
+@SEL_REC 1 [ 97] 6 3279 3282 (0.0000000000 0.0000000000) (34.1291366906 -4.5000000000 -50.7942286341)
+!PNT5:F30(DATUM POINT):PLATE_SX
+~ Command `ProCmdRedefine@PopupMenuGraphicWinStack` 
+! Executed sub-command ProCmdEditRedefFeat.
+!ODUI session starting: Okit widgets are on, Undo/Redo on, Dashboard style off, Tab style on, Mini Dashboard style off. Feature title : Datum Point
+!ODUI session started.
+!%CPSelect up to 3 references, such as surface, curve, edge or point to place point.
+~ Select `Odui_Dlg_00` `t1.PointsListTable` 2 `r3` `c1`
+!%CPSelect up to 3 references, such as surface, curve, edge or point to place point.
+~ Select `Odui_Dlg_00` `t1.PointsListTable` 2 `r2` `c1`
+!%CPSelect up to 3 references, such as surface, curve, edge or point to place point.
+~ Select `Odui_Dlg_00` `t1.PointsListTable` 2 `r3` `c1`
+!%CPSelect up to 3 references, such as surface, curve, edge or point to place point.
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `0` `c1`
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `0` `c2`
+~ Focus `Odui_Dlg_00` `t1.OffsetRefsTable`
+~ FocusIn `Odui_Dlg_00` `t1.OffsetRefsTable`
+~ Select `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `0` `c2`
+!%CPSelect up to 2 references, such as surface, edge or plane to define point offset.
+~ FocusOut `Odui_Dlg_00` `t1.OffsetRefsTable`
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `` ``
+~ Timer `UI Desktop` `UI Desktop` `CollectorWdg_FocusTimer`
+~ Input `Odui_Dlg_00` `OffsetRefsOffsetOptMnu_MRU1` `9`
+~ Input `Odui_Dlg_00` `OffsetRefsOffsetOptMnu_MRU1` `9.`
+~ Input `Odui_Dlg_00` `OffsetRefsOffsetOptMnu_MRU1` `9.4`
+~ Input `Odui_Dlg_00` `OffsetRefsOffsetOptMnu_MRU1` `9.45`
+~ Update `Odui_Dlg_00` `OffsetRefsOffsetOptMnu_MRU1` `9.45`
+~ Activate `Odui_Dlg_00` `OffsetRefsOffsetOptMnu_MRU1`
+!%CPSelect up to 2 references, such as surface, edge or plane to define point offset.
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `0` `c2`
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `1` `c2`
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `1` `c1`
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `0` `c1`
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `` ``
+~ FocusOut `Odui_Dlg_00` `t1.OffsetRefsTable`
+~ Select `Odui_Dlg_00` `t1.PointsListTable` 2 `r2` `c1`
+!%CPSelect up to 3 references, such as surface, curve, edge or point to place point.
+~ FocusOut `Odui_Dlg_00` `t1.RefsTable`
+~ Select `Odui_Dlg_00` `t1.PointsListTable` 2 `r3` `c1`
+!%CPSelect up to 3 references, such as surface, curve, edge or point to place point.
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `0` `c1`
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `0` `c2`
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `1` `c2`
+~ Focus `Odui_Dlg_00` `t1.OffsetRefsTable`
+~ FocusIn `Odui_Dlg_00` `t1.OffsetRefsTable`
+~ Select `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `1` `c2`
+!%CPSelect up to 2 references, such as surface, edge or plane to define point offset.
+~ FocusOut `Odui_Dlg_00` `t1.OffsetRefsTable`
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `` ``
+~ Timer `UI Desktop` `UI Desktop` `CollectorWdg_FocusTimer`
+~ Input `Odui_Dlg_00` `OffsetRefsOffsetOptMnu_MRU1` `3`
+~ Input `Odui_Dlg_00` `OffsetRefsOffsetOptMnu_MRU1` `3.`
+~ Input `Odui_Dlg_00` `OffsetRefsOffsetOptMnu_MRU1` `3.8`
+~ Update `Odui_Dlg_00` `OffsetRefsOffsetOptMnu_MRU1` `3.8`
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `1` `c1`
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `0` `c1`
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `1` `c1`
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `` ``
+~ FocusOut `Odui_Dlg_00` `OffsetRefsOffsetOptMnu_MRU1`
+!%CPSelect up to 2 references, such as surface, edge or plane to define point offset.
+~ Activate `Odui_Dlg_00` `stdbtn_1`
+!ODUI session finished.
+!ProgressBarDlg: Regen Started
+!%CIRegenerating PLATE_SX feature 30 out of 39 ...
+!%CIRegenerating PLATE_SX feature 31 out of 39 ...
+!%CIRegenerating PLATE_SX feature 32 out of 39 ...
+!%CEFeature regeneration failed.
+!%CIRegenerating PLATE_SX feature 33 out of 39 ...
+!%CEFeature regeneration failed.
+!%CIRestoring PLATE_SX feature 34 out of 39 ...
+!%CIRestoring PLATE_SX feature 35 out of 39 ...
+!%CEFeature regeneration failed.
+!%CIRestoring PLATE_SX feature 36 out of 39 ...
+!%CEFeature regeneration failed.
+!%CIRestoring PLATE_SX feature 37 out of 39 ...
+!%CEFeature regeneration failed.
+!%CIRestoring PLATE_SX feature 38 out of 39 ...
+!%CEFeature regeneration failed.
+!%CIRestoring PLATE_SX feature 39 out of 39 ...
+!%CEFeature regeneration failed.
+!%CIPLATE_SX regeneration completed with atypical feature or component status. Failed: 1. Child of Failed: 6. 
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 1587 type 5300 
+!%CIFeature redefined successfully.
+!F30(DATUM POINT):PLATE_SX
+!Command ProCmdInfoNmgrLightDlg was pushed from the software.
+~ MButtonArm `main_dlg_cur` `proe_win` 9 800 340 0 514 1496 693 1920 1080 6709924
+~ Move `main_dlg_cur` `proe_win` 9 799 340 0 514 1496 693 1920 1080 6710046
+~ Move `main_dlg_cur` `proe_win` 9 797 340 0 514 1496 693 1920 1080 6710055
+~ Move `main_dlg_cur` `proe_win` 9 795 340 0 514 1496 693 1920 1080 6710072
+~ Move `main_dlg_cur` `proe_win` 9 794 340 0 514 1496 693 1920 1080 6710087
+~ Move `main_dlg_cur` `proe_win` 9 792 340 0 514 1496 693 1920 1080 6710100
+~ Move `main_dlg_cur` `proe_win` 9 791 340 0 514 1496 693 1920 1080 6710111
+~ Move `main_dlg_cur` `proe_win` 9 789 340 0 514 1496 693 1920 1080 6710122
+~ Move `main_dlg_cur` `proe_win` 9 788 340 0 514 1496 693 1920 1080 6710131
+~ Move `main_dlg_cur` `proe_win` 9 786 340 0 514 1496 693 1920 1080 6710142
+~ Move `main_dlg_cur` `proe_win` 9 784 340 0 514 1496 693 1920 1080 6710151
+~ Move `main_dlg_cur` `proe_win` 9 783 340 0 514 1496 693 1920 1080 6710159
+~ Move `main_dlg_cur` `proe_win` 9 782 340 0 514 1496 693 1920 1080 6710224
+~ Move `main_dlg_cur` `proe_win` 9 781 340 0 514 1496 693 1920 1080 6710247
+~ Move `main_dlg_cur` `proe_win` 9 780 340 0 514 1496 693 1920 1080 6710413
+~ Move `main_dlg_cur` `proe_win` 9 779 340 0 514 1496 693 1920 1080 6710440
+~ Move `main_dlg_cur` `proe_win` 9 777 340 0 514 1496 693 1920 1080 6710466
+~ Move `main_dlg_cur` `proe_win` 9 776 340 0 514 1496 693 1920 1080 6710523
+~ MButtonDisarm `main_dlg_cur` `proe_win` 9 776 340 0 0 1496 693 1920 1080 6710723
+~ Select `main_dlg_cur` `PHTLeft.AssyTree` 1 `T3 15 45`
+!Extrude 2
+~ Trail `MiniToolbar` `MiniToolbar` `UIT_TRANSLUCENT` \
+ `NEED_TO_CLOSE`
+~ Expand `main_dlg_cur` `PHTLeft.AssyTree` `T3 15 45`
+!Expanded Extrude 2
+~ Select `main_dlg_cur` `PHTLeft.AssyTree` 1 `S 15 45 0`
+!Section 1
+~ Command `ProCmdRedefine@PopupMenuTree` 
+! Executed sub-command ProCmdEditRedefFeat.
+!ODUI session starting: Okit widgets are on, Undo/Redo on, Dashboard style off, Tab style on, Mini Dashboard style off. Feature title : Sketch
+!ODUI session started.
+!%CEReferences to failed feature are not allowed.
+!%CEReferences to failed feature are not allowed.
+!Command ProCmdEditOneByOne was pushed from the software.
+~ Wheel `main_dlg_cur` `proe_win` 9 547 341 393216 0 1496 693 1920 1080 6719934
+~ Wheel `main_dlg_cur` `proe_win` 9 547 341 393216 0 1496 693 1920 1080 6719962
+~ Wheel `main_dlg_cur` `proe_win` 9 547 341 393216 0 1496 693 1920 1080 6719996
+~ Wheel `main_dlg_cur` `proe_win` 9 544 339 458752 0 1496 693 1920 1080 6720275
+~ Wheel `main_dlg_cur` `proe_win` 9 544 339 458752 0 1496 693 1920 1080 6720298
+~ Wheel `main_dlg_cur` `proe_win` 9 544 339 458752 0 1496 693 1920 1080 6720318
+~ Wheel `main_dlg_cur` `proe_win` 9 544 339 458752 0 1496 693 1920 1080 6720337
+~ Wheel `main_dlg_cur` `proe_win` 9 544 339 458752 0 1496 693 1920 1080 6720356
+~ Wheel `main_dlg_cur` `proe_win` 9 516 321 458752 512 1496 693 1920 1080 6720645
+~ Wheel `main_dlg_cur` `proe_win` 9 515 322 458752 0 1496 693 1920 1080 6720665
+~ Wheel `main_dlg_cur` `proe_win` 9 512 326 458752 0 1496 693 1920 1080 6720687
+~ Wheel `main_dlg_cur` `proe_win` 9 511 328 458752 1536 1496 693 1920 1080 6720701
+~ Wheel `main_dlg_cur` `proe_win` 9 509 329 458752 512 1496 693 1920 1080 6720723
+~ Wheel `main_dlg_cur` `proe_win` 9 509 329 458752 0 1496 693 1920 1080 6720763
+~ MButtonArm `main_dlg_cur` `proe_win` 9 308 200 0 2 1496 693 1920 1080 6721910
+~ Move `main_dlg_cur` `proe_win` 9 309 200 0 514 1496 693 1920 1080 6722058
+~ Move `main_dlg_cur` `proe_win` 9 310 200 0 514 1496 693 1920 1080 6722072
+~ Move `main_dlg_cur` `proe_win` 9 311 201 0 1538 1496 693 1920 1080 6722098
+~ Move `main_dlg_cur` `proe_win` 9 313 201 0 514 1496 693 1920 1080 6722115
+~ Move `main_dlg_cur` `proe_win` 9 315 201 0 514 1496 693 1920 1080 6722132
+~ Move `main_dlg_cur` `proe_win` 9 318 201 0 514 1496 693 1920 1080 6722152
+~ Move `main_dlg_cur` `proe_win` 9 321 202 0 1538 1496 693 1920 1080 6722167
+~ Move `main_dlg_cur` `proe_win` 9 322 202 0 514 1496 693 1920 1080 6722285
+~ Move `main_dlg_cur` `proe_win` 9 324 202 0 514 1496 693 1920 1080 6722299
+~ Move `main_dlg_cur` `proe_win` 9 326 203 0 1538 1496 693 1920 1080 6722314
+~ Move `main_dlg_cur` `proe_win` 9 327 204 0 1538 1496 693 1920 1080 6722329
+~ MButtonDisarm `main_dlg_cur` `proe_win` 9 328 204 0 512 1496 693 1920 1080 6722531
+~ Command `ProCmdSketQuit` 
+!%CPConfirm request to quit.
+! Message Dialog: Warning
+!               : Do you want to quit Sketcher?
+!               : Modifications made inside Sketcher will not be saved.
+~ Activate `UI Message Dialog` `yes`
+!ODUI session finished.
+!Command ProCmdInfoNmgrLightDlg was pushed from the software.
+~ Wheel `main_dlg_cur` `proe_win` 9 1080 149 458752 0 1496 693 1920 1080 6726473
+~ Wheel `main_dlg_cur` `proe_win` 9 1080 149 458752 0 1496 693 1920 1080 6726504
+~ Wheel `main_dlg_cur` `proe_win` 9 1080 149 458752 0 1496 693 1920 1080 6726536
+~ Wheel `main_dlg_cur` `proe_win` 9 1086 165 393216 1536 1496 693 1920 1080 6726997
+~ Wheel `main_dlg_cur` `proe_win` 9 1089 165 393216 512 1496 693 1920 1080 6727015
+~ Wheel `main_dlg_cur` `proe_win` 9 1092 165 393216 512 1496 693 1920 1080 6727026
+~ Wheel `main_dlg_cur` `proe_win` 9 1095 164 393216 1536 1496 693 1920 1080 6727037
+~ Wheel `main_dlg_cur` `proe_win` 9 1093 156 393216 1536 1496 693 1920 1080 6727057
+~ Wheel `main_dlg_cur` `proe_win` 9 1078 180 393216 1024 1496 693 1920 1080 6727316
+~ Wheel `main_dlg_cur` `proe_win` 9 1093 187 393216 1536 1496 693 1920 1080 6727347
+~ Wheel `main_dlg_cur` `proe_win` 9 1127 209 393216 512 1496 693 1920 1080 6727382
+~ Activate `nmgr_light_dlg` `CloseBTN`
+~ Move `main_dlg_cur` `proe_win` 9 715 580 33554432 0 1496 693 1920 1080 6731607
+>M Chain_oa_sel_CB ProeWin0 715 580 c0 20000 1496 0 0 693 1920 0 0 1080 13
+~ Key `main_dlg_cur` `proe_win` 9 646 592 39452698 1536 1496 693 1920 1080 6731882 `Ctrl+Z`
+~ Command `ProCmdEditUndo` 
+!Command ProCmdEditUndoAssemDism was pushed from the software.
+! Executed sub-command ProCmdEditUndoAssem.
+!ProgressBarDlg: Regen Started
+!%CIRegenerating PLATE_SX feature 30 out of 39 ...
+!%CIRegenerating PLATE_SX feature 31 out of 39 ...
+!%CIRegenerating PLATE_SX feature 32 out of 39 ...
+!%CIRegenerating PLATE_SX feature 33 out of 39 ...
+!%CIRegenerating PLATE_SX feature 34 out of 39 ...
+!%CIRegenerating PLATE_SX feature 35 out of 39 ...
+!%CIRegenerating PLATE_SX feature 36 out of 39 ...
+!%CIRegenerating PLATE_SX feature 37 out of 39 ...
+!%CIRegenerating PLATE_SX feature 38 out of 39 ...
+!%CIRegenerating PLATE_SX feature 39 out of 39 ...
+!%CIPLATE_SX regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+~ Key `main_dlg_cur` `proe_win` 9 651 629 39452698 1536 1496 693 1920 1080 6732433 `Ctrl+Z`
+~ Move `main_dlg_cur` `proe_win` 9 744 477 0 1024 1496 693 1920 1080 6732555
+>M Chain_oa_sel_CB ProeWin0 744 477 80 0 1496 0 0 693 1920 0 0 1080 13
+~ LButtonArm `main_dlg_cur` `proe_win` 9 1272 248 0 1 1496 693 1920 1080 6734468
+~ Move `main_dlg_cur` `proe_win` 9 1272 248 0 1 1496 693 1920 1080 6734478
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 1272 248 0 0 1496 693 1920 1080 6734517
+@sel_pz_xyz 1137.9870129870 541.8019480519 458.8707059715 471.1311725897 -1214.6838291887
+@ sel view 0
+ -4.360506 -1.160465 -0.722197 0.636083 0.414263 -4.506223
+ 1.209812 -4.400451 -0.233766 554.123204 103.954879 -1299.157758 6.520531 0.000000 0
+@ stack attr 8
+@ stack attr -1 -1  1
+@ stack attr twk_s_eps
+@ stack idx 0
+@SEL_REC 1 [ 97] 2 1655 -1 (13.5244973101 8.8281604977) (29.7509761930 -4.5000000000 -46.3905227139)
+!Surf:F7(FLANGE_4):PLATE_SX
+~ Command `ProCmdOpenModel@PopupMenuGraphicWinStack` 
+< 2 0.832000 832 0 0 832 1920 0 0 1080 13
+< 2 1.085000 1085 0 0 1000 1920 0 0 1080 13
+< 2 1.095000 1095 0 0 1000 1920 0 0 1080 13
+< 2 1.095000 1095 0 0 1010 1920 0 0 1080 13
+< 2 1.095000 1095 0 0 1020 1920 0 0 1080 13
+< 2 1.053000 1053 0 0 1020 1920 0 0 1080 13
+< 2 1.053000 1053 0 0 1015 1920 0 0 1080 13
+< 2 0.830815 1654 0 0 701 1920 0 0 1080 13
+< 2 0.830815 1524 0 0 701 1920 0 0 1080 13
+!MT_CUST - Applied settings for mode # 2 : MT Part Sheetmetal
+< 2 0.830815 1495 0 0 701 1920 0 0 1080 13
+< 2 0.830815 1490 0 0 701 1920 0 0 1080 13
+< 2 0.830815 1495 0 0 701 1920 0 0 1080 13
+< 2 0.830815 1496 0 0 701 1920 0 0 1080 13
+!MT_CUST - Applied settings for mode # 2 : MT Part Sheetmetal
+< 2 0.821333 1496 0 0 693 1920 0 0 1080 13
+~ Wheel `main_dlg_cur` `proe_win` 9 1079 352 458752 0 1496 693 1920 1080 6740556
+~ Wheel `main_dlg_cur` `proe_win` 9 1079 352 458752 0 1496 693 1920 1080 6740580
+~ Wheel `main_dlg_cur` `proe_win` 9 1079 352 458752 0 1496 693 1920 1080 6740603
+~ Wheel `main_dlg_cur` `proe_win` 9 1079 352 458752 0 1496 693 1920 1080 6740633
+~ Wheel `main_dlg_cur` `proe_win` 9 1066 346 458752 0 1496 693 1920 1080 6740700
+~ MButtonArm `main_dlg_cur` `proe_win` 9 1040 393 0 2 1496 693 1920 1080 6743103
+~ Move `main_dlg_cur` `proe_win` 9 1039 393 0 514 1496 693 1920 1080 6743291
+~ Move `main_dlg_cur` `proe_win` 9 1038 394 0 1538 1496 693 1920 1080 6743309
+~ Move `main_dlg_cur` `proe_win` 9 1036 395 0 1538 1496 693 1920 1080 6743323
+~ Move `main_dlg_cur` `proe_win` 9 1035 395 0 514 1496 693 1920 1080 6743333
+~ Move `main_dlg_cur` `proe_win` 9 1033 395 0 514 1496 693 1920 1080 6743353
+~ Move `main_dlg_cur` `proe_win` 9 1032 396 0 1538 1496 693 1920 1080 6743376
+~ Move `main_dlg_cur` `proe_win` 9 1031 397 0 1538 1496 693 1920 1080 6743391
+~ Move `main_dlg_cur` `proe_win` 9 1029 397 0 514 1496 693 1920 1080 6743408
+~ Move `main_dlg_cur` `proe_win` 9 1028 397 0 514 1496 693 1920 1080 6743418
+~ Move `main_dlg_cur` `proe_win` 9 1028 396 0 1026 1496 693 1920 1080 6743973
+~ Move `main_dlg_cur` `proe_win` 9 1028 393 0 1026 1496 693 1920 1080 6743993
+~ Move `main_dlg_cur` `proe_win` 9 1031 391 0 1538 1496 693 1920 1080 6744007
+~ Move `main_dlg_cur` `proe_win` 9 1032 388 0 1538 1496 693 1920 1080 6744022
+~ Move `main_dlg_cur` `proe_win` 9 1034 388 0 514 1496 693 1920 1080 6744031
+~ Move `main_dlg_cur` `proe_win` 9 1035 387 0 1538 1496 693 1920 1080 6744040
+~ Move `main_dlg_cur` `proe_win` 9 1036 387 0 514 1496 693 1920 1080 6744047
+~ Move `main_dlg_cur` `proe_win` 9 1037 386 0 1538 1496 693 1920 1080 6744053
+~ Move `main_dlg_cur` `proe_win` 9 1038 385 0 1538 1496 693 1920 1080 6744061
+~ Move `main_dlg_cur` `proe_win` 9 1039 384 0 1538 1496 693 1920 1080 6744076
+~ Move `main_dlg_cur` `proe_win` 9 1040 384 0 514 1496 693 1920 1080 6744085
+~ Move `main_dlg_cur` `proe_win` 9 1041 383 0 1538 1496 693 1920 1080 6744136
+~ Move `main_dlg_cur` `proe_win` 9 1043 382 0 1538 1496 693 1920 1080 6744148
+~ Move `main_dlg_cur` `proe_win` 9 1045 380 0 1538 1496 693 1920 1080 6744162
+~ Move `main_dlg_cur` `proe_win` 9 1047 379 0 1538 1496 693 1920 1080 6744177
+~ MButtonDisarm `main_dlg_cur` `proe_win` 9 1047 379 0 0 1496 693 1920 1080 6744358
+~ Trail `UI Desktop` `UI Desktop` `ActivateOnFocus` \
+ `main_dlg_w1`
+< 0 0.821333 1495 0 0 693 1920 0 0 1080 13
+< 0 0.821333 1496 0 0 693 1920 0 0 1080 13
+!MT_CUST - Applied settings for mode # 6 : MT Asm Design
+~ Wheel `main_dlg_cur` `proe_win` 9 960 218 393216 0 1496 693 1920 1080 6749665
+~ Wheel `main_dlg_cur` `proe_win` 9 960 218 393216 0 1496 693 1920 1080 6749704
+~ Wheel `main_dlg_cur` `proe_win` 9 960 218 393216 0 1496 693 1920 1080 6749756
+~ Wheel `main_dlg_cur` `proe_win` 9 959 218 458752 0 1496 693 1920 1080 6750029
+~ Wheel `main_dlg_cur` `proe_win` 9 958 218 458752 0 1496 693 1920 1080 6750041
+~ Wheel `main_dlg_cur` `proe_win` 9 957 218 458752 512 1496 693 1920 1080 6750051
+~ Wheel `main_dlg_cur` `proe_win` 9 957 218 458752 0 1496 693 1920 1080 6750062
+~ Wheel `main_dlg_cur` `proe_win` 9 957 218 458752 0 1496 693 1920 1080 6750072
+~ Move `main_dlg_cur` `proe_win` 9 1239 227 16777216 0 1496 693 1920 1080 6751101
+>M Chain_oa_sel_CB ProeWin0 1239 227 c0 10000 1496 0 0 693 1920 0 0 1080 13
+>M Collectors_CB ProeWin0 1239 227 c0 10000 1496 0 0 693 1920 0 0 1080 13
+~ MButtonArm `main_dlg_cur` `proe_win` 9 1239 227 16777216 2 1496 693 1920 1080 6751208
+~ Move `main_dlg_cur` `proe_win` 9 1239 226 16777216 1026 1496 693 1920 1080 6751376
+~ Move `main_dlg_cur` `proe_win` 9 1236 225 16777216 1538 1496 693 1920 1080 6751385
+~ Move `main_dlg_cur` `proe_win` 9 1231 224 16777216 1538 1496 693 1920 1080 6751395
+~ Move `main_dlg_cur` `proe_win` 9 1216 223 16777216 1538 1496 693 1920 1080 6751416
+~ Move `main_dlg_cur` `proe_win` 9 1205 223 16777216 514 1496 693 1920 1080 6751430
+~ Move `main_dlg_cur` `proe_win` 9 1193 223 16777216 514 1496 693 1920 1080 6751448
+~ Move `main_dlg_cur` `proe_win` 9 1188 223 16777216 514 1496 693 1920 1080 6751461
+~ Move `main_dlg_cur` `proe_win` 9 1181 223 16777216 514 1496 693 1920 1080 6751477
+~ Move `main_dlg_cur` `proe_win` 9 1175 223 16777216 514 1496 693 1920 1080 6751489
+~ Move `main_dlg_cur` `proe_win` 9 1167 223 16777216 514 1496 693 1920 1080 6751504
+~ Move `main_dlg_cur` `proe_win` 9 1159 223 16777216 514 1496 693 1920 1080 6751518
+~ Move `main_dlg_cur` `proe_win` 9 1151 223 16777216 514 1496 693 1920 1080 6751529
+~ Move `main_dlg_cur` `proe_win` 9 1145 223 16777216 514 1496 693 1920 1080 6751538
+~ Move `main_dlg_cur` `proe_win` 9 1137 223 16777216 514 1496 693 1920 1080 6751549
+~ Move `main_dlg_cur` `proe_win` 9 1134 223 16777216 514 1496 693 1920 1080 6751557
+~ Move `main_dlg_cur` `proe_win` 9 1129 223 16777216 514 1496 693 1920 1080 6751569
+~ Move `main_dlg_cur` `proe_win` 9 1126 223 16777216 514 1496 693 1920 1080 6751578
+~ Move `main_dlg_cur` `proe_win` 9 1124 223 16777216 514 1496 693 1920 1080 6751587
+~ Move `main_dlg_cur` `proe_win` 9 1122 223 16777216 514 1496 693 1920 1080 6751599
+~ Move `main_dlg_cur` `proe_win` 9 1121 223 16777216 514 1496 693 1920 1080 6751672
+~ Move `main_dlg_cur` `proe_win` 9 1115 223 16777216 514 1496 693 1920 1080 6751690
+~ Move `main_dlg_cur` `proe_win` 9 1105 223 16777216 514 1496 693 1920 1080 6751706
+~ Move `main_dlg_cur` `proe_win` 9 1090 224 16777216 1538 1496 693 1920 1080 6751720
+~ Move `main_dlg_cur` `proe_win` 9 1074 226 16777216 1538 1496 693 1920 1080 6751738
+~ Move `main_dlg_cur` `proe_win` 9 1056 227 16777216 1538 1496 693 1920 1080 6751750
+~ Move `main_dlg_cur` `proe_win` 9 1040 229 16777216 1538 1496 693 1920 1080 6751760
+~ Move `main_dlg_cur` `proe_win` 9 1025 231 16777216 1538 1496 693 1920 1080 6751774
+~ Move `main_dlg_cur` `proe_win` 9 1006 235 16777216 1538 1496 693 1920 1080 6751790
+~ Move `main_dlg_cur` `proe_win` 9 994 238 16777216 1538 1496 693 1920 1080 6751804
+~ Move `main_dlg_cur` `proe_win` 9 987 241 16777216 1538 1496 693 1920 1080 6751817
+~ Move `main_dlg_cur` `proe_win` 9 982 243 16777216 1538 1496 693 1920 1080 6751830
+~ Move `main_dlg_cur` `proe_win` 9 975 247 16777216 1538 1496 693 1920 1080 6751844
+~ Move `main_dlg_cur` `proe_win` 9 968 249 16777216 1538 1496 693 1920 1080 6751855
+~ Move `main_dlg_cur` `proe_win` 9 962 252 16777216 1538 1496 693 1920 1080 6751867
+~ Move `main_dlg_cur` `proe_win` 9 956 254 16777216 1538 1496 693 1920 1080 6751879
+~ Move `main_dlg_cur` `proe_win` 9 949 257 16777216 1538 1496 693 1920 1080 6751891
+~ Move `main_dlg_cur` `proe_win` 9 944 260 16777216 1538 1496 693 1920 1080 6751901
+~ Move `main_dlg_cur` `proe_win` 9 939 261 16777216 1538 1496 693 1920 1080 6751910
+~ Move `main_dlg_cur` `proe_win` 9 937 263 16777216 1538 1496 693 1920 1080 6751920
+~ Move `main_dlg_cur` `proe_win` 9 934 263 16777216 514 1496 693 1920 1080 6751932
+~ Move `main_dlg_cur` `proe_win` 9 934 264 0 1026 1496 693 1920 1080 6751947
+~ MButtonDisarm `main_dlg_cur` `proe_win` 9 934 264 0 0 1496 693 1920 1080 6751962
+>M Chain_oa_sel_CB ProeWin0 934 264 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M Collectors_CB ProeWin0 934 264 c0 0 1496 0 0 693 1920 0 0 1080 13
+~ LButtonArm `main_dlg_cur` `proe_win` 9 1016 114 0 1 1496 693 1920 1080 6753321
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 1016 114 0 0 1496 693 1920 1080 6753389
+@sel_pz_xyz 826.2987012987 704.9512987013 443.2222761605 493.5827347669 -1214.6838291887
+@ sel view 0
+ -4.360506 -1.160465 -0.722197 0.636083 0.414263 -4.506223
+ 1.209812 -4.400451 -0.233766 554.123204 103.954879 -1299.157758 10.188329 0.000000 0
+@ stack attr 8
+@ stack attr -1 -1  1
+@ stack attr twk_s_eps
+@ stack idx 0
+@SEL_REC 1 [ 97] 6 3279 3282 (0.0000000000 0.0000000000) (34.1291366906 -4.5000000000 -50.7942286341)
+!PNT5:F30(DATUM POINT):PLATE_SX
+~ Command `ProCmdRedefine@PopupMenuGraphicWinStack` 
+! Executed sub-command ProCmdEditRedefFeat.
+!ODUI session starting: Okit widgets are on, Undo/Redo on, Dashboard style off, Tab style on, Mini Dashboard style off. Feature title : Datum Point
+!ODUI session started.
+!%CPSelect up to 3 references, such as surface, curve, edge or point to place point.
+~ Select `Odui_Dlg_00` `t1.PointsListTable` 2 `r3` `c1`
+!%CPSelect up to 3 references, such as surface, curve, edge or point to place point.
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `0` `c1`
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `0` `c2`
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `0` `c1`
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `` ``
+~ Select `Odui_Dlg_00` `t1.PointsListTable` 2 `r2` `c1`
+!%CPSelect up to 3 references, such as surface, curve, edge or point to place point.
+~ Select `Odui_Dlg_00` `t1.PointsListTable` 2 `r3` `c1`
+!%CPSelect up to 3 references, such as surface, curve, edge or point to place point.
+~ Select `Odui_Dlg_00` `t1.PointsListTable` 2 `r2` `c1`
+!%CPSelect up to 3 references, such as surface, curve, edge or point to place point.
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `0` `c1`
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `0` `c2`
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `0` `c1`
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `` ``
+~ Select `Odui_Dlg_00` `t1.PointsListTable` 2 `r3` `c1`
+!%CPSelect up to 3 references, such as surface, curve, edge or point to place point.
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `0` `c2`
+~ Focus `Odui_Dlg_00` `t1.OffsetRefsTable`
+~ FocusIn `Odui_Dlg_00` `t1.OffsetRefsTable`
+~ Select `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `0` `c2`
+!%CPSelect up to 2 references, such as surface, edge or plane to define point offset.
+~ FocusOut `Odui_Dlg_00` `t1.OffsetRefsTable`
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `` ``
+~ Timer `UI Desktop` `UI Desktop` `CollectorWdg_FocusTimer`
+~ Input `Odui_Dlg_00` `OffsetRefsOffsetOptMnu_MRU1` `9`
+~ Input `Odui_Dlg_00` `OffsetRefsOffsetOptMnu_MRU1` `9.`
+~ Input `Odui_Dlg_00` `OffsetRefsOffsetOptMnu_MRU1` `9.5`
+~ Update `Odui_Dlg_00` `OffsetRefsOffsetOptMnu_MRU1` `9.5`
+~ Activate `Odui_Dlg_00` `OffsetRefsOffsetOptMnu_MRU1`
+!%CPSelect up to 2 references, such as surface, edge or plane to define point offset.
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `0` `c2`
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `` ``
+~ Wheel `main_dlg_cur` `proe_win` 9 808 262 393216 1024 1496 693 1920 1080 6768335
+~ Wheel `main_dlg_cur` `proe_win` 9 807 264 393216 1536 1496 693 1920 1080 6768380
+~ Wheel `main_dlg_cur` `proe_win` 9 807 264 393216 0 1496 693 1920 1080 6768425
+~ Wheel `main_dlg_cur` `proe_win` 9 843 281 393216 0 1496 693 1920 1080 6768638
+~ Wheel `main_dlg_cur` `proe_win` 9 843 281 393216 0 1496 693 1920 1080 6768675
+~ Wheel `main_dlg_cur` `proe_win` 9 843 281 393216 0 1496 693 1920 1080 6768678
+~ Wheel `main_dlg_cur` `proe_win` 9 843 281 393216 0 1496 693 1920 1080 6768721
+~ Wheel `main_dlg_cur` `proe_win` 9 843 281 393216 0 1496 693 1920 1080 6768744
+~ Move `main_dlg_cur` `proe_win` 9 869 325 16777216 0 1496 693 1920 1080 6769947
+~ FocusOut `Odui_Dlg_00` `t1.OffsetRefsTable`
+~ MButtonArm `main_dlg_cur` `proe_win` 9 869 322 16777216 2 1496 693 1920 1080 6770155
+~ Move `main_dlg_cur` `proe_win` 9 863 322 16777216 514 1496 693 1920 1080 6770169
+~ Move `main_dlg_cur` `proe_win` 9 861 322 16777216 514 1496 693 1920 1080 6770183
+~ Move `main_dlg_cur` `proe_win` 9 858 322 16777216 514 1496 693 1920 1080 6770195
+~ Move `main_dlg_cur` `proe_win` 9 856 322 16777216 514 1496 693 1920 1080 6770206
+~ Move `main_dlg_cur` `proe_win` 9 854 322 16777216 514 1496 693 1920 1080 6770218
+~ Move `main_dlg_cur` `proe_win` 9 849 322 16777216 514 1496 693 1920 1080 6770239
+~ Move `main_dlg_cur` `proe_win` 9 845 322 16777216 514 1496 693 1920 1080 6770250
+~ Move `main_dlg_cur` `proe_win` 9 841 321 16777216 1538 1496 693 1920 1080 6770262
+~ Move `main_dlg_cur` `proe_win` 9 834 321 16777216 514 1496 693 1920 1080 6770275
+~ Move `main_dlg_cur` `proe_win` 9 826 320 16777216 1538 1496 693 1920 1080 6770292
+~ Move `main_dlg_cur` `proe_win` 9 819 319 16777216 1538 1496 693 1920 1080 6770306
+~ Move `main_dlg_cur` `proe_win` 9 813 318 16777216 1538 1496 693 1920 1080 6770319
+~ Move `main_dlg_cur` `proe_win` 9 808 318 16777216 514 1496 693 1920 1080 6770332
+~ Move `main_dlg_cur` `proe_win` 9 805 317 16777216 1538 1496 693 1920 1080 6770343
+~ Move `main_dlg_cur` `proe_win` 9 801 316 16777216 1538 1496 693 1920 1080 6770356
+~ Move `main_dlg_cur` `proe_win` 9 799 316 16777216 514 1496 693 1920 1080 6770370
+~ Move `main_dlg_cur` `proe_win` 9 796 316 16777216 514 1496 693 1920 1080 6770380
+~ Move `main_dlg_cur` `proe_win` 9 793 316 16777216 514 1496 693 1920 1080 6770394
+~ Move `main_dlg_cur` `proe_win` 9 791 315 16777216 1538 1496 693 1920 1080 6770406
+~ Move `main_dlg_cur` `proe_win` 9 788 315 16777216 514 1496 693 1920 1080 6770416
+~ Move `main_dlg_cur` `proe_win` 9 782 314 16777216 1538 1496 693 1920 1080 6770453
+~ Move `main_dlg_cur` `proe_win` 9 780 314 16777216 514 1496 693 1920 1080 6770470
+~ Move `main_dlg_cur` `proe_win` 9 776 314 16777216 514 1496 693 1920 1080 6770497
+~ Move `main_dlg_cur` `proe_win` 9 775 314 16777216 514 1496 693 1920 1080 6770517
+~ Move `main_dlg_cur` `proe_win` 9 769 314 16777216 514 1496 693 1920 1080 6770541
+~ Move `main_dlg_cur` `proe_win` 9 764 314 16777216 514 1496 693 1920 1080 6770566
+~ Move `main_dlg_cur` `proe_win` 9 760 314 16777216 514 1496 693 1920 1080 6770590
+~ Move `main_dlg_cur` `proe_win` 9 756 313 16777216 1538 1496 693 1920 1080 6770609
+~ Move `main_dlg_cur` `proe_win` 9 749 313 16777216 514 1496 693 1920 1080 6770639
+~ Move `main_dlg_cur` `proe_win` 9 741 312 16777216 1538 1496 693 1920 1080 6770660
+~ Move `main_dlg_cur` `proe_win` 9 739 311 16777216 1538 1496 693 1920 1080 6770678
+~ Move `main_dlg_cur` `proe_win` 9 732 311 16777216 514 1496 693 1920 1080 6770707
+~ Move `main_dlg_cur` `proe_win` 9 730 311 16777216 514 1496 693 1920 1080 6770732
+~ MButtonDisarm `main_dlg_cur` `proe_win` 9 730 311 16777216 0 1496 693 1920 1080 6770818
+~ Move `main_dlg_cur` `proe_win` 9 730 311 0 0 1496 693 1920 1080 6770862
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `0` `c1`
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `` ``
+~ Wheel `main_dlg_cur` `proe_win` 9 746 299 458752 0 1496 693 1920 1080 6772875
+~ Wheel `main_dlg_cur` `proe_win` 9 752 294 458752 0 1496 693 1920 1080 6773327
+~ Wheel `main_dlg_cur` `proe_win` 9 752 294 458752 0 1496 693 1920 1080 6773378
+~ Wheel `main_dlg_cur` `proe_win` 9 756 287 458752 0 1496 693 1920 1080 6773806
+~ Wheel `main_dlg_cur` `proe_win` 9 756 287 458752 0 1496 693 1920 1080 6773849
+~ Select `Odui_Dlg_00` `t1.PointsListTable` 2 `r2` `c1`
+!%CPSelect up to 3 references, such as surface, curve, edge or point to place point.
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `0` `c1`
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `` ``
+~ FocusOut `Odui_Dlg_00` `t1.RefsTable`
+~ Select `Odui_Dlg_00` `t1.PointsListTable` 2 `r3` `c1`
+!%CPSelect up to 3 references, such as surface, curve, edge or point to place point.
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `0` `c1`
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `0` `c2`
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `1` `c2`
+~ Focus `Odui_Dlg_00` `t1.OffsetRefsTable`
+~ FocusIn `Odui_Dlg_00` `t1.OffsetRefsTable`
+~ Select `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `1` `c2`
+!%CPSelect up to 2 references, such as surface, edge or plane to define point offset.
+~ FocusOut `Odui_Dlg_00` `t1.OffsetRefsTable`
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `` ``
+~ Timer `UI Desktop` `UI Desktop` `CollectorWdg_FocusTimer`
+~ Input `Odui_Dlg_00` `OffsetRefsOffsetOptMnu_MRU1` `3`
+~ Input `Odui_Dlg_00` `OffsetRefsOffsetOptMnu_MRU1` `3.`
+~ Input `Odui_Dlg_00` `OffsetRefsOffsetOptMnu_MRU1` `3.8`
+~ Update `Odui_Dlg_00` `OffsetRefsOffsetOptMnu_MRU1` `3.8`
+~ Activate `Odui_Dlg_00` `OffsetRefsOffsetOptMnu_MRU1`
+!%CPSelect up to 2 references, such as surface, edge or plane to define point offset.
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `1` `c2`
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `1` `c1`
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `` ``
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `1` `c1`
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `` ``
+~ Wheel `main_dlg_cur` `proe_win` 9 508 212 393216 1536 1496 693 1920 1080 6783294
+~ Wheel `main_dlg_cur` `proe_win` 9 496 201 393216 1536 1496 693 1920 1080 6783348
+~ Wheel `main_dlg_cur` `proe_win` 9 496 201 393216 0 1496 693 1920 1080 6783427
+~ Wheel `main_dlg_cur` `proe_win` 9 490 204 458752 0 1496 693 1920 1080 6783518
+~ Wheel `main_dlg_cur` `proe_win` 9 490 204 458752 0 1496 693 1920 1080 6783549
+~ Wheel `main_dlg_cur` `proe_win` 9 490 204 458752 0 1496 693 1920 1080 6783565
+~ Wheel `main_dlg_cur` `proe_win` 9 490 204 458752 0 1496 693 1920 1080 6783579
+~ Wheel `main_dlg_cur` `proe_win` 9 490 204 458752 0 1496 693 1920 1080 6783594
+~ Wheel `main_dlg_cur` `proe_win` 9 490 204 458752 0 1496 693 1920 1080 6783599
+~ Wheel `main_dlg_cur` `proe_win` 9 498 193 458752 512 1496 693 1920 1080 6783861
+~ Wheel `main_dlg_cur` `proe_win` 9 497 193 458752 512 1496 693 1920 1080 6783913
+~ Wheel `main_dlg_cur` `proe_win` 9 497 193 458752 0 1496 693 1920 1080 6783962
+~ Wheel `main_dlg_cur` `proe_win` 9 505 171 458752 0 1496 693 1920 1080 6784247
+~ Wheel `main_dlg_cur` `proe_win` 9 505 171 458752 0 1496 693 1920 1080 6784268
+~ Wheel `main_dlg_cur` `proe_win` 9 511 160 458752 0 1496 693 1920 1080 6784558
+~ Wheel `main_dlg_cur` `proe_win` 9 511 160 458752 0 1496 693 1920 1080 6784575
+~ Wheel `main_dlg_cur` `proe_win` 9 511 160 458752 0 1496 693 1920 1080 6784612
+~ Wheel `main_dlg_cur` `proe_win` 9 511 158 458752 1024 1496 693 1920 1080 6784655
+~ Move `main_dlg_cur` `proe_win` 9 533 169 16777216 1024 1496 693 1920 1080 6785127
+~ FocusOut `Odui_Dlg_00` `t1.OffsetRefsTable`
+~ MButtonArm `main_dlg_cur` `proe_win` 9 533 169 16777216 2 1496 693 1920 1080 6785301
+~ Move `main_dlg_cur` `proe_win` 9 533 169 16777216 2 1496 693 1920 1080 6785314
+~ Move `main_dlg_cur` `proe_win` 9 533 170 16777216 1026 1496 693 1920 1080 6785396
+~ Move `main_dlg_cur` `proe_win` 9 533 172 16777216 1026 1496 693 1920 1080 6785405
+~ Move `main_dlg_cur` `proe_win` 9 531 174 16777216 1538 1496 693 1920 1080 6785416
+~ Move `main_dlg_cur` `proe_win` 9 531 178 16777216 1026 1496 693 1920 1080 6785425
+~ Move `main_dlg_cur` `proe_win` 9 529 181 16777216 1538 1496 693 1920 1080 6785437
+~ Move `main_dlg_cur` `proe_win` 9 527 184 16777216 1538 1496 693 1920 1080 6785448
+~ Move `main_dlg_cur` `proe_win` 9 526 186 16777216 1538 1496 693 1920 1080 6785460
+~ Move `main_dlg_cur` `proe_win` 9 525 189 16777216 1538 1496 693 1920 1080 6785472
+~ Move `main_dlg_cur` `proe_win` 9 525 192 16777216 1026 1496 693 1920 1080 6785485
+~ Move `main_dlg_cur` `proe_win` 9 524 194 16777216 1538 1496 693 1920 1080 6785498
+~ Move `main_dlg_cur` `proe_win` 9 523 196 16777216 1538 1496 693 1920 1080 6785508
+~ Move `main_dlg_cur` `proe_win` 9 522 198 16777216 1538 1496 693 1920 1080 6785519
+~ Move `main_dlg_cur` `proe_win` 9 522 200 16777216 1026 1496 693 1920 1080 6785530
+~ Move `main_dlg_cur` `proe_win` 9 520 202 16777216 1538 1496 693 1920 1080 6785540
+~ Move `main_dlg_cur` `proe_win` 9 520 204 16777216 1026 1496 693 1920 1080 6785553
+~ Move `main_dlg_cur` `proe_win` 9 519 207 16777216 1538 1496 693 1920 1080 6785567
+~ Move `main_dlg_cur` `proe_win` 9 518 211 16777216 1538 1496 693 1920 1080 6785586
+~ Move `main_dlg_cur` `proe_win` 9 518 214 16777216 1026 1496 693 1920 1080 6785603
+~ Move `main_dlg_cur` `proe_win` 9 517 216 16777216 1538 1496 693 1920 1080 6785624
+~ Move `main_dlg_cur` `proe_win` 9 517 217 16777216 1026 1496 693 1920 1080 6785659
+~ Move `main_dlg_cur` `proe_win` 9 516 217 16777216 514 1496 693 1920 1080 6785677
+~ Move `main_dlg_cur` `proe_win` 9 515 222 16777216 1538 1496 693 1920 1080 6785691
+~ Move `main_dlg_cur` `proe_win` 9 515 225 16777216 1026 1496 693 1920 1080 6785706
+~ Move `main_dlg_cur` `proe_win` 9 514 229 16777216 1538 1496 693 1920 1080 6785721
+~ Move `main_dlg_cur` `proe_win` 9 514 233 16777216 1026 1496 693 1920 1080 6785734
+~ Move `main_dlg_cur` `proe_win` 9 514 236 16777216 1026 1496 693 1920 1080 6785745
+~ Move `main_dlg_cur` `proe_win` 9 514 239 16777216 1026 1496 693 1920 1080 6785759
+~ Move `main_dlg_cur` `proe_win` 9 514 241 16777216 1026 1496 693 1920 1080 6785772
+~ Move `main_dlg_cur` `proe_win` 9 514 242 16777216 1026 1496 693 1920 1080 6785781
+~ Move `main_dlg_cur` `proe_win` 9 514 243 16777216 1026 1496 693 1920 1080 6785796
+~ Move `main_dlg_cur` `proe_win` 9 514 244 16777216 1026 1496 693 1920 1080 6785811
+~ Move `main_dlg_cur` `proe_win` 9 514 248 16777216 1026 1496 693 1920 1080 6785835
+~ Move `main_dlg_cur` `proe_win` 9 514 250 16777216 1026 1496 693 1920 1080 6785853
+~ Move `main_dlg_cur` `proe_win` 9 514 255 16777216 1026 1496 693 1920 1080 6785876
+~ Move `main_dlg_cur` `proe_win` 9 514 258 16777216 1026 1496 693 1920 1080 6785894
+~ Move `main_dlg_cur` `proe_win` 9 514 267 16777216 1026 1496 693 1920 1080 6785918
+~ Move `main_dlg_cur` `proe_win` 9 514 273 16777216 1026 1496 693 1920 1080 6785941
+~ Move `main_dlg_cur` `proe_win` 9 514 278 16777216 1026 1496 693 1920 1080 6785965
+~ Move `main_dlg_cur` `proe_win` 9 514 280 16777216 1026 1496 693 1920 1080 6785982
+~ Move `main_dlg_cur` `proe_win` 9 514 283 16777216 1026 1496 693 1920 1080 6786027
+~ Move `main_dlg_cur` `proe_win` 9 514 283 0 2 1496 693 1920 1080 6786050
+~ MButtonDisarm `main_dlg_cur` `proe_win` 9 514 283 0 0 1496 693 1920 1080 6786070
+~ MButtonArm `main_dlg_cur` `proe_win` 9 560 189 0 2 1496 693 1920 1080 6787341
+~ Move `main_dlg_cur` `proe_win` 9 559 189 0 514 1496 693 1920 1080 6787353
+~ Move `main_dlg_cur` `proe_win` 9 556 189 0 514 1496 693 1920 1080 6787362
+~ Move `main_dlg_cur` `proe_win` 9 553 189 0 514 1496 693 1920 1080 6787369
+~ Move `main_dlg_cur` `proe_win` 9 548 189 0 514 1496 693 1920 1080 6787382
+~ Move `main_dlg_cur` `proe_win` 9 543 189 0 514 1496 693 1920 1080 6787391
+~ Move `main_dlg_cur` `proe_win` 9 539 189 0 514 1496 693 1920 1080 6787402
+~ Move `main_dlg_cur` `proe_win` 9 536 188 0 1538 1496 693 1920 1080 6787413
+~ Move `main_dlg_cur` `proe_win` 9 533 188 0 514 1496 693 1920 1080 6787423
+~ Move `main_dlg_cur` `proe_win` 9 531 188 0 514 1496 693 1920 1080 6787433
+~ MButtonDisarm `main_dlg_cur` `proe_win` 9 531 188 0 0 1496 693 1920 1080 6788022
+~ Wheel `main_dlg_cur` `proe_win` 9 316 237 393216 0 1496 693 1920 1080 6788509
+~ Wheel `main_dlg_cur` `proe_win` 9 315 237 393216 0 1496 693 1920 1080 6788550
+~ Wheel `main_dlg_cur` `proe_win` 9 315 237 393216 0 1496 693 1920 1080 6788564
+~ Wheel `main_dlg_cur` `proe_win` 9 315 237 393216 0 1496 693 1920 1080 6788578
+~ Wheel `main_dlg_cur` `proe_win` 9 379 267 393216 0 1496 693 1920 1080 6788827
+~ Wheel `main_dlg_cur` `proe_win` 9 379 267 393216 0 1496 693 1920 1080 6788856
+~ Wheel `main_dlg_cur` `proe_win` 9 379 267 393216 0 1496 693 1920 1080 6788874
+~ Wheel `main_dlg_cur` `proe_win` 9 379 267 393216 0 1496 693 1920 1080 6788897
+~ Wheel `main_dlg_cur` `proe_win` 9 379 267 393216 0 1496 693 1920 1080 6788932
+~ Wheel `main_dlg_cur` `proe_win` 9 360 281 393216 0 1496 693 1920 1080 6789145
+~ Wheel `main_dlg_cur` `proe_win` 9 358 283 393216 0 1496 693 1920 1080 6789190
+~ Wheel `main_dlg_cur` `proe_win` 9 358 283 393216 0 1496 693 1920 1080 6789210
+~ Wheel `main_dlg_cur` `proe_win` 9 227 242 458752 1536 1496 693 1920 1080 6789713
+~ Wheel `main_dlg_cur` `proe_win` 9 227 242 458752 0 1496 693 1920 1080 6789756
+~ Wheel `main_dlg_cur` `proe_win` 9 227 242 458752 0 1496 693 1920 1080 6789773
+~ Wheel `main_dlg_cur` `proe_win` 9 224 244 458752 1536 1496 693 1920 1080 6790022
+~ Wheel `main_dlg_cur` `proe_win` 9 224 244 458752 0 1496 693 1920 1080 6790064
+~ Wheel `main_dlg_cur` `proe_win` 9 223 248 458752 1536 1496 693 1920 1080 6790309
+~ Wheel `main_dlg_cur` `proe_win` 9 222 249 458752 0 1496 693 1920 1080 6790354
+~ Wheel `main_dlg_cur` `proe_win` 9 212 260 458752 1024 1496 693 1920 1080 6790594
+~ Wheel `main_dlg_cur` `proe_win` 9 212 260 458752 0 1496 693 1920 1080 6790614
+~ Wheel `main_dlg_cur` `proe_win` 9 212 260 458752 0 1496 693 1920 1080 6790629
+~ Wheel `main_dlg_cur` `proe_win` 9 212 260 458752 0 1496 693 1920 1080 6790642
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `0` `c2`
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `` ``
+~ Select `Odui_Dlg_00` `t1.PointsListTable` 2 `r2` `c1`
+!%CPSelect up to 3 references, such as surface, curve, edge or point to place point.
+~ FocusOut `Odui_Dlg_00` `t1.RefsTable`
+~ Select `Odui_Dlg_00` `t1.PointsListTable` 2 `r3` `c1`
+!%CPSelect up to 3 references, such as surface, curve, edge or point to place point.
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `0` `c1`
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `0` `c2`
+~ Focus `Odui_Dlg_00` `t1.OffsetRefsTable`
+~ FocusIn `Odui_Dlg_00` `t1.OffsetRefsTable`
+~ Select `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `0` `c2`
+!%CPSelect up to 2 references, such as surface, edge or plane to define point offset.
+~ FocusOut `Odui_Dlg_00` `t1.OffsetRefsTable`
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `` ``
+~ Timer `UI Desktop` `UI Desktop` `CollectorWdg_FocusTimer`
+~ Input `Odui_Dlg_00` `OffsetRefsOffsetOptMnu_MRU1` `9`
+~ Input `Odui_Dlg_00` `OffsetRefsOffsetOptMnu_MRU1` `9.`
+~ Input `Odui_Dlg_00` `OffsetRefsOffsetOptMnu_MRU1` `9.4`
+~ Update `Odui_Dlg_00` `OffsetRefsOffsetOptMnu_MRU1` `9.4`
+~ Activate `Odui_Dlg_00` `OffsetRefsOffsetOptMnu_MRU1`
+!%CPSelect up to 2 references, such as surface, edge or plane to define point offset.
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `0` `c2`
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `1` `c2`
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `` ``
+~ FocusOut `Odui_Dlg_00` `t1.OffsetRefsTable`
+~ Activate `Odui_Dlg_00` `stdbtn_1`
+!ODUI session finished.
+!ProgressBarDlg: Regen Started
+!%CIRegenerating PLATE_SX feature 30 out of 39 ...
+!%CIRegenerating PLATE_SX feature 31 out of 39 ...
+!%CIRegenerating PLATE_SX feature 32 out of 39 ...
+!%CIRegenerating PLATE_SX feature 33 out of 39 ...
+!%CIRestoring PLATE_SX feature 34 out of 39 ...
+!%CIRegenerating PLATE_SX feature 35 out of 39 ...
+!%CIRegenerating PLATE_SX feature 36 out of 39 ...
+!%CIRegenerating PLATE_SX feature 37 out of 39 ...
+!%CIRegenerating PLATE_SX feature 38 out of 39 ...
+!%CIRegenerating PLATE_SX feature 39 out of 39 ...
+!%CIPLATE_SX regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 1599 type 5300 
+!%CIFeature redefined successfully.
+!F30(DATUM POINT):PLATE_SX
+~ MButtonArm `main_dlg_cur` `proe_win` 9 269 384 0 2 1496 693 1920 1080 6799948
+~ Move `main_dlg_cur` `proe_win` 9 269 383 0 1026 1496 693 1920 1080 6800049
+~ Move `main_dlg_cur` `proe_win` 9 270 383 0 514 1496 693 1920 1080 6800067
+~ Move `main_dlg_cur` `proe_win` 9 274 381 0 1538 1496 693 1920 1080 6800078
+~ Move `main_dlg_cur` `proe_win` 9 278 379 0 1538 1496 693 1920 1080 6800083
+~ Move `main_dlg_cur` `proe_win` 9 284 378 0 1538 1496 693 1920 1080 6800093
+~ Move `main_dlg_cur` `proe_win` 9 292 375 0 1538 1496 693 1920 1080 6800104
+~ Move `main_dlg_cur` `proe_win` 9 301 374 0 1538 1496 693 1920 1080 6800114
+~ Move `main_dlg_cur` `proe_win` 9 311 374 0 514 1496 693 1920 1080 6800125
+~ Move `main_dlg_cur` `proe_win` 9 319 374 0 514 1496 693 1920 1080 6800137
+~ Move `main_dlg_cur` `proe_win` 9 325 374 0 514 1496 693 1920 1080 6800147
+~ Move `main_dlg_cur` `proe_win` 9 328 374 0 514 1496 693 1920 1080 6800158
+~ Move `main_dlg_cur` `proe_win` 9 330 374 0 514 1496 693 1920 1080 6800167
+~ Move `main_dlg_cur` `proe_win` 9 331 374 0 514 1496 693 1920 1080 6800380
+~ Move `main_dlg_cur` `proe_win` 9 332 374 0 514 1496 693 1920 1080 6800394
+~ Move `main_dlg_cur` `proe_win` 9 334 374 0 514 1496 693 1920 1080 6800413
+~ Move `main_dlg_cur` `proe_win` 9 337 374 0 514 1496 693 1920 1080 6800426
+~ Move `main_dlg_cur` `proe_win` 9 339 374 0 514 1496 693 1920 1080 6800442
+~ MButtonDisarm `main_dlg_cur` `proe_win` 9 339 374 0 0 1496 693 1920 1080 6800659
+~ Wheel `main_dlg_cur` `proe_win` 9 669 446 393216 512 1496 693 1920 1080 6800920
+~ Wheel `main_dlg_cur` `proe_win` 9 669 446 393216 0 1496 693 1920 1080 6800963
+~ Wheel `main_dlg_cur` `proe_win` 9 669 446 393216 0 1496 693 1920 1080 6800975
+~ Wheel `main_dlg_cur` `proe_win` 9 669 446 393216 0 1496 693 1920 1080 6800988
+~ Wheel `main_dlg_cur` `proe_win` 9 669 446 393216 0 1496 693 1920 1080 6801025
+~ Wheel `main_dlg_cur` `proe_win` 9 680 452 393216 1536 1496 693 1920 1080 6801236
+~ Wheel `main_dlg_cur` `proe_win` 9 680 452 393216 0 1496 693 1920 1080 6801281
+~ Wheel `main_dlg_cur` `proe_win` 9 680 452 393216 0 1496 693 1920 1080 6801297
+~ Wheel `main_dlg_cur` `proe_win` 9 746 458 393216 512 1496 693 1920 1080 6801530
+~ Wheel `main_dlg_cur` `proe_win` 9 752 458 393216 512 1496 693 1920 1080 6801576
+~ Wheel `main_dlg_cur` `proe_win` 9 752 458 393216 0 1496 693 1920 1080 6801605
+~ Wheel `main_dlg_cur` `proe_win` 9 752 458 393216 0 1496 693 1920 1080 6801628
+~ MButtonArm `main_dlg_cur` `proe_win` 9 1001 478 0 514 1496 693 1920 1080 6802036
+~ Move `main_dlg_cur` `proe_win` 9 1000 478 0 514 1496 693 1920 1080 6802046
+~ Move `main_dlg_cur` `proe_win` 9 998 478 0 514 1496 693 1920 1080 6802116
+~ Move `main_dlg_cur` `proe_win` 9 997 478 0 514 1496 693 1920 1080 6802130
+~ Move `main_dlg_cur` `proe_win` 9 994 477 0 1538 1496 693 1920 1080 6802145
+~ Move `main_dlg_cur` `proe_win` 9 990 476 0 1538 1496 693 1920 1080 6802167
+~ Move `main_dlg_cur` `proe_win` 9 987 476 0 514 1496 693 1920 1080 6802183
+~ Move `main_dlg_cur` `proe_win` 9 984 476 0 514 1496 693 1920 1080 6802201
+~ Move `main_dlg_cur` `proe_win` 9 983 476 0 514 1496 693 1920 1080 6802215
+~ Move `main_dlg_cur` `proe_win` 9 981 476 0 514 1496 693 1920 1080 6802232
+~ Move `main_dlg_cur` `proe_win` 9 979 475 0 1538 1496 693 1920 1080 6802247
+~ Move `main_dlg_cur` `proe_win` 9 977 475 0 514 1496 693 1920 1080 6802260
+~ Move `main_dlg_cur` `proe_win` 9 975 475 0 514 1496 693 1920 1080 6802270
+~ Move `main_dlg_cur` `proe_win` 9 974 475 0 514 1496 693 1920 1080 6802280
+~ Move `main_dlg_cur` `proe_win` 9 972 475 0 514 1496 693 1920 1080 6802288
+~ Move `main_dlg_cur` `proe_win` 9 971 475 0 514 1496 693 1920 1080 6802296
+~ Move `main_dlg_cur` `proe_win` 9 969 475 0 514 1496 693 1920 1080 6802309
+~ Move `main_dlg_cur` `proe_win` 9 968 475 0 514 1496 693 1920 1080 6802321
+~ Move `main_dlg_cur` `proe_win` 9 966 475 0 514 1496 693 1920 1080 6802331
+~ Move `main_dlg_cur` `proe_win` 9 964 475 0 514 1496 693 1920 1080 6802343
+~ Move `main_dlg_cur` `proe_win` 9 962 475 0 514 1496 693 1920 1080 6802364
+~ Move `main_dlg_cur` `proe_win` 9 961 475 0 514 1496 693 1920 1080 6802374
+~ Move `main_dlg_cur` `proe_win` 9 960 475 0 514 1496 693 1920 1080 6802385
+~ Move `main_dlg_cur` `proe_win` 9 958 475 0 514 1496 693 1920 1080 6802396
+~ Move `main_dlg_cur` `proe_win` 9 957 475 0 514 1496 693 1920 1080 6802407
+~ Move `main_dlg_cur` `proe_win` 9 955 475 0 514 1496 693 1920 1080 6802419
+~ Move `main_dlg_cur` `proe_win` 9 953 475 0 514 1496 693 1920 1080 6802429
+~ Move `main_dlg_cur` `proe_win` 9 951 475 0 514 1496 693 1920 1080 6802446
+~ Move `main_dlg_cur` `proe_win` 9 950 475 0 514 1496 693 1920 1080 6802458
+~ Move `main_dlg_cur` `proe_win` 9 948 475 0 514 1496 693 1920 1080 6802470
+~ Move `main_dlg_cur` `proe_win` 9 947 475 0 514 1496 693 1920 1080 6802479
+~ Move `main_dlg_cur` `proe_win` 9 945 475 0 514 1496 693 1920 1080 6802492
+~ Move `main_dlg_cur` `proe_win` 9 942 475 0 514 1496 693 1920 1080 6802504
+~ Move `main_dlg_cur` `proe_win` 9 940 475 0 514 1496 693 1920 1080 6802516
+~ Move `main_dlg_cur` `proe_win` 9 938 475 0 514 1496 693 1920 1080 6802526
+~ Move `main_dlg_cur` `proe_win` 9 935 475 0 514 1496 693 1920 1080 6802537
+~ Move `main_dlg_cur` `proe_win` 9 933 475 0 514 1496 693 1920 1080 6802816
+~ Move `main_dlg_cur` `proe_win` 9 929 475 0 514 1496 693 1920 1080 6802830
+~ Move `main_dlg_cur` `proe_win` 9 925 475 0 514 1496 693 1920 1080 6802849
+~ Move `main_dlg_cur` `proe_win` 9 921 475 0 514 1496 693 1920 1080 6802865
+~ MButtonDisarm `main_dlg_cur` `proe_win` 9 919 475 0 512 1496 693 1920 1080 6802987
+~ Wheel `main_dlg_cur` `proe_win` 9 675 397 393216 512 1496 693 1920 1080 6803395
+~ Wheel `main_dlg_cur` `proe_win` 9 675 397 458752 0 1496 693 1920 1080 6803642
+~ Wheel `main_dlg_cur` `proe_win` 9 675 397 458752 0 1496 693 1920 1080 6803658
+~ Wheel `main_dlg_cur` `proe_win` 9 675 397 458752 0 1496 693 1920 1080 6803674
+~ Wheel `main_dlg_cur` `proe_win` 9 675 397 458752 0 1496 693 1920 1080 6803691
+~ Wheel `main_dlg_cur` `proe_win` 9 675 394 458752 0 1496 693 1920 1080 6803960
+~ Wheel `main_dlg_cur` `proe_win` 9 675 394 458752 0 1496 693 1920 1080 6803973
+~ Wheel `main_dlg_cur` `proe_win` 9 675 394 458752 0 1496 693 1920 1080 6803984
+~ Wheel `main_dlg_cur` `proe_win` 9 675 394 458752 0 1496 693 1920 1080 6803995
+~ Wheel `main_dlg_cur` `proe_win` 9 675 394 458752 0 1496 693 1920 1080 6804012
+~ Wheel `main_dlg_cur` `proe_win` 9 621 388 458752 0 1496 693 1920 1080 6804341
+~ Wheel `main_dlg_cur` `proe_win` 9 619 388 458752 512 1496 693 1920 1080 6804380
+~ Wheel `main_dlg_cur` `proe_win` 9 434 428 458752 0 1496 693 1920 1080 6809990
+~ Wheel `main_dlg_cur` `proe_win` 9 434 428 393216 0 1496 693 1920 1080 6810106
+~ Wheel `main_dlg_cur` `proe_win` 9 434 428 393216 0 1496 693 1920 1080 6810130
+~ Wheel `main_dlg_cur` `proe_win` 9 434 428 393216 0 1496 693 1920 1080 6810166
+~ Wheel `main_dlg_cur` `proe_win` 9 424 405 393216 1536 1496 693 1920 1080 6810458
+~ Wheel `main_dlg_cur` `proe_win` 9 418 398 458752 512 1496 693 1920 1080 6810592
+~ Wheel `main_dlg_cur` `proe_win` 9 417 398 458752 512 1496 693 1920 1080 6810634
+~ Wheel `main_dlg_cur` `proe_win` 9 399 372 458752 0 1496 693 1920 1080 6810976
+~ Wheel `main_dlg_cur` `proe_win` 9 399 372 458752 0 1496 693 1920 1080 6811020
+~ Wheel `main_dlg_cur` `proe_win` 9 399 372 458752 0 1496 693 1920 1080 6811042
+~ Wheel `main_dlg_cur` `proe_win` 9 399 372 458752 0 1496 693 1920 1080 6811080
+~ Wheel `main_dlg_cur` `proe_win` 9 364 378 458752 0 1496 693 1920 1080 6812042
+~ Wheel `main_dlg_cur` `proe_win` 9 364 378 458752 0 1496 693 1920 1080 6812065
+~ Wheel `main_dlg_cur` `proe_win` 9 364 378 458752 0 1496 693 1920 1080 6812089
+~ Wheel `main_dlg_cur` `proe_win` 9 364 378 458752 0 1496 693 1920 1080 6812121
+~ Wheel `main_dlg_cur` `proe_win` 9 364 378 458752 0 1496 693 1920 1080 6812435
+~ Wheel `main_dlg_cur` `proe_win` 9 364 378 458752 0 1496 693 1920 1080 6812457
+~ Wheel `main_dlg_cur` `proe_win` 9 364 378 458752 0 1496 693 1920 1080 6812487
+~ LButtonArm `main_dlg_cur` `proe_win` 9 378 369 0 1025 1496 693 1920 1080 6813151
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 378 369 0 0 1496 693 1920 1080 6813204
+@sel_pz_xyz 49.5129870133 394.4805194804 349.9219063088 499.6723023123 -1214.6838291887
+@ sel view 0
+ -4.394693 0.957633 -0.807382 0.763532 -0.286920 -4.496327
+ -0.992948 -4.459021 0.115925 552.730863 100.348012 -1221.928720 361.962174 0.000000 0
+@ stack attr 8
+@ stack attr -1 -1  1
+@ stack attr twk_s_eps
+@ stack idx 0
+@SEL_REC 1 [ 97] 6 3279 3282 (0.0000000000 0.0000000000) (43.7791366906 -4.5000000000 -46.3942286341)
+!PNT5:F30(DATUM POINT):PLATE_SX
+~ Command `ProCmdRedefine@PopupMenuGraphicWinStack` 
+! Executed sub-command ProCmdEditRedefFeat.
+!ODUI session starting: Okit widgets are on, Undo/Redo on, Dashboard style off, Tab style on, Mini Dashboard style off. Feature title : Datum Point
+!ODUI session started.
+!%CPSelect up to 3 references, such as surface, curve, edge or point to place point.
+~ Select `Odui_Dlg_00` `t1.PointsListTable` 2 `r2` `c1`
+!%CPSelect up to 3 references, such as surface, curve, edge or point to place point.
+~ Select `Odui_Dlg_00` `t1.PointsListTable` 2 `r3` `c1`
+!%CPSelect up to 3 references, such as surface, curve, edge or point to place point.
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `0` `c2`
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `1` `c2`
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `` ``
+~ Activate `Odui_Dlg_00` `stdbtn_2`
+!ODUI session finished.
+~ Wheel `main_dlg_cur` `proe_win` 9 1096 521 393216 1536 1496 693 1920 1080 6838699
+~ Wheel `main_dlg_cur` `proe_win` 9 1096 521 393216 0 1496 693 1920 1080 6838730
+~ Wheel `main_dlg_cur` `proe_win` 9 1096 521 393216 0 1496 693 1920 1080 6838965
+~ Wheel `main_dlg_cur` `proe_win` 9 1096 521 393216 0 1496 693 1920 1080 6838978
+~ Wheel `main_dlg_cur` `proe_win` 9 1096 521 393216 0 1496 693 1920 1080 6838992
+~ Wheel `main_dlg_cur` `proe_win` 9 1096 521 393216 0 1496 693 1920 1080 6839008
+~ Wheel `main_dlg_cur` `proe_win` 9 1096 521 393216 0 1496 693 1920 1080 6839032
+~ Wheel `main_dlg_cur` `proe_win` 9 1108 529 393216 1536 1496 693 1920 1080 6839222
+~ Wheel `main_dlg_cur` `proe_win` 9 1110 529 393216 512 1496 693 1920 1080 6839262
+~ Wheel `main_dlg_cur` `proe_win` 9 1110 529 393216 0 1496 693 1920 1080 6839305
+~ Wheel `main_dlg_cur` `proe_win` 9 1143 535 393216 512 1496 693 1920 1080 6839510
+~ Wheel `main_dlg_cur` `proe_win` 9 1143 535 393216 0 1496 693 1920 1080 6839524
+~ Wheel `main_dlg_cur` `proe_win` 9 1143 535 393216 0 1496 693 1920 1080 6839535
+~ Wheel `main_dlg_cur` `proe_win` 9 1143 534 393216 0 1496 693 1920 1080 6839576
+~ Wheel `main_dlg_cur` `proe_win` 9 1145 531 393216 0 1496 693 1920 1080 6839615
+~ Move `main_dlg_cur` `proe_win` 9 1212 522 16777216 1536 1496 693 1920 1080 6839824
+>M Chain_oa_sel_CB ProeWin0 1212 522 c0 10000 1496 0 0 693 1920 0 0 1080 13
+>M Collectors_CB ProeWin0 1212 522 c0 10000 1496 0 0 693 1920 0 0 1080 13
+~ MButtonArm `main_dlg_cur` `proe_win` 9 1331 530 16777216 2 1496 693 1920 1080 6840005
+~ Move `main_dlg_cur` `proe_win` 9 1330 530 16777216 514 1496 693 1920 1080 6840027
+~ Move `main_dlg_cur` `proe_win` 9 1326 530 16777216 514 1496 693 1920 1080 6840035
+~ Move `main_dlg_cur` `proe_win` 9 1320 529 16777216 1538 1496 693 1920 1080 6840048
+~ Move `main_dlg_cur` `proe_win` 9 1308 524 16777216 1538 1496 693 1920 1080 6840060
+~ Move `main_dlg_cur` `proe_win` 9 1301 521 16777216 1538 1496 693 1920 1080 6840072
+~ Move `main_dlg_cur` `proe_win` 9 1293 518 16777216 1538 1496 693 1920 1080 6840080
+~ Move `main_dlg_cur` `proe_win` 9 1282 515 16777216 1538 1496 693 1920 1080 6840091
+~ Move `main_dlg_cur` `proe_win` 9 1271 511 16777216 1538 1496 693 1920 1080 6840100
+~ Move `main_dlg_cur` `proe_win` 9 1256 507 16777216 1538 1496 693 1920 1080 6840111
+~ Move `main_dlg_cur` `proe_win` 9 1238 504 16777216 1538 1496 693 1920 1080 6840121
+~ Move `main_dlg_cur` `proe_win` 9 1206 499 16777216 1538 1496 693 1920 1080 6840133
+~ Move `main_dlg_cur` `proe_win` 9 1175 493 16777216 1538 1496 693 1920 1080 6840142
+~ Move `main_dlg_cur` `proe_win` 9 1135 486 16777216 1538 1496 693 1920 1080 6840152
+~ Move `main_dlg_cur` `proe_win` 9 1098 477 16777216 1538 1496 693 1920 1080 6840162
+~ Move `main_dlg_cur` `proe_win` 9 1057 467 16777216 1538 1496 693 1920 1080 6840172
+~ Move `main_dlg_cur` `proe_win` 9 1003 451 16777216 1538 1496 693 1920 1080 6840183
+~ Move `main_dlg_cur` `proe_win` 9 953 438 16777216 1538 1496 693 1920 1080 6840197
+~ Move `main_dlg_cur` `proe_win` 9 900 420 16777216 1538 1496 693 1920 1080 6840210
+~ Move `main_dlg_cur` `proe_win` 9 852 404 16777216 1538 1496 693 1920 1080 6840224
+~ Move `main_dlg_cur` `proe_win` 9 826 394 16777216 1538 1496 693 1920 1080 6840233
+~ Move `main_dlg_cur` `proe_win` 9 805 387 16777216 1538 1496 693 1920 1080 6840241
+~ Move `main_dlg_cur` `proe_win` 9 786 378 16777216 1538 1496 693 1920 1080 6840251
+~ Move `main_dlg_cur` `proe_win` 9 770 371 16777216 1538 1496 693 1920 1080 6840263
+~ Move `main_dlg_cur` `proe_win` 9 755 364 16777216 1538 1496 693 1920 1080 6840274
+~ Move `main_dlg_cur` `proe_win` 9 742 358 16777216 1538 1496 693 1920 1080 6840284
+~ Move `main_dlg_cur` `proe_win` 9 728 350 16777216 1538 1496 693 1920 1080 6840297
+~ Move `main_dlg_cur` `proe_win` 9 718 346 16777216 1538 1496 693 1920 1080 6840308
+~ Move `main_dlg_cur` `proe_win` 9 708 340 16777216 1538 1496 693 1920 1080 6840317
+~ Move `main_dlg_cur` `proe_win` 9 699 335 16777216 1538 1496 693 1920 1080 6840330
+~ Move `main_dlg_cur` `proe_win` 9 687 330 16777216 1538 1496 693 1920 1080 6840341
+~ Move `main_dlg_cur` `proe_win` 9 675 324 16777216 1538 1496 693 1920 1080 6840351
+~ Move `main_dlg_cur` `proe_win` 9 661 317 16777216 1538 1496 693 1920 1080 6840362
+~ Move `main_dlg_cur` `proe_win` 9 631 308 16777216 1538 1496 693 1920 1080 6840373
+~ Move `main_dlg_cur` `proe_win` 9 598 298 16777216 1538 1496 693 1920 1080 6840386
+~ Move `main_dlg_cur` `proe_win` 9 549 286 16777216 1538 1496 693 1920 1080 6840400
+~ Move `main_dlg_cur` `proe_win` 9 513 280 16777216 1538 1496 693 1920 1080 6840414
+~ Move `main_dlg_cur` `proe_win` 9 484 275 16777216 1538 1496 693 1920 1080 6840432
+~ MButtonDisarm `main_dlg_cur` `proe_win` 9 484 275 16777216 0 1496 693 1920 1080 6840445
+~ MButtonArm `main_dlg_cur` `proe_win` 9 1169 430 16777216 2 1496 693 1920 1080 6840623
+~ Move `main_dlg_cur` `proe_win` 9 1167 431 16777216 1538 1496 693 1920 1080 6840631
+~ Move `main_dlg_cur` `proe_win` 9 1164 431 16777216 514 1496 693 1920 1080 6840637
+~ Move `main_dlg_cur` `proe_win` 9 1162 431 16777216 514 1496 693 1920 1080 6840646
+~ Move `main_dlg_cur` `proe_win` 9 1155 429 16777216 1538 1496 693 1920 1080 6840662
+~ Move `main_dlg_cur` `proe_win` 9 1140 422 16777216 1538 1496 693 1920 1080 6840673
+~ Move `main_dlg_cur` `proe_win` 9 1101 409 16777216 1538 1496 693 1920 1080 6840686
+~ Move `main_dlg_cur` `proe_win` 9 994 382 16777216 1538 1496 693 1920 1080 6840706
+~ Move `main_dlg_cur` `proe_win` 9 893 361 16777216 1538 1496 693 1920 1080 6840717
+~ Move `main_dlg_cur` `proe_win` 9 804 346 16777216 1538 1496 693 1920 1080 6840731
+~ Move `main_dlg_cur` `proe_win` 9 661 324 16777216 1538 1496 693 1920 1080 6840747
+~ Move `main_dlg_cur` `proe_win` 9 549 305 16777216 1538 1496 693 1920 1080 6840762
+~ Move `main_dlg_cur` `proe_win` 9 466 290 16777216 1538 1496 693 1920 1080 6840777
+~ MButtonDisarm `main_dlg_cur` `proe_win` 9 457 288 16777216 1536 1496 693 1920 1080 6840798
+~ MButtonArm `main_dlg_cur` `proe_win` 9 1189 390 16777216 1538 1496 693 1920 1080 6841005
+~ Move `main_dlg_cur` `proe_win` 9 1188 390 16777216 514 1496 693 1920 1080 6841015
+~ Move `main_dlg_cur` `proe_win` 9 1179 389 16777216 1538 1496 693 1920 1080 6841024
+~ Move `main_dlg_cur` `proe_win` 9 1151 380 16777216 1538 1496 693 1920 1080 6841036
+~ Move `main_dlg_cur` `proe_win` 9 1130 374 16777216 1538 1496 693 1920 1080 6841047
+~ Move `main_dlg_cur` `proe_win` 9 1046 355 16777216 1538 1496 693 1920 1080 6841062
+~ Move `main_dlg_cur` `proe_win` 9 946 338 16777216 1538 1496 693 1920 1080 6841074
+~ Move `main_dlg_cur` `proe_win` 9 862 328 16777216 1538 1496 693 1920 1080 6841084
+~ Move `main_dlg_cur` `proe_win` 9 770 317 16777216 1538 1496 693 1920 1080 6841097
+~ Move `main_dlg_cur` `proe_win` 9 701 310 16777216 1538 1496 693 1920 1080 6841113
+~ Move `main_dlg_cur` `proe_win` 9 573 300 16777216 1538 1496 693 1920 1080 6841129
+~ Move `main_dlg_cur` `proe_win` 9 518 296 16777216 1538 1496 693 1920 1080 6841151
+~ MButtonDisarm `main_dlg_cur` `proe_win` 9 518 296 16777216 0 1496 693 1920 1080 6841162
+~ MButtonArm `main_dlg_cur` `proe_win` 9 1095 387 16777216 2 1496 693 1920 1080 6841364
+~ Move `main_dlg_cur` `proe_win` 9 1092 387 16777216 514 1496 693 1920 1080 6841374
+~ Move `main_dlg_cur` `proe_win` 9 1081 385 16777216 1538 1496 693 1920 1080 6841382
+~ Move `main_dlg_cur` `proe_win` 9 1033 373 16777216 1538 1496 693 1920 1080 6841401
+~ Move `main_dlg_cur` `proe_win` 9 975 363 16777216 1538 1496 693 1920 1080 6841415
+~ Move `main_dlg_cur` `proe_win` 9 865 347 16777216 1538 1496 693 1920 1080 6841435
+~ Move `main_dlg_cur` `proe_win` 9 766 335 16777216 1538 1496 693 1920 1080 6841449
+~ Move `main_dlg_cur` `proe_win` 9 681 329 16777216 1538 1496 693 1920 1080 6841473
+~ MButtonDisarm `main_dlg_cur` `proe_win` 9 667 329 16777216 512 1496 693 1920 1080 6841489
+~ Move `main_dlg_cur` `proe_win` 9 917 355 0 512 1496 693 1920 1080 6841691
+>M Chain_oa_sel_CB ProeWin0 917 355 40 0 1496 0 0 693 1920 0 0 1080 13
+>M Collectors_CB ProeWin0 917 355 40 0 1496 0 0 693 1920 0 0 1080 13
+~ LButtonArm `main_dlg_cur` `proe_win` 9 817 173 0 1025 1496 693 1920 1080 6843039
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 817 173 0 0 1496 693 1920 1080 6843120
+@sel_pz_xyz 584.0097402597 633.1168831169 576.5093232696 480.8753674281 -1214.6838291886
+@ sel view 0
+ -4.394693 0.957633 -0.807382 0.763532 -0.286920 -4.496327
+ -0.992948 -4.459021 0.115925 552.730863 100.348012 -1221.928720 12.735412 0.000000 0
+@ stack attr 8
+@ stack attr -1 -1  1
+@ stack attr twk_s_eps
+@ stack idx 0
+@SEL_REC 1 [ 97] 6 2709 2714 (0.0000000000 0.0000000000) (-6.9708633094 -4.5000000000 -50.7942286341)
+!PNT2:F21(DATUM POINT):PLATE_SX
+~ Command `ProCmdRedefine@PopupMenuGraphicWinStack` 
+! Executed sub-command ProCmdEditRedefFeat.
+!ODUI session starting: Okit widgets are on, Undo/Redo on, Dashboard style off, Tab style on, Mini Dashboard style off. Feature title : Datum Point
+!ODUI session started.
+!%CPSelect up to 3 references, such as surface, curve, edge or point to place point.
+~ Select `Odui_Dlg_00` `t1.PointsListTable` 2 `r2` `c1`
+!%CPSelect up to 3 references, such as surface, curve, edge or point to place point.
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `0` `c2`
+~ Focus `Odui_Dlg_00` `t1.OffsetRefsTable`
+~ FocusIn `Odui_Dlg_00` `t1.OffsetRefsTable`
+~ Select `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `0` `c2`
+!%CPSelect up to 2 references, such as surface, edge or plane to define point offset.
+~ FocusOut `Odui_Dlg_00` `t1.OffsetRefsTable`
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `` ``
+~ Timer `UI Desktop` `UI Desktop` `CollectorWdg_FocusTimer`
+~ Input `Odui_Dlg_00` `OffsetRefsOffsetOptMnu_MRU1` `3`
+~ Input `Odui_Dlg_00` `OffsetRefsOffsetOptMnu_MRU1` `3.`
+~ Input `Odui_Dlg_00` `OffsetRefsOffsetOptMnu_MRU1` `3.7`
+~ Input `Odui_Dlg_00` `OffsetRefsOffsetOptMnu_MRU1` `3.75`
+~ Update `Odui_Dlg_00` `OffsetRefsOffsetOptMnu_MRU1` `3.75`
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `1` `c2`
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `` ``
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `1` `c2`
+~ FocusOut `Odui_Dlg_00` `OffsetRefsOffsetOptMnu_MRU1`
+~ Focus `Odui_Dlg_00` `t1.OffsetRefsTable`
+~ FocusIn `Odui_Dlg_00` `t1.OffsetRefsTable`
+~ Select `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `1` `c2`
+!%CPSelect up to 2 references, such as surface, edge or plane to define point offset.
+~ Focus `Odui_Dlg_00` `t1.OffsetRefsTable`
+~ Activate `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `1` `c2`
+~ Focus `Odui_Dlg_00` `t1.OffsetRefsTable`
+~ Select `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `1` `c2`
+!%CPSelect up to 2 references, such as surface, edge or plane to define point offset.
+~ FocusOut `Odui_Dlg_00` `t1.OffsetRefsTable`
+~ Timer `UI Desktop` `UI Desktop` `CollectorWdg_FocusTimer`
+~ Input `Odui_Dlg_00` `OffsetRefsOffsetOptMnu_MRU1` `9`
+~ Input `Odui_Dlg_00` `OffsetRefsOffsetOptMnu_MRU1` `9.`
+~ Input `Odui_Dlg_00` `OffsetRefsOffsetOptMnu_MRU1` `9.4`
+~ Input `Odui_Dlg_00` `OffsetRefsOffsetOptMnu_MRU1` `9.45`
+~ Update `Odui_Dlg_00` `OffsetRefsOffsetOptMnu_MRU1` `9.45`
+~ FocusOut `Odui_Dlg_00` `OffsetRefsOffsetOptMnu_MRU1`
+!%CPSelect up to 2 references, such as surface, edge or plane to define point offset.
+~ Activate `Odui_Dlg_00` `stdbtn_1`
+!ODUI session finished.
+!ProgressBarDlg: Regen Started
+!%CIRegenerating PLATE_SX feature 21 out of 39 ...
+!%CIRegenerating PLATE_SX feature 22 out of 39 ...
+!%CIRegenerating PLATE_SX feature 23 out of 39 ...
+!%CIRegenerating PLATE_SX feature 24 out of 39 ...
+!%CIRegenerating PLATE_SX feature 25 out of 39 ...
+!%CIRegenerating PLATE_SX feature 26 out of 39 ...
+!%CIRegenerating PLATE_SX feature 27 out of 39 ...
+!%CIRegenerating PLATE_SX feature 28 out of 39 ...
+!%CIRegenerating PLATE_SX feature 29 out of 39 ...
+!%CIRegenerating PLATE_SX feature 30 out of 39 ...
+!%CIRegenerating PLATE_SX feature 31 out of 39 ...
+!%CIRegenerating PLATE_SX feature 32 out of 39 ...
+!%CIRegenerating PLATE_SX feature 33 out of 39 ...
+!%CIRestoring PLATE_SX feature 34 out of 39 ...
+!%CIRegenerating PLATE_SX feature 35 out of 39 ...
+!%CIRegenerating PLATE_SX feature 36 out of 39 ...
+!%CIRegenerating PLATE_SX feature 37 out of 39 ...
+!%CIRegenerating PLATE_SX feature 38 out of 39 ...
+!%CIRegenerating PLATE_SX feature 39 out of 39 ...
+!%CIPLATE_SX regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 1605 type 5300 
+!%CIFeature redefined successfully.
+!F21(DATUM POINT):PLATE_SX
+~ Move `main_dlg_cur` `proe_win` 9 1300 485 16777216 0 1496 693 1920 1080 6859258
+>M Chain_oa_sel_CB ProeWin0 1300 485 c0 10000 1496 0 0 693 1920 0 0 1080 13
+>M Collectors_CB ProeWin0 1300 485 c0 10000 1496 0 0 693 1920 0 0 1080 13
+~ MButtonArm `main_dlg_cur` `proe_win` 9 1343 481 16777216 2 1496 693 1920 1080 6859446
+~ Move `main_dlg_cur` `proe_win` 9 1342 481 16777216 514 1496 693 1920 1080 6859541
+~ Move `main_dlg_cur` `proe_win` 9 1340 481 16777216 514 1496 693 1920 1080 6859552
+~ Move `main_dlg_cur` `proe_win` 9 1338 479 16777216 1538 1496 693 1920 1080 6859559
+~ Move `main_dlg_cur` `proe_win` 9 1335 478 16777216 1538 1496 693 1920 1080 6859563
+~ Move `main_dlg_cur` `proe_win` 9 1331 476 16777216 1538 1496 693 1920 1080 6859575
+~ Move `main_dlg_cur` `proe_win` 9 1323 472 16777216 1538 1496 693 1920 1080 6859589
+~ Move `main_dlg_cur` `proe_win` 9 1317 470 16777216 1538 1496 693 1920 1080 6859600
+~ Move `main_dlg_cur` `proe_win` 9 1311 466 16777216 1538 1496 693 1920 1080 6859611
+~ Move `main_dlg_cur` `proe_win` 9 1308 465 16777216 1538 1496 693 1920 1080 6859618
+~ Move `main_dlg_cur` `proe_win` 9 1305 464 16777216 1538 1496 693 1920 1080 6859626
+~ Move `main_dlg_cur` `proe_win` 9 1302 462 16777216 1538 1496 693 1920 1080 6859639
+~ Move `main_dlg_cur` `proe_win` 9 1300 461 16777216 1538 1496 693 1920 1080 6859649
+~ Move `main_dlg_cur` `proe_win` 9 1299 461 16777216 514 1496 693 1920 1080 6859827
+~ Move `main_dlg_cur` `proe_win` 9 1287 458 16777216 1538 1496 693 1920 1080 6859847
+~ Move `main_dlg_cur` `proe_win` 9 1271 453 16777216 1538 1496 693 1920 1080 6859865
+~ Move `main_dlg_cur` `proe_win` 9 1258 450 16777216 1538 1496 693 1920 1080 6859881
+~ Move `main_dlg_cur` `proe_win` 9 1249 447 16777216 1538 1496 693 1920 1080 6859895
+~ Move `main_dlg_cur` `proe_win` 9 1246 446 16777216 1538 1496 693 1920 1080 6859984
+~ Move `main_dlg_cur` `proe_win` 9 1241 445 16777216 1538 1496 693 1920 1080 6860000
+~ Move `main_dlg_cur` `proe_win` 9 1235 444 16777216 1538 1496 693 1920 1080 6860023
+~ MButtonDisarm `main_dlg_cur` `proe_win` 9 1235 444 16777216 0 1496 693 1920 1080 6860058
+~ Move `main_dlg_cur` `proe_win` 9 1226 434 0 0 1496 693 1920 1080 6860119
+>M Chain_oa_sel_CB ProeWin0 1226 434 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M Collectors_CB ProeWin0 1226 434 c0 0 1496 0 0 693 1920 0 0 1080 13
+~ LButtonArm `main_dlg_cur` `proe_win` 9 715 140 0 1 1496 693 1920 1080 6860987
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 715 140 0 0 1496 693 1920 1080 6861074
+@sel_pz_xyz 459.8214285714 673.2954545455 577.0829360358 480.4929589173 -1214.6838291886
+@ sel view 0
+ -4.394693 0.957633 -0.807382 0.763532 -0.286920 -4.496327
+ -0.992948 -4.459021 0.115925 552.730863 100.348012 -1221.928720 12.735412 0.000000 0
+@ stack attr 8
+@ stack attr -1 -1  1
+@ stack attr twk_s_eps
+@ stack idx 0
+@SEL_REC 1 [ 97] 4 3412 -1 (0.6869282461 0.0000000000) (-6.9708633094 -3.8738564923 -50.7942286341)
+!A_9(AXIS):F24(EXTRUDE_4):PLATE_SX
+~ Command `ProCmdRedefine@PopupMenuGraphicWinStack` 
+! Executed sub-command ProCmdEditRedefFeat.
+!sket_eps      0.1283554247
+!ODUI session starting: Okit widgets are on, Undo/Redo on, Dashboard style on, Tab style off, Mini Dashboard style off. Feature title : Extrude
+!ODUI session started.
+!%CPSelect a plane or planar surface as the sketching plane, or select a sketch.
+~ Enter `main_dlg_cur` `dashInst0.Quit`
+~ Activate `main_dlg_cur` `dashInst0.Quit`
+!ODUI session finished.
+~ LButtonArm `main_dlg_cur` `proe_win` 9 711 142 0 1 1496 693 1920 1080 6867643
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 711 142 0 0 1496 693 1920 1080 6867708
+@sel_pz_xyz 454.9512987013 670.8603896104 576.7005275251 480.3017546620 -1214.6838291886
+@ sel view 0
+ -4.394693 0.957633 -0.807382 0.763532 -0.286920 -4.496327
+ -0.992948 -4.459021 0.115925 552.730863 100.348012 -1221.928720 12.735412 0.000000 0
+@ stack attr 8
+@ stack attr -1 -1  1
+@ stack attr twk_s_eps
+@ stack idx 0
+@SEL_REC 1 [ 97] 6 2709 2714 (0.0000000000 0.0000000000) (-6.9708633094 -4.5000000000 -50.7942286341)
+!PNT2:F21(DATUM POINT):PLATE_SX
+~ Command `ProCmdRedefine@PopupMenuGraphicWinStack` 
+! Executed sub-command ProCmdEditRedefFeat.
+!ODUI session starting: Okit widgets are on, Undo/Redo on, Dashboard style off, Tab style on, Mini Dashboard style off. Feature title : Datum Point
+!ODUI session started.
+!%CPSelect up to 3 references, such as surface, curve, edge or point to place point.
+~ Select `Odui_Dlg_00` `t1.PointsListTable` 2 `r3` `c1`
+!%CPSelect up to 3 references, such as surface, curve, edge or point to place point.
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `0` `c1`
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `0` `c2`
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `1` `c2`
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `1` `c1`
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `0` `c1`
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `` ``
+~ Wheel `main_dlg_cur` `proe_win` 9 785 362 393216 0 1496 693 1920 1080 6872245
+~ Wheel `main_dlg_cur` `proe_win` 9 785 362 393216 0 1496 693 1920 1080 6872272
+~ Wheel `main_dlg_cur` `proe_win` 9 785 362 393216 0 1496 693 1920 1080 6872323
+~ Wheel `main_dlg_cur` `proe_win` 9 785 362 393216 0 1496 693 1920 1080 6872565
+~ Wheel `main_dlg_cur` `proe_win` 9 785 362 393216 0 1496 693 1920 1080 6872590
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `0` `c1`
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `` ``
+~ Move `main_dlg_cur` `proe_win` 9 801 363 16777216 0 1496 693 1920 1080 6875063
+~ MButtonArm `main_dlg_cur` `proe_win` 9 801 363 16777216 2 1496 693 1920 1080 6875216
+~ Move `main_dlg_cur` `proe_win` 9 801 363 16777216 2 1496 693 1920 1080 6875229
+~ Move `main_dlg_cur` `proe_win` 9 798 363 16777216 514 1496 693 1920 1080 6875252
+~ Move `main_dlg_cur` `proe_win` 9 795 363 16777216 514 1496 693 1920 1080 6875272
+~ Move `main_dlg_cur` `proe_win` 9 793 363 16777216 514 1496 693 1920 1080 6875286
+~ Move `main_dlg_cur` `proe_win` 9 788 363 16777216 514 1496 693 1920 1080 6875301
+~ Move `main_dlg_cur` `proe_win` 9 778 362 16777216 1538 1496 693 1920 1080 6875315
+~ Move `main_dlg_cur` `proe_win` 9 768 359 16777216 1538 1496 693 1920 1080 6875329
+~ Move `main_dlg_cur` `proe_win` 9 755 356 16777216 1538 1496 693 1920 1080 6875342
+~ Move `main_dlg_cur` `proe_win` 9 746 354 16777216 1538 1496 693 1920 1080 6875353
+~ Move `main_dlg_cur` `proe_win` 9 740 353 16777216 1538 1496 693 1920 1080 6875364
+~ Move `main_dlg_cur` `proe_win` 9 734 351 16777216 1538 1496 693 1920 1080 6875375
+~ Move `main_dlg_cur` `proe_win` 9 728 350 16777216 1538 1496 693 1920 1080 6875388
+~ Move `main_dlg_cur` `proe_win` 9 722 350 16777216 514 1496 693 1920 1080 6875403
+~ Move `main_dlg_cur` `proe_win` 9 717 350 16777216 514 1496 693 1920 1080 6875422
+~ Move `main_dlg_cur` `proe_win` 9 710 349 16777216 1538 1496 693 1920 1080 6875442
+~ Move `main_dlg_cur` `proe_win` 9 702 349 16777216 514 1496 693 1920 1080 6875464
+~ Move `main_dlg_cur` `proe_win` 9 696 349 16777216 514 1496 693 1920 1080 6875482
+~ Move `main_dlg_cur` `proe_win` 9 689 348 16777216 1538 1496 693 1920 1080 6875502
+~ Move `main_dlg_cur` `proe_win` 9 683 347 16777216 1538 1496 693 1920 1080 6875523
+~ Move `main_dlg_cur` `proe_win` 9 676 347 16777216 514 1496 693 1920 1080 6875541
+~ Move `main_dlg_cur` `proe_win` 9 666 345 16777216 1538 1496 693 1920 1080 6875564
+~ Move `main_dlg_cur` `proe_win` 9 658 345 16777216 514 1496 693 1920 1080 6875589
+~ Move `main_dlg_cur` `proe_win` 9 649 344 16777216 1538 1496 693 1920 1080 6875608
+~ Move `main_dlg_cur` `proe_win` 9 633 341 16777216 1538 1496 693 1920 1080 6875635
+~ Move `main_dlg_cur` `proe_win` 9 623 340 16777216 1538 1496 693 1920 1080 6875649
+~ Move `main_dlg_cur` `proe_win` 9 617 339 16777216 1538 1496 693 1920 1080 6875662
+~ Move `main_dlg_cur` `proe_win` 9 608 339 16777216 514 1496 693 1920 1080 6875677
+~ Move `main_dlg_cur` `proe_win` 9 602 338 16777216 1538 1496 693 1920 1080 6875689
+~ Move `main_dlg_cur` `proe_win` 9 598 337 16777216 1538 1496 693 1920 1080 6875703
+~ Move `main_dlg_cur` `proe_win` 9 590 336 16777216 1538 1496 693 1920 1080 6875716
+~ Move `main_dlg_cur` `proe_win` 9 583 336 16777216 514 1496 693 1920 1080 6875730
+~ Move `main_dlg_cur` `proe_win` 9 575 335 16777216 1538 1496 693 1920 1080 6875744
+~ Move `main_dlg_cur` `proe_win` 9 569 334 16777216 1538 1496 693 1920 1080 6875757
+~ Move `main_dlg_cur` `proe_win` 9 562 333 16777216 1538 1496 693 1920 1080 6875769
+~ Move `main_dlg_cur` `proe_win` 9 556 333 16777216 514 1496 693 1920 1080 6875782
+~ Move `main_dlg_cur` `proe_win` 9 552 333 16777216 514 1496 693 1920 1080 6875794
+~ Move `main_dlg_cur` `proe_win` 9 545 333 16777216 514 1496 693 1920 1080 6875807
+~ Move `main_dlg_cur` `proe_win` 9 541 333 16777216 514 1496 693 1920 1080 6875818
+~ Move `main_dlg_cur` `proe_win` 9 535 333 16777216 514 1496 693 1920 1080 6875834
+~ Move `main_dlg_cur` `proe_win` 9 531 333 16777216 514 1496 693 1920 1080 6875846
+~ MButtonDisarm `main_dlg_cur` `proe_win` 9 530 333 16777216 512 1496 693 1920 1080 6875928
+~ Move `main_dlg_cur` `proe_win` 9 530 333 0 0 1496 693 1920 1080 6875958
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `0` `c1`
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `` ``
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `0` `c1`
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `0` `c2`
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `1` `c2`
+~ Focus `Odui_Dlg_00` `t1.OffsetRefsTable`
+~ FocusIn `Odui_Dlg_00` `t1.OffsetRefsTable`
+~ Select `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `1` `c2`
+!%CPSelect up to 2 references, such as surface, edge or plane to define point offset.
+~ FocusOut `Odui_Dlg_00` `t1.OffsetRefsTable`
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `` ``
+~ Timer `UI Desktop` `UI Desktop` `CollectorWdg_FocusTimer`
+~ Input `Odui_Dlg_00` `OffsetRefsOffsetOptMnu_MRU1` `9`
+~ Input `Odui_Dlg_00` `OffsetRefsOffsetOptMnu_MRU1` `9.`
+~ Input `Odui_Dlg_00` `OffsetRefsOffsetOptMnu_MRU1` `9.4`
+~ Update `Odui_Dlg_00` `OffsetRefsOffsetOptMnu_MRU1` `9.4`
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `1` `c1`
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `` ``
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `0` `c2`
+~ FocusOut `Odui_Dlg_00` `OffsetRefsOffsetOptMnu_MRU1`
+~ Focus `Odui_Dlg_00` `t1.OffsetRefsTable`
+~ FocusIn `Odui_Dlg_00` `t1.OffsetRefsTable`
+~ Select `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `0` `c2`
+!%CPSelect up to 2 references, such as surface, edge or plane to define point offset.
+~ Focus `Odui_Dlg_00` `t1.OffsetRefsTable`
+~ Activate `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `0` `c2`
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `0` `c2`
+~ Timer `UI Desktop` `UI Desktop` `CollectorWdg_FocusTimer`
+!%CPSelect up to 2 references, such as surface, edge or plane to define point offset.
+~ Focus `Odui_Dlg_00` `t1.OffsetRefsTable`
+~ Select `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `0` `c2`
+!%CPSelect up to 2 references, such as surface, edge or plane to define point offset.
+~ FocusOut `Odui_Dlg_00` `t1.OffsetRefsTable`
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `` ``
+~ Timer `UI Desktop` `UI Desktop` `CollectorWdg_FocusTimer`
+~ Input `Odui_Dlg_00` `OffsetRefsOffsetOptMnu_MRU1` `3`
+~ Input `Odui_Dlg_00` `OffsetRefsOffsetOptMnu_MRU1` `3.`
+~ Input `Odui_Dlg_00` `OffsetRefsOffsetOptMnu_MRU1` `3.8`
+~ Update `Odui_Dlg_00` `OffsetRefsOffsetOptMnu_MRU1` `3.8`
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `0` `c1`
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `` ``
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `0` `c1`
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `1` `c1`
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `1` `c2`
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `` ``
+~ FocusOut `Odui_Dlg_00` `OffsetRefsOffsetOptMnu_MRU1`
+!%CPSelect up to 2 references, such as surface, edge or plane to define point offset.
+~ Activate `Odui_Dlg_00` `stdbtn_1`
+!ODUI session finished.
+!ProgressBarDlg: Regen Started
+!%CIRegenerating PLATE_SX feature 21 out of 39 ...
+!%CIRegenerating PLATE_SX feature 22 out of 39 ...
+!%CIRegenerating PLATE_SX feature 23 out of 39 ...
+!%CIRegenerating PLATE_SX feature 24 out of 39 ...
+!%CIRegenerating PLATE_SX feature 25 out of 39 ...
+!%CIRegenerating PLATE_SX feature 26 out of 39 ...
+!%CIRegenerating PLATE_SX feature 27 out of 39 ...
+!%CIRegenerating PLATE_SX feature 28 out of 39 ...
+!%CIRegenerating PLATE_SX feature 29 out of 39 ...
+!%CIRegenerating PLATE_SX feature 30 out of 39 ...
+!%CIRestoring PLATE_SX feature 31 out of 39 ...
+!%CIRegenerating PLATE_SX feature 32 out of 39 ...
+!%CIRegenerating PLATE_SX feature 33 out of 39 ...
+!%CIRestoring PLATE_SX feature 34 out of 39 ...
+!%CIRegenerating PLATE_SX feature 35 out of 39 ...
+!%CIRegenerating PLATE_SX feature 36 out of 39 ...
+!%CIRegenerating PLATE_SX feature 37 out of 39 ...
+!%CIRegenerating PLATE_SX feature 38 out of 39 ...
+!%CIRegenerating PLATE_SX feature 39 out of 39 ...
+!%CIPLATE_SX regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 1611 type 5300 
+!%CIFeature redefined successfully.
+!F21(DATUM POINT):PLATE_SX
+~ MButtonArm `main_dlg_cur` `proe_win` 9 1100 425 0 2 1496 693 1920 1080 6891678
+~ Move `main_dlg_cur` `proe_win` 9 1099 425 0 514 1496 693 1920 1080 6891815
+~ Move `main_dlg_cur` `proe_win` 9 1098 425 0 514 1496 693 1920 1080 6891834
+~ Move `main_dlg_cur` `proe_win` 9 1095 425 0 514 1496 693 1920 1080 6891850
+~ Move `main_dlg_cur` `proe_win` 9 1094 425 0 514 1496 693 1920 1080 6891872
+~ Move `main_dlg_cur` `proe_win` 9 1092 425 0 514 1496 693 1920 1080 6891891
+~ Move `main_dlg_cur` `proe_win` 9 1089 425 0 514 1496 693 1920 1080 6891915
+~ Move `main_dlg_cur` `proe_win` 9 1088 425 0 514 1496 693 1920 1080 6891978
+~ Move `main_dlg_cur` `proe_win` 9 1086 425 0 514 1496 693 1920 1080 6891992
+~ Move `main_dlg_cur` `proe_win` 9 1084 425 0 514 1496 693 1920 1080 6892010
+~ Move `main_dlg_cur` `proe_win` 9 1081 424 0 1538 1496 693 1920 1080 6892023
+~ Move `main_dlg_cur` `proe_win` 9 1080 424 0 514 1496 693 1920 1080 6892088
+~ Move `main_dlg_cur` `proe_win` 9 1076 424 0 514 1496 693 1920 1080 6892104
+~ Move `main_dlg_cur` `proe_win` 9 1067 424 0 514 1496 693 1920 1080 6892124
+~ Move `main_dlg_cur` `proe_win` 9 1063 423 0 1538 1496 693 1920 1080 6892139
+~ Move `main_dlg_cur` `proe_win` 9 1060 423 0 514 1496 693 1920 1080 6892156
+~ Move `main_dlg_cur` `proe_win` 9 1059 423 0 514 1496 693 1920 1080 6892217
+~ Move `main_dlg_cur` `proe_win` 9 1051 422 0 1538 1496 693 1920 1080 6892234
+~ Move `main_dlg_cur` `proe_win` 9 1043 420 0 1538 1496 693 1920 1080 6892254
+~ Move `main_dlg_cur` `proe_win` 9 1039 420 0 514 1496 693 1920 1080 6892268
+~ Move `main_dlg_cur` `proe_win` 9 1036 419 0 1538 1496 693 1920 1080 6892287
+~ Move `main_dlg_cur` `proe_win` 9 1034 419 0 514 1496 693 1920 1080 6892301
+~ Move `main_dlg_cur` `proe_win` 9 1031 418 0 1538 1496 693 1920 1080 6892319
+~ Move `main_dlg_cur` `proe_win` 9 1026 418 0 514 1496 693 1920 1080 6892333
+~ Move `main_dlg_cur` `proe_win` 9 1020 416 0 1538 1496 693 1920 1080 6892351
+~ Move `main_dlg_cur` `proe_win` 9 1017 415 0 1538 1496 693 1920 1080 6892366
+~ Move `main_dlg_cur` `proe_win` 9 1011 415 0 514 1496 693 1920 1080 6892384
+~ Move `main_dlg_cur` `proe_win` 9 1005 414 0 1538 1496 693 1920 1080 6892402
+~ Move `main_dlg_cur` `proe_win` 9 996 413 0 1538 1496 693 1920 1080 6892421
+~ Move `main_dlg_cur` `proe_win` 9 990 411 0 1538 1496 693 1920 1080 6892435
+~ Move `main_dlg_cur` `proe_win` 9 985 410 0 1538 1496 693 1920 1080 6892450
+~ Move `main_dlg_cur` `proe_win` 9 981 409 0 1538 1496 693 1920 1080 6892461
+~ Move `main_dlg_cur` `proe_win` 9 978 408 0 1538 1496 693 1920 1080 6892471
+~ Move `main_dlg_cur` `proe_win` 9 974 408 0 514 1496 693 1920 1080 6892480
+~ Move `main_dlg_cur` `proe_win` 9 969 407 0 1538 1496 693 1920 1080 6892492
+~ Move `main_dlg_cur` `proe_win` 9 964 406 0 1538 1496 693 1920 1080 6892500
+~ Move `main_dlg_cur` `proe_win` 9 960 406 0 514 1496 693 1920 1080 6892512
+~ Move `main_dlg_cur` `proe_win` 9 955 405 0 1538 1496 693 1920 1080 6892522
+~ Move `main_dlg_cur` `proe_win` 9 951 404 0 1538 1496 693 1920 1080 6892531
+~ Move `main_dlg_cur` `proe_win` 9 947 403 0 1538 1496 693 1920 1080 6892542
+~ Move `main_dlg_cur` `proe_win` 9 944 402 0 1538 1496 693 1920 1080 6892550
+~ Move `main_dlg_cur` `proe_win` 9 942 402 0 514 1496 693 1920 1080 6892560
+~ Move `main_dlg_cur` `proe_win` 9 938 402 0 514 1496 693 1920 1080 6892571
+~ Move `main_dlg_cur` `proe_win` 9 936 401 0 1538 1496 693 1920 1080 6892579
+~ Move `main_dlg_cur` `proe_win` 9 933 400 0 1538 1496 693 1920 1080 6892591
+~ Move `main_dlg_cur` `proe_win` 9 931 400 0 514 1496 693 1920 1080 6892606
+~ Move `main_dlg_cur` `proe_win` 9 930 400 0 514 1496 693 1920 1080 6892830
+~ Move `main_dlg_cur` `proe_win` 9 925 398 0 1538 1496 693 1920 1080 6892845
+~ Move `main_dlg_cur` `proe_win` 9 918 397 0 1538 1496 693 1920 1080 6892862
+~ MButtonDisarm `main_dlg_cur` `proe_win` 9 916 397 0 512 1496 693 1920 1080 6892879
+~ LButtonArm `main_dlg_cur` `proe_win` 9 301 229 0 1 1496 693 1920 1080 6894050
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 301 229 0 0 1496 693 1920 1080 6894119
+@sel_pz_xyz -44.2370129870 564.9350649351 521.6313679334 489.3200041984 -1214.6838291886
+@ sel view 0
+ 3.183998 3.214308 -0.642369 -0.501505 -0.407293 -4.523811
+ -3.239275 3.222514 0.068970 377.149300 130.043911 -1157.252730 4.173140 0.000000 0
+@ stack attr 8
+@ stack attr -1 -1  1
+@ stack attr twk_s_eps
+@ stack idx 0
+@SEL_REC 1 [ 96] 6 2140 2147 (0.0000000000 0.0000000000) (-29.5369281046 6.5000000000 -50.7942286341)
+!PNT2:F24(DATUM POINT):PLATE_DX
+~ Command `ProCmdRedefine@PopupMenuGraphicWinStack` 
+! Executed sub-command ProCmdEditRedefFeat.
+!ODUI session starting: Okit widgets are on, Undo/Redo on, Dashboard style off, Tab style on, Mini Dashboard style off. Feature title : Datum Point
+!ODUI session started.
+!%CPSelect up to 3 references, such as surface, curve, edge or point to place point.
+~ Select `Odui_Dlg_00` `t1.PointsListTable` 2 `r3` `c1`
+!%CPSelect up to 3 references, such as surface, curve, edge or point to place point.
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `0` `c1`
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `1` `c1`
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `1` `c2`
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `0` `c2`
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `1` `c2`
+~ Focus `Odui_Dlg_00` `t1.OffsetRefsTable`
+~ FocusIn `Odui_Dlg_00` `t1.OffsetRefsTable`
+~ Select `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `1` `c2`
+!%CPSelect up to 2 references, such as surface, edge or plane to define point offset.
+~ FocusOut `Odui_Dlg_00` `t1.OffsetRefsTable`
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `` ``
+~ Timer `UI Desktop` `UI Desktop` `CollectorWdg_FocusTimer`
+~ Input `Odui_Dlg_00` `OffsetRefsOffsetOptMnu_MRU1` `3`
+~ Input `Odui_Dlg_00` `OffsetRefsOffsetOptMnu_MRU1` `3.`
+~ Input `Odui_Dlg_00` `OffsetRefsOffsetOptMnu_MRU1` `3.8`
+~ Update `Odui_Dlg_00` `OffsetRefsOffsetOptMnu_MRU1` `3.8`
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `1` `c2`
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `0` `c2`
+~ FocusOut `Odui_Dlg_00` `OffsetRefsOffsetOptMnu_MRU1`
+~ Focus `Odui_Dlg_00` `t1.OffsetRefsTable`
+~ FocusIn `Odui_Dlg_00` `t1.OffsetRefsTable`
+~ Select `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `0` `c2`
+!%CPSelect up to 2 references, such as surface, edge or plane to define point offset.
+~ Focus `Odui_Dlg_00` `t1.OffsetRefsTable`
+~ Activate `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `0` `c2`
+~ Focus `Odui_Dlg_00` `t1.OffsetRefsTable`
+~ Select `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `0` `c2`
+!%CPSelect up to 2 references, such as surface, edge or plane to define point offset.
+~ FocusOut `Odui_Dlg_00` `t1.OffsetRefsTable`
+~ Timer `UI Desktop` `UI Desktop` `CollectorWdg_FocusTimer`
+~ Input `Odui_Dlg_00` `OffsetRefsOffsetOptMnu_MRU1` `9`
+~ Input `Odui_Dlg_00` `OffsetRefsOffsetOptMnu_MRU1` `9.`
+~ Input `Odui_Dlg_00` `OffsetRefsOffsetOptMnu_MRU1` `9.4`
+~ Update `Odui_Dlg_00` `OffsetRefsOffsetOptMnu_MRU1` `9.4`
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `0` `c2`
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `1` `c1`
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `0` `c1`
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `` ``
+~ FocusOut `Odui_Dlg_00` `OffsetRefsOffsetOptMnu_MRU1`
+!%CPSelect up to 2 references, such as surface, edge or plane to define point offset.
+~ Select `Odui_Dlg_00` `t1.PointsListTable` 2 `r2` `c1`
+!%CPSelect up to 3 references, such as surface, curve, edge or point to place point.
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `0` `c2`
+~ FocusOut `Odui_Dlg_00` `t1.RefsTable`
+~ Focus `Odui_Dlg_00` `t1.OffsetRefsTable`
+~ FocusIn `Odui_Dlg_00` `t1.OffsetRefsTable`
+~ Select `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `0` `c2`
+!%CPSelect up to 2 references, such as surface, edge or plane to define point offset.
+~ FocusOut `Odui_Dlg_00` `t1.OffsetRefsTable`
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `` ``
+~ Timer `UI Desktop` `UI Desktop` `CollectorWdg_FocusTimer`
+~ Input `Odui_Dlg_00` `OffsetRefsOffsetOptMnu_MRU1` `9`
+~ Input `Odui_Dlg_00` `OffsetRefsOffsetOptMnu_MRU1` `9.`
+~ Input `Odui_Dlg_00` `OffsetRefsOffsetOptMnu_MRU1` `9.4`
+~ Input `Odui_Dlg_00` `OffsetRefsOffsetOptMnu_MRU1` `9.45`
+~ Update `Odui_Dlg_00` `OffsetRefsOffsetOptMnu_MRU1` `9.45`
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `0` `c2`
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `1` `c2`
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `` ``
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `1` `c2`
+~ FocusOut `Odui_Dlg_00` `OffsetRefsOffsetOptMnu_MRU1`
+~ Focus `Odui_Dlg_00` `t1.OffsetRefsTable`
+~ FocusIn `Odui_Dlg_00` `t1.OffsetRefsTable`
+~ Select `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `1` `c2`
+!%CPSelect up to 2 references, such as surface, edge or plane to define point offset.
+~ Focus `Odui_Dlg_00` `t1.OffsetRefsTable`
+~ Activate `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `1` `c2`
+~ Focus `Odui_Dlg_00` `t1.OffsetRefsTable`
+~ Select `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `1` `c2`
+!%CPSelect up to 2 references, such as surface, edge or plane to define point offset.
+~ FocusOut `Odui_Dlg_00` `t1.OffsetRefsTable`
+~ Timer `UI Desktop` `UI Desktop` `CollectorWdg_FocusTimer`
+~ Input `Odui_Dlg_00` `OffsetRefsOffsetOptMnu_MRU1` `3`
+~ Input `Odui_Dlg_00` `OffsetRefsOffsetOptMnu_MRU1` `3.`
+~ Input `Odui_Dlg_00` `OffsetRefsOffsetOptMnu_MRU1` `3.7`
+~ Input `Odui_Dlg_00` `OffsetRefsOffsetOptMnu_MRU1` `3.75`
+~ Update `Odui_Dlg_00` `OffsetRefsOffsetOptMnu_MRU1` `3.75`
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `1` `c1`
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `` ``
+~ FocusOut `Odui_Dlg_00` `OffsetRefsOffsetOptMnu_MRU1`
+!%CPSelect up to 2 references, such as surface, edge or plane to define point offset.
+~ Activate `Odui_Dlg_00` `stdbtn_1`
+!ODUI session finished.
+!ProgressBarDlg: Regen Started
+!%CIRegenerating PLATE_DX feature 24 out of 43 ...
+!%CIRegenerating PLATE_DX feature 25 out of 43 ...
+!%CIRegenerating PLATE_DX feature 26 out of 43 ...
+!%CIRestoring PLATE_DX feature 27 out of 43 ...
+!%CIRegenerating PLATE_DX feature 28 out of 43 ...
+!%CIRegenerating PLATE_DX feature 29 out of 43 ...
+!%CIRegenerating PLATE_DX feature 30 out of 43 ...
+!%CIRegenerating PLATE_DX feature 31 out of 43 ...
+!%CIRegenerating PLATE_DX feature 32 out of 43 ...
+!%CIRegenerating PLATE_DX feature 33 out of 43 ...
+!%CIRestoring PLATE_DX feature 34 out of 43 ...
+!%CIRegenerating PLATE_DX feature 35 out of 43 ...
+!%CIRegenerating PLATE_DX feature 36 out of 43 ...
+!%CIRegenerating PLATE_DX feature 37 out of 43 ...
+!%CIRegenerating PLATE_DX feature 38 out of 43 ...
+!%CIRestoring PLATE_DX feature 39 out of 43 ...
+!%CIRegenerating PLATE_DX feature 40 out of 43 ...
+!%CIRegenerating PLATE_DX feature 41 out of 43 ...
+!%CIRegenerating PLATE_DX feature 42 out of 43 ...
+!%CIRegenerating PLATE_DX feature 43 out of 43 ...
+!%CIPLATE_DX regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 1304 type 5300 
+!%CIFeature redefined successfully.
+!F24(DATUM POINT):PLATE_DX
+~ LButtonArm `main_dlg_cur` `proe_win` 9 832 475 0 1 1496 693 1920 1080 6927173
+~ Move `main_dlg_cur` `proe_win` 9 832 475 0 1 1496 693 1920 1080 6927193
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 832 475 0 0 1496 693 1920 1080 6927240
+@sel_pz_xyz 602.2727272727 265.4220779221 676.5530287271 417.5483873335 -1214.6838291886
+@ sel view 0
+ 3.183998 3.214308 -0.642369 -0.501505 -0.407293 -4.523811
+ -3.239275 3.222514 0.068970 377.149300 130.043911 -1157.252730 4.173140 0.000000 0
+@ stack attr 8
+@ stack attr -1 -1  1
+@ stack attr twk_s_eps
+@ stack idx 0
+@SEL_REC 1 [ 96] 6 3364 3365 (0.0000000000 0.0000000000) (21.5130718954 6.5000000000 -40.2000286341)
+!PNT3:F33(DATUM POINT):PLATE_DX
+~ Command `ProCmdRedefine@PopupMenuGraphicWinStack` 
+! Executed sub-command ProCmdEditRedefFeat.
+!ODUI session starting: Okit widgets are on, Undo/Redo on, Dashboard style off, Tab style on, Mini Dashboard style off. Feature title : Datum Point
+!ODUI session started.
+!%CPSelect up to 3 references, such as surface, curve, edge or point to place point.
+~ Trigger `Odui_Dlg_00` `t1.RefsTable` 2 `0` `c1`
+~ Trigger `Odui_Dlg_00` `t1.RefsTable` 2 `` ``
+~ Trigger `Odui_Dlg_00` `t1.RefsTable` 2 `0` `c1`
+~ Trigger `Odui_Dlg_00` `t1.RefsTable` 2 `` ``
+~ Select `Odui_Dlg_00` `t1.PointsListTable` 2 `r2` `c1`
+!%CPSelect up to 3 references, such as surface, curve, edge or point to place point.
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `0` `c1`
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `1` `c1`
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `1` `c2`
+~ Focus `Odui_Dlg_00` `t1.OffsetRefsTable`
+~ FocusIn `Odui_Dlg_00` `t1.OffsetRefsTable`
+~ Select `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `1` `c2`
+!%CPSelect up to 2 references, such as surface, edge or plane to define point offset.
+~ FocusOut `Odui_Dlg_00` `t1.OffsetRefsTable`
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `` ``
+~ Timer `UI Desktop` `UI Desktop` `CollectorWdg_FocusTimer`
+~ Input `Odui_Dlg_00` `OffsetRefsOffsetOptMnu_MRU1` `9`
+~ Input `Odui_Dlg_00` `OffsetRefsOffsetOptMnu_MRU1` `9.`
+~ Input `Odui_Dlg_00` `OffsetRefsOffsetOptMnu_MRU1` `9.4`
+~ Input `Odui_Dlg_00` `OffsetRefsOffsetOptMnu_MRU1` `9.45`
+~ Update `Odui_Dlg_00` `OffsetRefsOffsetOptMnu_MRU1` `9.45`
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `1` `c2`
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `0` `c2`
+~ FocusOut `Odui_Dlg_00` `OffsetRefsOffsetOptMnu_MRU1`
+~ Focus `Odui_Dlg_00` `t1.OffsetRefsTable`
+~ FocusIn `Odui_Dlg_00` `t1.OffsetRefsTable`
+~ Select `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `0` `c2`
+!%CPSelect up to 2 references, such as surface, edge or plane to define point offset.
+~ Focus `Odui_Dlg_00` `t1.OffsetRefsTable`
+~ Activate `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `0` `c2`
+~ Focus `Odui_Dlg_00` `t1.OffsetRefsTable`
+~ Select `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `0` `c2`
+!%CPSelect up to 2 references, such as surface, edge or plane to define point offset.
+~ FocusOut `Odui_Dlg_00` `t1.OffsetRefsTable`
+~ Timer `UI Desktop` `UI Desktop` `CollectorWdg_FocusTimer`
+~ Input `Odui_Dlg_00` `OffsetRefsOffsetOptMnu_MRU1` `3`
+~ Input `Odui_Dlg_00` `OffsetRefsOffsetOptMnu_MRU1` `3.`
+~ Input `Odui_Dlg_00` `OffsetRefsOffsetOptMnu_MRU1` `3.7`
+~ Input `Odui_Dlg_00` `OffsetRefsOffsetOptMnu_MRU1` `3.75`
+~ Update `Odui_Dlg_00` `OffsetRefsOffsetOptMnu_MRU1` `3.75`
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `0` `c2`
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `` ``
+~ FocusOut `Odui_Dlg_00` `OffsetRefsOffsetOptMnu_MRU1`
+!%CPSelect up to 2 references, such as surface, edge or plane to define point offset.
+~ Select `Odui_Dlg_00` `t1.PointsListTable` 2 `r3` `c1`
+!%CPSelect up to 3 references, such as surface, curve, edge or point to place point.
+~ FocusOut `Odui_Dlg_00` `t1.RefsTable`
+~ Activate `Odui_Dlg_00` `t1.PointsListTable` 2 `r3` `c1`
+~ Select `Odui_Dlg_00` `t1.PointsListTable` 2 `r3` `c1`
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `0` `c2`
+~ FocusOut `Odui_Dlg_00` `t1.PointNameInputPanel`
+~ Focus `Odui_Dlg_00` `t1.OffsetRefsTable`
+~ FocusOut `Odui_Dlg_00` `t1.OffsetRefsTable`
+~ FocusIn `Odui_Dlg_00` `t1.OffsetRefsTable`
+~ Select `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `0` `c2`
+!%CPSelect up to 2 references, such as surface, edge or plane to define point offset.
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `` ``
+~ Timer `UI Desktop` `UI Desktop` `CollectorWdg_FocusTimer`
+~ Input `Odui_Dlg_00` `OffsetRefsOffsetOptMnu_MRU1` `3`
+~ Input `Odui_Dlg_00` `OffsetRefsOffsetOptMnu_MRU1` `3.`
+~ Input `Odui_Dlg_00` `OffsetRefsOffsetOptMnu_MRU1` `3.8`
+~ Update `Odui_Dlg_00` `OffsetRefsOffsetOptMnu_MRU1` `3.8`
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `0` `c1`
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `` ``
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `0` `c2`
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `` ``
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `0` `c2`
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `1` `c2`
+~ FocusOut `Odui_Dlg_00` `OffsetRefsOffsetOptMnu_MRU1`
+~ Focus `Odui_Dlg_00` `t1.OffsetRefsTable`
+~ FocusIn `Odui_Dlg_00` `t1.OffsetRefsTable`
+~ Select `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `1` `c2`
+!%CPSelect up to 2 references, such as surface, edge or plane to define point offset.
+~ Focus `Odui_Dlg_00` `t1.OffsetRefsTable`
+~ Activate `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `1` `c2`
+~ Focus `Odui_Dlg_00` `t1.OffsetRefsTable`
+~ Select `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `1` `c2`
+!%CPSelect up to 2 references, such as surface, edge or plane to define point offset.
+~ FocusOut `Odui_Dlg_00` `t1.OffsetRefsTable`
+~ Timer `UI Desktop` `UI Desktop` `CollectorWdg_FocusTimer`
+~ Input `Odui_Dlg_00` `OffsetRefsOffsetOptMnu_MRU1` `9`
+~ Input `Odui_Dlg_00` `OffsetRefsOffsetOptMnu_MRU1` `9.`
+~ Input `Odui_Dlg_00` `OffsetRefsOffsetOptMnu_MRU1` `9.4`
+~ Update `Odui_Dlg_00` `OffsetRefsOffsetOptMnu_MRU1` `9.4`
+~ Activate `Odui_Dlg_00` `OffsetRefsOffsetOptMnu_MRU1`
+!%CPSelect up to 2 references, such as surface, edge or plane to define point offset.
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `1` `c2`
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `` ``
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `0` `c1`
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `0` `c2`
+~ Focus `Odui_Dlg_00` `t1.OffsetRefsTable`
+~ Select `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `0` `c2`
+!%CPSelect up to 2 references, such as surface, edge or plane to define point offset.
+~ FocusOut `Odui_Dlg_00` `t1.OffsetRefsTable`
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `` ``
+~ Timer `UI Desktop` `UI Desktop` `CollectorWdg_FocusTimer`
+~ Input `Odui_Dlg_00` `OffsetRefsOffsetOptMnu_MRU1` `9`
+~ Input `Odui_Dlg_00` `OffsetRefsOffsetOptMnu_MRU1` `9.`
+~ Input `Odui_Dlg_00` `OffsetRefsOffsetOptMnu_MRU1` `9.4`
+~ Update `Odui_Dlg_00` `OffsetRefsOffsetOptMnu_MRU1` `9.4`
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `0` `c2`
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `` ``
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `1` `c1`
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `1` `c2`
+~ FocusOut `Odui_Dlg_00` `OffsetRefsOffsetOptMnu_MRU1`
+~ Focus `Odui_Dlg_00` `t1.OffsetRefsTable`
+~ FocusIn `Odui_Dlg_00` `t1.OffsetRefsTable`
+~ Select `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `1` `c2`
+!%CPSelect up to 2 references, such as surface, edge or plane to define point offset.
+~ Focus `Odui_Dlg_00` `t1.OffsetRefsTable`
+~ Activate `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `1` `c2`
+~ Focus `Odui_Dlg_00` `t1.OffsetRefsTable`
+~ Select `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `1` `c2`
+!%CPSelect up to 2 references, such as surface, edge or plane to define point offset.
+~ FocusOut `Odui_Dlg_00` `t1.OffsetRefsTable`
+~ Timer `UI Desktop` `UI Desktop` `CollectorWdg_FocusTimer`
+~ Input `Odui_Dlg_00` `OffsetRefsOffsetOptMnu_MRU1` `3`
+~ Input `Odui_Dlg_00` `OffsetRefsOffsetOptMnu_MRU1` `3.`
+~ Input `Odui_Dlg_00` `OffsetRefsOffsetOptMnu_MRU1` `3.8`
+~ Update `Odui_Dlg_00` `OffsetRefsOffsetOptMnu_MRU1` `3.8`
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `1` `c1`
+~ Trigger `Odui_Dlg_00` `t1.OffsetRefsTable` 2 `` ``
+~ FocusOut `Odui_Dlg_00` `OffsetRefsOffsetOptMnu_MRU1`
+!%CPSelect up to 2 references, such as surface, edge or plane to define point offset.
+~ Activate `Odui_Dlg_00` `stdbtn_1`
+!ODUI session finished.
+!ProgressBarDlg: Regen Started
+!%CIRegenerating PLATE_DX feature 33 out of 43 ...
+!%CIRegenerating PLATE_DX feature 34 out of 43 ...
+!%CIRegenerating PLATE_DX feature 35 out of 43 ...
+!%CIRegenerating PLATE_DX feature 36 out of 43 ...
+!%CIRegenerating PLATE_DX feature 37 out of 43 ...
+!%CIRegenerating PLATE_DX feature 38 out of 43 ...
+!%CIRestoring PLATE_DX feature 39 out of 43 ...
+!%CIRegenerating PLATE_DX feature 40 out of 43 ...
+!%CIRegenerating PLATE_DX feature 41 out of 43 ...
+!%CIRegenerating PLATE_DX feature 42 out of 43 ...
+!%CIRegenerating PLATE_DX feature 43 out of 43 ...
+!%CIPLATE_DX regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 1307 type 5300 
+!%CIFeature redefined successfully.
+!F33(DATUM POINT):PLATE_DX
+~ MButtonArm `main_dlg_cur` `proe_win` 9 1174 412 0 2 1496 693 1920 1080 6964404
+~ Move `main_dlg_cur` `proe_win` 9 1173 412 0 514 1496 693 1920 1080 6964531
+~ Move `main_dlg_cur` `proe_win` 9 1170 412 0 514 1496 693 1920 1080 6964539
+~ Move `main_dlg_cur` `proe_win` 9 1163 412 0 514 1496 693 1920 1080 6964550
+~ Move `main_dlg_cur` `proe_win` 9 1149 412 0 514 1496 693 1920 1080 6964571
+~ Move `main_dlg_cur` `proe_win` 9 1139 411 0 1538 1496 693 1920 1080 6964588
+~ Move `main_dlg_cur` `proe_win` 9 1130 409 0 1538 1496 693 1920 1080 6964606
+~ Move `main_dlg_cur` `proe_win` 9 1124 408 0 1538 1496 693 1920 1080 6964621
+~ Move `main_dlg_cur` `proe_win` 9 1120 407 0 1538 1496 693 1920 1080 6964637
+~ Move `main_dlg_cur` `proe_win` 9 1116 407 0 514 1496 693 1920 1080 6964653
+~ Move `main_dlg_cur` `proe_win` 9 1112 407 0 514 1496 693 1920 1080 6964671
+~ Move `main_dlg_cur` `proe_win` 9 1107 407 0 514 1496 693 1920 1080 6964686
+~ Move `main_dlg_cur` `proe_win` 9 1099 407 0 514 1496 693 1920 1080 6964705
+~ Move `main_dlg_cur` `proe_win` 9 1092 406 0 1538 1496 693 1920 1080 6964720
+~ Move `main_dlg_cur` `proe_win` 9 1089 406 0 514 1496 693 1920 1080 6964738
+~ Move `main_dlg_cur` `proe_win` 9 1087 406 0 514 1496 693 1920 1080 6964776
+~ Move `main_dlg_cur` `proe_win` 9 1083 405 0 1538 1496 693 1920 1080 6964793
+~ Move `main_dlg_cur` `proe_win` 9 1078 404 0 1538 1496 693 1920 1080 6964810
+~ Move `main_dlg_cur` `proe_win` 9 1070 402 0 1538 1496 693 1920 1080 6964829
+~ Move `main_dlg_cur` `proe_win` 9 1058 399 0 1538 1496 693 1920 1080 6964848
+~ Move `main_dlg_cur` `proe_win` 9 1049 397 0 1538 1496 693 1920 1080 6964863
+~ Move `main_dlg_cur` `proe_win` 9 1040 395 0 1538 1496 693 1920 1080 6964876
+~ Move `main_dlg_cur` `proe_win` 9 1035 394 0 1538 1496 693 1920 1080 6964887
+~ Move `main_dlg_cur` `proe_win` 9 1030 393 0 1538 1496 693 1920 1080 6964898
+~ Move `main_dlg_cur` `proe_win` 9 1025 392 0 1538 1496 693 1920 1080 6964908
+~ Move `main_dlg_cur` `proe_win` 9 1019 391 0 1538 1496 693 1920 1080 6964919
+~ Move `main_dlg_cur` `proe_win` 9 1011 390 0 1538 1496 693 1920 1080 6964932
+~ Move `main_dlg_cur` `proe_win` 9 999 389 0 1538 1496 693 1920 1080 6964949
+~ Move `main_dlg_cur` `proe_win` 9 987 389 0 514 1496 693 1920 1080 6964964
+~ Move `main_dlg_cur` `proe_win` 9 974 389 0 514 1496 693 1920 1080 6964982
+~ Move `main_dlg_cur` `proe_win` 9 968 389 0 514 1496 693 1920 1080 6965000
+~ Move `main_dlg_cur` `proe_win` 9 963 389 0 514 1496 693 1920 1080 6965017
+~ Move `main_dlg_cur` `proe_win` 9 961 390 0 1538 1496 693 1920 1080 6965032
+~ Move `main_dlg_cur` `proe_win` 9 960 390 0 514 1496 693 1920 1080 6965052
+~ Move `main_dlg_cur` `proe_win` 9 956 390 0 514 1496 693 1920 1080 6965069
+~ Move `main_dlg_cur` `proe_win` 9 949 390 0 514 1496 693 1920 1080 6965085
+~ Move `main_dlg_cur` `proe_win` 9 940 390 0 514 1496 693 1920 1080 6965101
+~ Move `main_dlg_cur` `proe_win` 9 926 389 0 1538 1496 693 1920 1080 6965121
+~ Move `main_dlg_cur` `proe_win` 9 918 387 0 1538 1496 693 1920 1080 6965137
+~ Move `main_dlg_cur` `proe_win` 9 910 387 0 514 1496 693 1920 1080 6965157
+~ Move `main_dlg_cur` `proe_win` 9 904 386 0 1538 1496 693 1920 1080 6965175
+~ Move `main_dlg_cur` `proe_win` 9 897 385 0 1538 1496 693 1920 1080 6965193
+~ Move `main_dlg_cur` `proe_win` 9 891 385 0 514 1496 693 1920 1080 6965208
+~ Move `main_dlg_cur` `proe_win` 9 885 385 0 514 1496 693 1920 1080 6965226
+~ Move `main_dlg_cur` `proe_win` 9 881 385 0 514 1496 693 1920 1080 6965243
+~ Move `main_dlg_cur` `proe_win` 9 873 385 0 514 1496 693 1920 1080 6965260
+~ Move `main_dlg_cur` `proe_win` 9 866 384 0 1538 1496 693 1920 1080 6965276
+~ Move `main_dlg_cur` `proe_win` 9 854 383 0 1538 1496 693 1920 1080 6965294
+~ Move `main_dlg_cur` `proe_win` 9 845 382 0 1538 1496 693 1920 1080 6965311
+~ Move `main_dlg_cur` `proe_win` 9 836 381 0 1538 1496 693 1920 1080 6965328
+~ Move `main_dlg_cur` `proe_win` 9 830 380 0 1538 1496 693 1920 1080 6965342
+~ Move `main_dlg_cur` `proe_win` 9 821 378 0 1538 1496 693 1920 1080 6965358
+~ Move `main_dlg_cur` `proe_win` 9 813 378 0 514 1496 693 1920 1080 6965371
+~ Move `main_dlg_cur` `proe_win` 9 805 376 0 1538 1496 693 1920 1080 6965388
+~ Move `main_dlg_cur` `proe_win` 9 799 374 0 1538 1496 693 1920 1080 6965402
+~ Move `main_dlg_cur` `proe_win` 9 794 372 0 1538 1496 693 1920 1080 6965420
+~ Move `main_dlg_cur` `proe_win` 9 791 371 0 1538 1496 693 1920 1080 6965434
+~ Move `main_dlg_cur` `proe_win` 9 789 370 0 1538 1496 693 1920 1080 6965449
+~ MButtonDisarm `main_dlg_cur` `proe_win` 9 788 370 0 512 1496 693 1920 1080 6965674
+~ Wheel `main_dlg_cur` `proe_win` 9 1069 319 393216 0 1496 693 1920 1080 6966092
+~ Wheel `main_dlg_cur` `proe_win` 9 1069 319 393216 0 1496 693 1920 1080 6966114
+~ Wheel `main_dlg_cur` `proe_win` 9 1069 319 393216 0 1496 693 1920 1080 6966140
+~ Wheel `main_dlg_cur` `proe_win` 9 1069 319 393216 0 1496 693 1920 1080 6966172
+~ Wheel `main_dlg_cur` `proe_win` 9 1090 341 393216 1024 1496 693 1920 1080 6966438
+~ Wheel `main_dlg_cur` `proe_win` 9 1090 341 393216 0 1496 693 1920 1080 6966463
+~ Wheel `main_dlg_cur` `proe_win` 9 1090 341 393216 0 1496 693 1920 1080 6966508
+~ MButtonArm `main_dlg_cur` `proe_win` 9 1204 345 0 2 1496 693 1920 1080 6966968
+~ Move `main_dlg_cur` `proe_win` 9 1205 345 0 514 1496 693 1920 1080 6967141
+~ Move `main_dlg_cur` `proe_win` 9 1206 347 0 1538 1496 693 1920 1080 6967149
+~ Move `main_dlg_cur` `proe_win` 9 1208 348 0 1538 1496 693 1920 1080 6967158
+~ Move `main_dlg_cur` `proe_win` 9 1210 350 0 1538 1496 693 1920 1080 6967163
+~ Move `main_dlg_cur` `proe_win` 9 1212 353 0 1538 1496 693 1920 1080 6967172
+~ Move `main_dlg_cur` `proe_win` 9 1214 355 0 1538 1496 693 1920 1080 6967183
+~ Move `main_dlg_cur` `proe_win` 9 1216 358 0 1538 1496 693 1920 1080 6967192
+~ Move `main_dlg_cur` `proe_win` 9 1217 359 0 1538 1496 693 1920 1080 6967202
+~ Move `main_dlg_cur` `proe_win` 9 1219 363 0 1538 1496 693 1920 1080 6967213
+~ Move `main_dlg_cur` `proe_win` 9 1220 365 0 1538 1496 693 1920 1080 6967221
+~ Move `main_dlg_cur` `proe_win` 9 1222 366 0 1538 1496 693 1920 1080 6967231
+~ Move `main_dlg_cur` `proe_win` 9 1222 368 0 1026 1496 693 1920 1080 6967241
+~ Move `main_dlg_cur` `proe_win` 9 1222 369 0 1026 1496 693 1920 1080 6967421
+~ Move `main_dlg_cur` `proe_win` 9 1225 371 0 1538 1496 693 1920 1080 6967435
+~ Move `main_dlg_cur` `proe_win` 9 1228 374 0 1538 1496 693 1920 1080 6967452
+~ Move `main_dlg_cur` `proe_win` 9 1229 377 0 1538 1496 693 1920 1080 6967468
+~ Move `main_dlg_cur` `proe_win` 9 1231 379 0 1538 1496 693 1920 1080 6967487
+~ Move `main_dlg_cur` `proe_win` 9 1233 381 0 1538 1496 693 1920 1080 6967502
+~ Move `main_dlg_cur` `proe_win` 9 1234 383 0 1538 1496 693 1920 1080 6967522
+~ Move `main_dlg_cur` `proe_win` 9 1235 386 0 1538 1496 693 1920 1080 6967537
+~ Move `main_dlg_cur` `proe_win` 9 1238 390 0 1538 1496 693 1920 1080 6967557
+~ Move `main_dlg_cur` `proe_win` 9 1239 393 0 1538 1496 693 1920 1080 6967572
+~ Move `main_dlg_cur` `proe_win` 9 1242 395 0 1538 1496 693 1920 1080 6967591
+~ Move `main_dlg_cur` `proe_win` 9 1244 398 0 1538 1496 693 1920 1080 6967607
+~ Move `main_dlg_cur` `proe_win` 9 1246 401 0 1538 1496 693 1920 1080 6967626
+~ Move `main_dlg_cur` `proe_win` 9 1248 403 0 1538 1496 693 1920 1080 6967643
+~ Move `main_dlg_cur` `proe_win` 9 1249 405 0 1538 1496 693 1920 1080 6967659
+~ Move `main_dlg_cur` `proe_win` 9 1250 407 0 1538 1496 693 1920 1080 6967771
+~ Move `main_dlg_cur` `proe_win` 9 1250 412 0 1026 1496 693 1920 1080 6967788
+~ Move `main_dlg_cur` `proe_win` 9 1251 417 0 1538 1496 693 1920 1080 6967806
+~ Move `main_dlg_cur` `proe_win` 9 1252 421 0 1538 1496 693 1920 1080 6967822
+~ Move `main_dlg_cur` `proe_win` 9 1253 424 0 1538 1496 693 1920 1080 6967840
+~ Move `main_dlg_cur` `proe_win` 9 1253 425 0 1026 1496 693 1920 1080 6967985
+~ Move `main_dlg_cur` `proe_win` 9 1253 429 0 1026 1496 693 1920 1080 6968005
+~ Move `main_dlg_cur` `proe_win` 9 1253 430 0 1026 1496 693 1920 1080 6968025
+~ Move `main_dlg_cur` `proe_win` 9 1253 431 0 1026 1496 693 1920 1080 6968049
+~ MButtonDisarm `main_dlg_cur` `proe_win` 9 1253 431 0 0 1496 693 1920 1080 6968124
+~ Wheel `main_dlg_cur` `proe_win` 9 1067 325 458752 0 1496 693 1920 1080 6968549
+~ Wheel `main_dlg_cur` `proe_win` 9 1067 325 458752 0 1496 693 1920 1080 6968564
+~ Wheel `main_dlg_cur` `proe_win` 9 1067 325 458752 0 1496 693 1920 1080 6968576
+~ Wheel `main_dlg_cur` `proe_win` 9 1067 325 458752 0 1496 693 1920 1080 6968586
+~ Wheel `main_dlg_cur` `proe_win` 9 1067 325 458752 0 1496 693 1920 1080 6968596
+~ Wheel `main_dlg_cur` `proe_win` 9 1067 325 458752 0 1496 693 1920 1080 6968606
+~ Wheel `main_dlg_cur` `proe_win` 9 933 305 458752 0 1496 693 1920 1080 6969032
+~ MButtonArm `main_dlg_cur` `proe_win` 9 895 300 0 2 1496 693 1920 1080 6969569
+~ Move `main_dlg_cur` `proe_win` 9 894 300 0 514 1496 693 1920 1080 6969587
+~ Move `main_dlg_cur` `proe_win` 9 893 300 0 514 1496 693 1920 1080 6969599
+~ Move `main_dlg_cur` `proe_win` 9 892 300 0 514 1496 693 1920 1080 6969610
+~ Move `main_dlg_cur` `proe_win` 9 891 300 0 514 1496 693 1920 1080 6969616
+~ Move `main_dlg_cur` `proe_win` 9 890 300 0 514 1496 693 1920 1080 6969636
+~ Move `main_dlg_cur` `proe_win` 9 889 300 0 514 1496 693 1920 1080 6969653
+~ Move `main_dlg_cur` `proe_win` 9 888 300 0 514 1496 693 1920 1080 6969665
+~ Move `main_dlg_cur` `proe_win` 9 887 300 0 514 1496 693 1920 1080 6969674
+~ Move `main_dlg_cur` `proe_win` 9 885 299 0 1538 1496 693 1920 1080 6969684
+~ Move `main_dlg_cur` `proe_win` 9 884 298 0 1538 1496 693 1920 1080 6969694
+~ Move `main_dlg_cur` `proe_win` 9 881 297 0 1538 1496 693 1920 1080 6969705
+~ Move `main_dlg_cur` `proe_win` 9 879 294 0 1538 1496 693 1920 1080 6969713
+~ Move `main_dlg_cur` `proe_win` 9 876 293 0 1538 1496 693 1920 1080 6969724
+~ Move `main_dlg_cur` `proe_win` 9 874 290 0 1538 1496 693 1920 1080 6969735
+~ Move `main_dlg_cur` `proe_win` 9 872 289 0 1538 1496 693 1920 1080 6969744
+~ Move `main_dlg_cur` `proe_win` 9 871 288 0 1538 1496 693 1920 1080 6969751
+~ Move `main_dlg_cur` `proe_win` 9 870 287 0 1538 1496 693 1920 1080 6969760
+~ Move `main_dlg_cur` `proe_win` 9 868 287 0 514 1496 693 1920 1080 6969770
+~ Move `main_dlg_cur` `proe_win` 9 868 285 0 1026 1496 693 1920 1080 6969781
+~ Move `main_dlg_cur` `proe_win` 9 866 285 0 514 1496 693 1920 1080 6969872
+~ Move `main_dlg_cur` `proe_win` 9 865 285 0 514 1496 693 1920 1080 6969944
+~ Move `main_dlg_cur` `proe_win` 9 864 284 0 1538 1496 693 1920 1080 6969958
+~ Move `main_dlg_cur` `proe_win` 9 862 283 0 1538 1496 693 1920 1080 6969975
+~ Move `main_dlg_cur` `proe_win` 9 861 281 0 1538 1496 693 1920 1080 6969985
+~ Move `main_dlg_cur` `proe_win` 9 858 280 0 1538 1496 693 1920 1080 6969998
+~ Move `main_dlg_cur` `proe_win` 9 854 276 0 1538 1496 693 1920 1080 6970013
+~ MButtonDisarm `main_dlg_cur` `proe_win` 9 854 276 0 0 1496 693 1920 1080 6970030
+~ LButtonArm `main_dlg_cur` `proe_win` 9 690 278 0 513 1496 693 1920 1080 6971013
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 690 278 0 0 1496 693 1920 1080 6971081
+@sel_pz_xyz 429.3831168831 505.2759740260 608.8942711978 484.8220267330 -1214.6838291885
+@ sel view 0
+ -4.289420 1.434985 0.651114 0.332571 2.670046 -3.693577
+ -1.540301 -3.419639 -2.610708 643.612786 166.627247 -1380.173693 4.173140 0.000000 0
+@ stack attr 8
+@ stack attr -1 -1  1
+@ stack attr twk_s_eps
+@ stack idx 0
+@SEL_REC 1 [ 46] 2 64 -1 (2.6240826225 1.7348741869) (2.6240826225 29.5000000000 -1.7348741869)
+!Surf:F6(EXTRUDE_1):JODELL_SLIDER
+~ MButtonArm `main_dlg_cur` `proe_win` 9 1028 360 0 2 1496 693 1920 1080 6973475
+~ Move `main_dlg_cur` `proe_win` 9 1028 359 0 1026 1496 693 1920 1080 6973572
+~ Move `main_dlg_cur` `proe_win` 9 1034 357 0 1538 1496 693 1920 1080 6973579
+~ Move `main_dlg_cur` `proe_win` 9 1066 343 0 1538 1496 693 1920 1080 6973624
+~ Move `main_dlg_cur` `proe_win` 9 1075 337 0 1538 1496 693 1920 1080 6973641
+~ Move `main_dlg_cur` `proe_win` 9 1079 336 0 1538 1496 693 1920 1080 6973658
+~ MButtonDisarm `main_dlg_cur` `proe_win` 9 1079 336 0 0 1496 693 1920 1080 6973813
+~ Wheel `main_dlg_cur` `proe_win` 9 1055 340 393216 0 1496 693 1920 1080 6973998
+~ Wheel `main_dlg_cur` `proe_win` 9 1055 340 393216 0 1496 693 1920 1080 6974026
+~ Wheel `main_dlg_cur` `proe_win` 9 1056 340 393216 0 1496 693 1920 1080 6974053
+~ Wheel `main_dlg_cur` `proe_win` 9 1056 340 393216 0 1496 693 1920 1080 6974085
+~ Move `main_dlg_cur` `proe_win` 9 1112 248 16777216 512 1496 693 1920 1080 6974685
+>M Chain_oa_sel_CB ProeWin0 1112 248 40 10000 1496 0 0 693 1920 0 0 1080 13
+>M Collectors_CB ProeWin0 1112 248 40 10000 1496 0 0 693 1920 0 0 1080 13
+~ MButtonArm `main_dlg_cur` `proe_win` 9 1112 248 16777216 2 1496 693 1920 1080 6974775
+~ Move `main_dlg_cur` `proe_win` 9 1112 247 16777216 1026 1496 693 1920 1080 6974811
+~ Move `main_dlg_cur` `proe_win` 9 1112 246 16777216 1026 1496 693 1920 1080 6974866
+~ Move `main_dlg_cur` `proe_win` 9 1110 241 16777216 1538 1496 693 1920 1080 6974876
+~ Move `main_dlg_cur` `proe_win` 9 1101 228 16777216 1538 1496 693 1920 1080 6974897
+~ Move `main_dlg_cur` `proe_win` 9 1094 216 16777216 1538 1496 693 1920 1080 6974912
+~ Move `main_dlg_cur` `proe_win` 9 1087 204 16777216 1538 1496 693 1920 1080 6974931
+~ Move `main_dlg_cur` `proe_win` 9 1081 194 16777216 1538 1496 693 1920 1080 6974950
+~ Move `main_dlg_cur` `proe_win` 9 1078 188 16777216 1538 1496 693 1920 1080 6974968
+~ Move `main_dlg_cur` `proe_win` 9 1078 186 16777216 1026 1496 693 1920 1080 6974983
+~ MButtonDisarm `main_dlg_cur` `proe_win` 9 1077 186 16777216 512 1496 693 1920 1080 6975131
+~ Move `main_dlg_cur` `proe_win` 9 1069 188 0 0 1496 693 1920 1080 6975207
+>M Chain_oa_sel_CB ProeWin0 1069 188 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M Collectors_CB ProeWin0 1069 188 c0 0 1496 0 0 693 1920 0 0 1080 13
+~ MButtonArm `main_dlg_cur` `proe_win` 9 1047 195 0 2 1496 693 1920 1080 6975401
+~ Move `main_dlg_cur` `proe_win` 9 1046 195 0 514 1496 693 1920 1080 6975455
+~ Move `main_dlg_cur` `proe_win` 9 1045 195 0 514 1496 693 1920 1080 6975464
+~ Move `main_dlg_cur` `proe_win` 9 1043 195 0 514 1496 693 1920 1080 6975479
+~ Move `main_dlg_cur` `proe_win` 9 1042 194 0 1538 1496 693 1920 1080 6975488
+~ Move `main_dlg_cur` `proe_win` 9 1041 194 0 514 1496 693 1920 1080 6975501
+~ Move `main_dlg_cur` `proe_win` 9 1041 192 0 1026 1496 693 1920 1080 6975520
+~ Move `main_dlg_cur` `proe_win` 9 1040 190 0 1538 1496 693 1920 1080 6975541
+~ Move `main_dlg_cur` `proe_win` 9 1039 190 0 514 1496 693 1920 1080 6975570
+~ Move `main_dlg_cur` `proe_win` 9 1039 189 0 1026 1496 693 1920 1080 6975593
+~ Move `main_dlg_cur` `proe_win` 9 1038 187 0 1538 1496 693 1920 1080 6975607
+~ Move `main_dlg_cur` `proe_win` 9 1037 185 0 1538 1496 693 1920 1080 6975623
+~ Move `main_dlg_cur` `proe_win` 9 1036 184 0 1538 1496 693 1920 1080 6975712
+~ Move `main_dlg_cur` `proe_win` 9 1035 180 0 1538 1496 693 1920 1080 6975731
+~ MButtonDisarm `main_dlg_cur` `proe_win` 9 1034 180 0 512 1496 693 1920 1080 6976029
+~ Command `PMechCmdAsmDrag` 
+!Mechanism Design Command Script File
+!	Version: 	P_90_57:spg
+!	Platform:	x86e_win64
+!	Created: 	5/26/2026 at 21:23:46
+~ LButtonArm `main_dlg_cur` `proe_win` 9 716 137 0 1 1496 693 1920 1080 6978208
+~ Move `main_dlg_cur` `proe_win` 9 716 137 0 1 1496 693 1920 1080 6978218
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 716 137 0 0 1496 693 1920 1080 6978239
+@sel_pz_xyz 461.0389610390 676.9480519481 498.5916807146 567.1663266781 -1214.6838291885
+@ sel view 0
+ -4.545422 -0.224069 -0.413747 0.366800 0.829377 -4.478822
+ 0.294705 -4.488227 -0.806984 579.774242 113.051975 -1312.883971 1.709318 0.000000 0
+@ stack attr 8
+@ stack attr -1 -1  1
+@ stack idx 0
+@SEL_REC 1 [ 83] 2 399 -1 (-13.3889989353 13.8040011004) (7.2000000000 5.3889989353 -13.8040011004)
+!Surf:F12(EXTRUDE_3):FINGER_BASE
+!%CIPress L mouse button to accept positions; 
+!%C_M mouse button to abort dragging; 
+!%C_R mouse button to abort and finish dragging;
+!%C_and move mouse to drag.
+>M mouseDragCB ProeWin0 715 137 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 714 137 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 713 137 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 712 137 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 711 137 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 710 137 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 709 137 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 708 137 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 707 137 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 706 137 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 702 137 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 701 137 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 699 137 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 698 137 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 695 137 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 694 137 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 690 137 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 686 137 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 685 137 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 678 137 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 672 136 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 667 135 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 660 135 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 657 135 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 651 135 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 642 134 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 638 134 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 631 134 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 627 133 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 624 132 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 623 132 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 619 132 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 616 132 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 613 132 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 612 132 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 608 131 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 607 131 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 603 131 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 602 131 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 597 131 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 596 131 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 591 131 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 590 131 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 589 131 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 585 131 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 584 131 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 583 131 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 582 131 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 581 131 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 580 131 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 579 131 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 578 131 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 577 131 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 575 131 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 574 132 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 573 132 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 572 132 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 570 132 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 569 132 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 568 132 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 567 132 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 566 132 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 565 132 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 564 132 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 563 132 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 562 132 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 563 132 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 567 132 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 571 132 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 575 133 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 577 133 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 578 133 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 581 133 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 583 133 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 584 133 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 585 133 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 586 133 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 592 133 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 597 133 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 603 133 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 608 133 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 610 133 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 613 133 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 619 132 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 623 132 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 630 132 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 641 133 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 650 133 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 656 133 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 665 133 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 667 133 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 669 133 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 670 133 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 671 133 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 672 133 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 676 134 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 678 134 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 682 135 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 684 136 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 688 137 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 694 139 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 696 139 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 698 139 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 700 139 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 701 140 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 702 140 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 703 140 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 704 140 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 705 140 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 706 140 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 706 141 80 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 707 141 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 708 141 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 709 141 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 710 141 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 711 141 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 712 141 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 712 142 80 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 713 142 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 714 142 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 715 142 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 716 142 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 717 142 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 718 142 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 719 142 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 720 142 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 721 143 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 722 143 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 723 143 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 722 143 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 720 143 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 719 143 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 717 143 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 715 143 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 714 143 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 713 143 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 712 142 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 710 142 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 708 141 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 706 140 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 705 140 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 704 140 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 703 140 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 702 140 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 701 140 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 700 140 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 699 140 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 696 140 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 695 140 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 691 140 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 690 139 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 689 139 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 687 139 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 686 139 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 684 139 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 683 139 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 679 139 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 677 139 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 673 139 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 672 139 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 667 139 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 664 139 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 661 139 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 660 139 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 656 139 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 653 139 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 651 138 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 650 138 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 647 138 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 645 137 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 644 137 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 642 137 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 641 137 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 637 137 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 631 137 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 626 137 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 619 137 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 615 137 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 614 137 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 613 137 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 612 137 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 610 137 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 609 136 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 608 136 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 607 136 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 606 136 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 605 136 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 603 136 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 602 136 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 601 136 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 600 136 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 599 136 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 598 136 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 597 136 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 596 136 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 595 136 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 594 136 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 593 136 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 592 136 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 591 136 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 590 136 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 589 135 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 590 135 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 591 135 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 595 135 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 599 134 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 603 134 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 607 134 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 609 134 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 611 134 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 612 134 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 613 134 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 615 134 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 619 134 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 623 134 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 625 134 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 627 134 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 630 135 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 631 135 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 634 135 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 636 135 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 639 135 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 642 135 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 646 136 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 649 137 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 653 137 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 657 138 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 661 138 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 664 138 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 666 139 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 667 139 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 672 139 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 677 139 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 682 139 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 685 139 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 687 139 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 689 139 40 0 1496 0 0 693 1920 0 0 1080 13
+~ MButtonArm `main_dlg_cur` `proe_win` 9 689 139 0 2 1496 693 1920 1080 6987159
+~ Move `main_dlg_cur` `proe_win` 9 689 139 0 2 1496 693 1920 1080 6987206
+~ MButtonDisarm `main_dlg_cur` `proe_win` 9 689 139 0 0 1496 693 1920 1080 6987297
+!%CIUndo the snapshot done successfully
+~ MButtonArm `main_dlg_cur` `proe_win` 9 765 154 0 514 1496 693 1920 1080 6988016
+~ Move `main_dlg_cur` `proe_win` 9 764 154 0 514 1496 693 1920 1080 6988219
+~ Move `main_dlg_cur` `proe_win` 9 763 154 0 514 1496 693 1920 1080 6988228
+~ Move `main_dlg_cur` `proe_win` 9 762 152 0 1538 1496 693 1920 1080 6988239
+~ Move `main_dlg_cur` `proe_win` 9 761 152 0 514 1496 693 1920 1080 6988246
+~ Move `main_dlg_cur` `proe_win` 9 760 151 0 1538 1496 693 1920 1080 6988254
+~ Move `main_dlg_cur` `proe_win` 9 760 150 0 1026 1496 693 1920 1080 6988262
+~ Move `main_dlg_cur` `proe_win` 9 760 149 0 1026 1496 693 1920 1080 6988270
+~ Move `main_dlg_cur` `proe_win` 9 759 148 0 1538 1496 693 1920 1080 6988279
+~ Move `main_dlg_cur` `proe_win` 9 758 147 0 1538 1496 693 1920 1080 6988291
+~ Move `main_dlg_cur` `proe_win` 9 757 146 0 1538 1496 693 1920 1080 6988299
+~ Move `main_dlg_cur` `proe_win` 9 756 144 0 1538 1496 693 1920 1080 6988308
+~ Move `main_dlg_cur` `proe_win` 9 754 141 0 1538 1496 693 1920 1080 6988319
+~ Move `main_dlg_cur` `proe_win` 9 754 139 0 1026 1496 693 1920 1080 6988333
+~ Move `main_dlg_cur` `proe_win` 9 754 138 0 1026 1496 693 1920 1080 6988343
+~ Move `main_dlg_cur` `proe_win` 9 753 137 0 1538 1496 693 1920 1080 6988352
+~ Move `main_dlg_cur` `proe_win` 9 752 136 0 1538 1496 693 1920 1080 6988361
+~ MButtonDisarm `main_dlg_cur` `proe_win` 9 752 135 0 1024 1496 693 1920 1080 6988503
+~ Move `main_dlg_cur` `proe_win` 9 743 153 16777216 512 1496 693 1920 1080 6988942
+~ MButtonArm `main_dlg_cur` `proe_win` 9 712 105 16777216 2 1496 693 1920 1080 6989398
+~ Move `main_dlg_cur` `proe_win` 9 712 106 16777216 1026 1496 693 1920 1080 6989480
+~ Move `main_dlg_cur` `proe_win` 9 712 109 16777216 1026 1496 693 1920 1080 6989489
+~ Move `main_dlg_cur` `proe_win` 9 714 111 16777216 1538 1496 693 1920 1080 6989502
+~ Move `main_dlg_cur` `proe_win` 9 716 116 16777216 1538 1496 693 1920 1080 6989518
+~ Move `main_dlg_cur` `proe_win` 9 718 121 16777216 1538 1496 693 1920 1080 6989529
+~ Move `main_dlg_cur` `proe_win` 9 719 124 16777216 1538 1496 693 1920 1080 6989540
+~ Move `main_dlg_cur` `proe_win` 9 723 129 16777216 1538 1496 693 1920 1080 6989551
+~ Move `main_dlg_cur` `proe_win` 9 726 134 16777216 1538 1496 693 1920 1080 6989562
+~ Move `main_dlg_cur` `proe_win` 9 729 139 16777216 1538 1496 693 1920 1080 6989571
+~ Move `main_dlg_cur` `proe_win` 9 731 142 16777216 1538 1496 693 1920 1080 6989581
+~ Move `main_dlg_cur` `proe_win` 9 732 145 16777216 1538 1496 693 1920 1080 6989591
+~ Move `main_dlg_cur` `proe_win` 9 734 147 16777216 1538 1496 693 1920 1080 6989599
+~ Move `main_dlg_cur` `proe_win` 9 735 149 16777216 1538 1496 693 1920 1080 6989609
+~ Move `main_dlg_cur` `proe_win` 9 737 151 16777216 1538 1496 693 1920 1080 6989620
+~ Move `main_dlg_cur` `proe_win` 9 738 153 16777216 1538 1496 693 1920 1080 6989629
+~ Move `main_dlg_cur` `proe_win` 9 740 155 16777216 1538 1496 693 1920 1080 6989642
+~ Move `main_dlg_cur` `proe_win` 9 741 156 16777216 1538 1496 693 1920 1080 6989649
+~ Move `main_dlg_cur` `proe_win` 9 741 157 16777216 1026 1496 693 1920 1080 6989739
+~ Move `main_dlg_cur` `proe_win` 9 743 162 16777216 1538 1496 693 1920 1080 6989753
+~ Move `main_dlg_cur` `proe_win` 9 745 166 16777216 1538 1496 693 1920 1080 6989769
+~ Move `main_dlg_cur` `proe_win` 9 746 168 16777216 1538 1496 693 1920 1080 6989778
+~ Move `main_dlg_cur` `proe_win` 9 747 170 16777216 1538 1496 693 1920 1080 6989792
+~ Move `main_dlg_cur` `proe_win` 9 748 174 16777216 1538 1496 693 1920 1080 6989800
+~ Move `main_dlg_cur` `proe_win` 9 750 178 16777216 1538 1496 693 1920 1080 6989814
+~ Move `main_dlg_cur` `proe_win` 9 752 181 16777216 1538 1496 693 1920 1080 6989823
+~ Move `main_dlg_cur` `proe_win` 9 753 185 16777216 1538 1496 693 1920 1080 6989834
+~ Move `main_dlg_cur` `proe_win` 9 753 187 16777216 1026 1496 693 1920 1080 6989844
+~ Move `main_dlg_cur` `proe_win` 9 755 189 16777216 1538 1496 693 1920 1080 6989854
+~ Move `main_dlg_cur` `proe_win` 9 757 194 16777216 1538 1496 693 1920 1080 6989864
+~ Move `main_dlg_cur` `proe_win` 9 758 197 16777216 1538 1496 693 1920 1080 6989876
+~ Move `main_dlg_cur` `proe_win` 9 759 202 16777216 1538 1496 693 1920 1080 6989885
+~ Move `main_dlg_cur` `proe_win` 9 761 206 16777216 1538 1496 693 1920 1080 6989895
+~ Move `main_dlg_cur` `proe_win` 9 762 209 16777216 1538 1496 693 1920 1080 6989903
+~ Move `main_dlg_cur` `proe_win` 9 763 213 16777216 1538 1496 693 1920 1080 6989916
+~ Move `main_dlg_cur` `proe_win` 9 765 218 16777216 1538 1496 693 1920 1080 6989926
+~ Move `main_dlg_cur` `proe_win` 9 767 222 16777216 1538 1496 693 1920 1080 6989936
+~ Move `main_dlg_cur` `proe_win` 9 768 224 16777216 1538 1496 693 1920 1080 6989946
+~ Move `main_dlg_cur` `proe_win` 9 770 227 16777216 1538 1496 693 1920 1080 6989960
+~ Move `main_dlg_cur` `proe_win` 9 770 229 16777216 1026 1496 693 1920 1080 6989968
+~ Move `main_dlg_cur` `proe_win` 9 771 230 16777216 1538 1496 693 1920 1080 6989979
+~ MButtonDisarm `main_dlg_cur` `proe_win` 9 771 230 16777216 0 1496 693 1920 1080 6990033
+~ Move `main_dlg_cur` `proe_win` 9 773 234 0 0 1496 693 1920 1080 6990079
+~ Wheel `main_dlg_cur` `proe_win` 9 785 245 458752 0 1496 693 1920 1080 6990350
+~ Wheel `main_dlg_cur` `proe_win` 9 785 245 458752 0 1496 693 1920 1080 6990383
+~ Wheel `main_dlg_cur` `proe_win` 9 785 245 458752 0 1496 693 1920 1080 6990430
+~ Wheel `main_dlg_cur` `proe_win` 9 785 245 458752 0 1496 693 1920 1080 6990502
+~ Wheel `main_dlg_cur` `proe_win` 9 777 247 458752 1536 1496 693 1920 1080 6990796
+~ LButtonArm `main_dlg_cur` `proe_win` 9 732 290 0 1 1496 693 1920 1080 6991467
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 732 290 0 0 1496 693 1920 1080 6991557
+@sel_pz_xyz 480.5194805195 490.6655844156 492.8773945268 568.6554144988 -1214.6838291885
+@ sel view 0
+ -4.533971 0.452409 -0.347410 0.332981 -0.160552 -4.554734
+ -0.463132 -4.544426 0.126330 584.722132 107.584496 -1234.639576 5.216425 0.000000 0
+@ stack attr 8
+@ stack attr -1 -1  1
+@ stack idx 0
+@SEL_REC 1 [ 83] 2 399 -1 (-14.0642558686 13.4437273068) (7.2000000000 6.0642558686 -13.4437273068)
+!Surf:F12(EXTRUDE_3):FINGER_BASE
+!%CIPress L mouse button to accept positions; 
+!%C_M mouse button to abort dragging; 
+!%C_R mouse button to abort and finish dragging;
+!%C_and move mouse to drag.
+>M mouseDragCB ProeWin0 731 290 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 729 289 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 724 285 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 719 283 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 718 283 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 717 283 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 712 281 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 710 281 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 708 280 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 707 280 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 705 280 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 701 279 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 697 278 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 694 278 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 690 277 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 689 277 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 686 277 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 683 276 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 682 276 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 676 275 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 672 275 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 669 275 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 665 275 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 661 275 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 657 275 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 653 275 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 649 276 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 646 277 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 643 279 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 640 280 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 637 281 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 633 282 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 629 282 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 625 282 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 619 282 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 616 283 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 613 283 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 612 283 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 606 283 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 603 283 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 600 283 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 597 283 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 592 283 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 591 283 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 585 283 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 584 283 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 580 283 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 579 283 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 574 283 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 571 283 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 567 283 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 561 283 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 556 283 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 551 283 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 546 283 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 541 283 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 536 283 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 531 283 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 525 283 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 521 283 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 515 283 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 512 283 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 508 283 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 504 283 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 499 283 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 496 282 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 494 282 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 489 282 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 485 282 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 481 282 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 475 282 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 471 281 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 465 281 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 461 281 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 454 281 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 448 281 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 441 280 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 435 280 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 432 280 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 428 280 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 423 279 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 419 278 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 414 278 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 410 278 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 409 278 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 401 275 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 398 274 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 394 273 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 392 273 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 387 273 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 384 273 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 381 273 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 377 273 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 374 273 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 370 273 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 367 272 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 364 272 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 361 272 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 359 272 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 358 272 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 358 271 80 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 352 270 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 349 269 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 347 268 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 343 268 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 341 266 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 338 266 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 334 266 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 331 266 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 329 266 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 328 266 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 327 266 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 326 265 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 325 265 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 324 265 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 323 265 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 322 265 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 321 265 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 320 265 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 319 264 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 317 264 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 316 264 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 315 263 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 314 263 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 313 263 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 312 263 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 311 263 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 310 263 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 309 263 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 308 263 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 307 263 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 306 263 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 305 263 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 304 263 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 303 263 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 303 262 80 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 304 262 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 305 262 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 307 262 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 309 262 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 311 262 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 314 262 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 316 262 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 317 262 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 319 262 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 320 262 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 322 262 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 323 262 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 324 262 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 325 262 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 326 262 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 327 262 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 328 263 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 329 263 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 330 263 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 331 263 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 333 263 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 334 263 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 334 264 80 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 335 264 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 336 264 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 337 264 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 340 265 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 341 265 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 342 265 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 343 265 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 347 265 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 351 266 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 356 266 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 360 266 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 366 266 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 372 266 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 380 266 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 387 266 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 392 265 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 398 265 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 400 265 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 404 265 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 406 265 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 412 265 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 416 265 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 421 265 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 423 265 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 432 265 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 435 265 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 439 266 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 443 267 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 450 267 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 454 268 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 457 269 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 464 270 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 468 271 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 470 272 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 474 272 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 479 273 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 483 273 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 487 274 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 492 274 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 497 275 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 503 275 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 509 277 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 514 278 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 517 278 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 521 278 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 526 278 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 528 278 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 535 279 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 536 279 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 540 279 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 543 279 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 547 280 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 550 281 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 552 282 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 555 282 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 559 283 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 562 284 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 568 284 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 573 284 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 578 284 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 583 285 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 587 286 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 590 286 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 595 287 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 599 287 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 602 288 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 605 288 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 607 289 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 609 290 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 613 290 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 617 290 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 621 290 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 626 290 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 632 291 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 636 291 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 642 292 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 646 293 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 652 294 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 659 294 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 667 295 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 671 296 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 678 296 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 684 297 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 687 298 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 690 299 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 694 299 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 697 300 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 701 300 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 705 300 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 707 300 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 709 300 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 711 300 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 713 300 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 714 300 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 717 300 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 719 300 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 720 300 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 721 300 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 724 301 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 725 301 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 727 302 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 730 302 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 733 302 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 736 303 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 739 304 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 740 304 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 741 305 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 742 305 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 743 305 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 744 305 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 745 305 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 746 306 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 747 306 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 748 306 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 749 307 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 750 307 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 751 307 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 752 307 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 753 307 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 753 308 80 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 754 308 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 756 308 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 758 308 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 759 308 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 760 308 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 761 308 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 761 309 80 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 763 309 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 764 309 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 765 309 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 766 310 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 767 310 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 768 310 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 769 310 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 770 311 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 771 311 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 772 311 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 773 311 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 772 311 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 770 311 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 765 311 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 761 311 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 758 310 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 755 310 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 754 310 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 752 310 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 750 310 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 748 310 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 747 310 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 745 310 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 744 310 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 742 310 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 741 310 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 740 310 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 739 310 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 738 310 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 736 310 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 734 310 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 731 310 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 725 309 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 720 309 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 713 309 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 705 308 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 697 307 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 690 306 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 684 305 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 678 304 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 673 304 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 667 303 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 661 303 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 653 303 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 648 302 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 644 302 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 639 301 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 637 301 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 632 301 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 626 301 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 619 301 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 608 301 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 594 301 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 584 301 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 570 301 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 560 301 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 553 300 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 550 300 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 544 300 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 540 300 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 536 300 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 532 300 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 527 300 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 523 300 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 519 300 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 515 300 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 511 300 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 506 300 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 501 300 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 496 300 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 492 300 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 487 300 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 480 300 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 472 299 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 464 299 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 459 299 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 454 299 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 450 299 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 445 299 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 441 299 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 436 299 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 433 299 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 428 299 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 425 299 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 421 299 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 416 299 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 411 299 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 408 299 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 403 299 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 398 299 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 393 299 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 389 299 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 384 299 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 380 299 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 376 299 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 371 299 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 368 299 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 364 299 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 362 299 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 359 299 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 356 299 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 352 298 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 349 298 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 345 298 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 342 298 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 339 298 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 335 298 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 329 298 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 326 298 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 325 298 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 324 298 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 323 298 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 322 298 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 321 298 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 319 298 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 318 298 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 317 298 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 316 298 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 315 298 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 314 298 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 312 298 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 311 298 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 310 298 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 309 298 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 308 298 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 307 298 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 306 298 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 306 297 80 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 305 297 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 304 297 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 303 297 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 302 297 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 300 297 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 299 297 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 298 297 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 297 297 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 296 298 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 295 298 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 294 298 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 295 298 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 298 297 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 300 297 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 304 297 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 307 297 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 310 297 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 313 297 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 317 297 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 322 297 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 328 297 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 335 297 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 350 299 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 355 299 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 359 299 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 364 299 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 373 299 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 379 299 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 391 299 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 403 299 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 410 299 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 414 299 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 421 299 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 427 299 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 435 299 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 442 299 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 449 300 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 455 301 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 458 301 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 467 301 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 473 301 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 479 301 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 491 301 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 502 301 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 506 302 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 509 302 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 514 302 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 520 302 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 521 302 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 525 302 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 527 302 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 532 302 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 537 302 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 543 303 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 548 303 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 552 303 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 555 303 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 557 303 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 561 303 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 565 303 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 569 303 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 576 304 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 583 305 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 587 305 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 593 305 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 599 305 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 604 305 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 609 306 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 612 306 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 617 306 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 621 307 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 630 307 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 637 307 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 642 307 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 654 308 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 664 308 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 671 308 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 677 309 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 683 311 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 687 311 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 690 311 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 694 312 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 697 313 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 700 313 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 705 313 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 709 313 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 713 313 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 718 315 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 722 315 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 724 315 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 730 316 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 734 316 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 737 317 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 739 317 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 741 318 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 742 318 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 744 318 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 745 319 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 747 319 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 748 319 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 750 319 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 751 319 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 753 319 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 754 319 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 756 319 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 758 319 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 759 319 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 761 320 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 762 320 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 764 320 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 765 321 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 766 321 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 768 321 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 769 321 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 770 322 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 771 322 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 772 322 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 773 323 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 774 323 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 775 323 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 776 323 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 777 323 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 778 323 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 779 323 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 780 323 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 781 324 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 782 324 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 784 324 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 785 325 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 787 325 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 788 325 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 787 325 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 786 325 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 785 325 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 783 325 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 782 325 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 781 325 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 780 325 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 779 325 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 778 325 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 777 325 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 776 325 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 774 325 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 771 325 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 769 324 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 767 324 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 764 323 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 761 322 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 758 321 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 756 321 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 754 321 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 753 321 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 752 321 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 749 320 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 748 320 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 745 320 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 742 319 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 739 318 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 735 317 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 731 316 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 721 314 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 716 314 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 710 314 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 706 313 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 701 312 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 693 311 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 684 310 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 672 310 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 649 310 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 632 310 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 608 309 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 595 309 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 584 309 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 568 309 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 552 309 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 536 309 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 525 309 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 515 309 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 509 309 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 501 309 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 492 309 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 481 309 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 469 309 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 461 307 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 456 306 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 451 305 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 445 304 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 438 303 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 433 303 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 427 302 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 421 301 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 415 300 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 409 299 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 403 297 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 398 297 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 393 296 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 387 294 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 382 292 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 377 291 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 371 290 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 365 288 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 358 287 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 347 285 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 337 283 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 328 281 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 317 279 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 315 278 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 313 277 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 310 277 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 307 276 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 306 275 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 304 275 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 301 275 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 298 274 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 295 274 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 293 274 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 290 274 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 288 273 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 286 273 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 284 273 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 283 273 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 280 273 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 278 272 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 277 272 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 275 272 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 272 272 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 271 271 c0 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 269 271 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 266 271 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 265 271 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 264 271 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 263 271 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 262 271 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 261 271 40 0 1496 0 0 693 1920 0 0 1080 13
+>M mouseDragCB ProeWin0 260 271 40 0 1496 0 0 693 1920 0 0 1080 13
+~ MButtonArm `main_dlg_cur` `proe_win` 9 260 271 0 2 1496 693 1920 1080 7011925
+~ Move `main_dlg_cur` `proe_win` 9 259 271 0 514 1496 693 1920 1080 7011943
+~ Move `main_dlg_cur` `proe_win` 9 258 271 0 514 1496 693 1920 1080 7011958
+~ Move `main_dlg_cur` `proe_win` 9 257 271 0 514 1496 693 1920 1080 7011967
+~ MButtonDisarm `main_dlg_cur` `proe_win` 9 257 271 0 0 1496 693 1920 1080 7012061
+!%CIUndo the snapshot done successfully
+~ MButtonArm `main_dlg_cur` `proe_win` 9 644 285 0 1026 1496 693 1920 1080 7012699
+~ Move `main_dlg_cur` `proe_win` 9 644 286 0 1026 1496 693 1920 1080 7012743
+~ Move `main_dlg_cur` `proe_win` 9 643 286 0 514 1496 693 1920 1080 7012753
+~ Move `main_dlg_cur` `proe_win` 9 643 287 0 1026 1496 693 1920 1080 7012817
+~ Move `main_dlg_cur` `proe_win` 9 643 288 0 1026 1496 693 1920 1080 7012828
+~ Move `main_dlg_cur` `proe_win` 9 644 291 0 1538 1496 693 1920 1080 7012835
+~ Move `main_dlg_cur` `proe_win` 9 648 296 0 1538 1496 693 1920 1080 7012847
+~ Move `main_dlg_cur` `proe_win` 9 652 301 0 1538 1496 693 1920 1080 7012859
+~ Move `main_dlg_cur` `proe_win` 9 654 304 0 1538 1496 693 1920 1080 7012869
+~ Move `main_dlg_cur` `proe_win` 9 657 308 0 1538 1496 693 1920 1080 7012880
+~ Move `main_dlg_cur` `proe_win` 9 658 311 0 1538 1496 693 1920 1080 7012893
+~ Move `main_dlg_cur` `proe_win` 9 660 312 0 1538 1496 693 1920 1080 7012903
+~ Move `main_dlg_cur` `proe_win` 9 660 313 0 1026 1496 693 1920 1080 7012911
+~ MButtonDisarm `main_dlg_cur` `proe_win` 9 660 313 0 0 1496 693 1920 1080 7013161
+~ Wheel `main_dlg_cur` `proe_win` 9 684 314 393216 0 1496 693 1920 1080 7013370
+~ Wheel `main_dlg_cur` `proe_win` 9 684 314 393216 0 1496 693 1920 1080 7013394
+~ Wheel `main_dlg_cur` `proe_win` 9 684 316 393216 1024 1496 693 1920 1080 7013437
+~ Wheel `main_dlg_cur` `proe_win` 9 753 341 393216 512 1496 693 1920 1080 7013749
+~ MButtonArm `main_dlg_cur` `proe_win` 9 901 374 0 514 1496 693 1920 1080 7014342
+~ Move `main_dlg_cur` `proe_win` 9 898 375 0 1538 1496 693 1920 1080 7014372
+~ Move `main_dlg_cur` `proe_win` 9 897 375 0 514 1496 693 1920 1080 7014520
+~ Move `main_dlg_cur` `proe_win` 9 896 373 0 1538 1496 693 1920 1080 7014529
+~ Move `main_dlg_cur` `proe_win` 9 895 370 0 1538 1496 693 1920 1080 7014538
+~ Move `main_dlg_cur` `proe_win` 9 894 366 0 1538 1496 693 1920 1080 7014550
+~ Move `main_dlg_cur` `proe_win` 9 894 361 0 1026 1496 693 1920 1080 7014561
+~ Move `main_dlg_cur` `proe_win` 9 894 358 0 1026 1496 693 1920 1080 7014568
+~ Move `main_dlg_cur` `proe_win` 9 894 356 0 1026 1496 693 1920 1080 7014576
+~ Move `main_dlg_cur` `proe_win` 9 894 354 0 1026 1496 693 1920 1080 7014585
+~ Move `main_dlg_cur` `proe_win` 9 894 352 0 1026 1496 693 1920 1080 7014596
+~ Move `main_dlg_cur` `proe_win` 9 893 352 0 514 1496 693 1920 1080 7014605
+~ Move `main_dlg_cur` `proe_win` 9 893 351 0 1026 1496 693 1920 1080 7014705
+~ Move `main_dlg_cur` `proe_win` 9 892 349 0 1538 1496 693 1920 1080 7014720
+~ Move `main_dlg_cur` `proe_win` 9 890 346 0 1538 1496 693 1920 1080 7014756
+~ Move `main_dlg_cur` `proe_win` 9 889 343 0 1538 1496 693 1920 1080 7014771
+~ Move `main_dlg_cur` `proe_win` 9 889 342 0 1026 1496 693 1920 1080 7014793
+~ MButtonDisarm `main_dlg_cur` `proe_win` 9 889 341 0 1024 1496 693 1920 1080 7014899
+~ LButtonArm `main_dlg_cur` `proe_win` 9 188 196 0 513 1496 693 1920 1080 7015323
+~ Move `main_dlg_cur` `proe_win` 9 188 195 0 1025 1496 693 1920 1080 7015338
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 188 195 0 0 1496 693 1920 1080 7015408
+@sel_pz_xyz -181.8181818182 605.1136363636 191.1731128751 633.5534767455 -1214.6838291885
+@ sel view 0
+ -4.546949 0.244354 -0.384455 0.360729 -0.423785 -4.535696
+ -0.278189 -4.543452 0.402385 582.377837 107.707800 -1221.697258 2.136648 0.000000 0
+@ stack attr 8
+@ stack attr -1 -1  1
+~ Move `main_dlg_cur` `proe_win` 9 160 175 33554432 0 1496 693 1920 1080 7015701
+~ Key `main_dlg_cur` `proe_win` 9 160 175 38993939 0 1496 693 1920 1080 7015701 `Ctrl+S`
+~ Move `main_dlg_cur` `proe_win` 9 201 186 0 0 1496 693 1920 1080 7016296
+~ Close `newdrag` `newdrag`
+~ LButtonArm `main_dlg_cur` `proe_win` 9 1169 273 0 1537 1496 693 1920 1080 7018132
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 1169 273 0 0 1496 693 1920 1080 7018218
+@sel_pz_xyz 1012.5811688312 511.3636363636 750.1793703739 589.6763291131 -1214.6838291885
+@ sel view 0
+ -4.546949 0.244354 -0.384455 0.360729 -0.423785 -4.535696
+ -0.278189 -4.543452 0.402385 582.377837 107.707800 -1221.697258 2.136648 0.000000 0
+@ stack attr 8
+@ stack attr -1 -1  1
+@ stack attr twk_s_eps
+~ Move `main_dlg_cur` `proe_win` 9 1169 273 33554432 0 1496 693 1920 1080 7018354
+>M Chain_oa_sel_CB ProeWin0 1169 273 c0 20000 1496 0 0 693 1920 0 0 1080 13
+~ Key `main_dlg_cur` `proe_win` 9 1113 248 38993939 512 1496 693 1920 1080 7018470 `Ctrl+S`
+~ Command `ProCmdModelSave` 
+~ Activate `storage_conflicts` `Cancel_PushButton`
+>M Chain_oa_sel_CB ProeWin0 892 445 100c0 0 1496 0 0 693 1920 0 0 1080 13
+~ Command `ProCmdRegenAuto` 
+!Mechanism Design Command Script File
+!	Version: 	P_90_57:spg
+!	Platform:	x86e_win64
+!	Created: 	5/26/2026 at 21:24:30
+!ProgressBarDlg: Regen Started
+!Mechanism Design Command Script File
+!	Version: 	P_90_57:spg
+!	Platform:	x86e_win64
+!	Created: 	5/26/2026 at 21:24:30
+!%CIASMJOEDELL regeneration completed with 3 suppressed feature(s) or component(s).
+!ProgressBarDlg: Regen Completed
+!%CIAutomatic regeneration of the parts has been completed.
+~ LButtonArm `main_dlg_cur` `proe_win` 9 1049 222 0 1 1496 693 1920 1080 7022364
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 1049 222 0 0 1496 693 1920 1080 7022457
+@sel_pz_xyz 866.4772727273 573.4577922078 681.7994000377 618.7378165060 -1214.6838291885
+@ sel view 0
+ -4.546949 0.244354 -0.384455 0.360729 -0.423785 -4.535696
+ -0.278189 -4.543452 0.402385 582.377837 107.707800 -1221.691918 2.136648 0.000000 0
+@ stack attr 8
+@ stack attr -1 -1  1
+@ stack attr twk_s_eps
+~ Move `main_dlg_cur` `proe_win` 9 1049 222 33554432 0 1496 693 1920 1080 7022528
+>M Chain_oa_sel_CB ProeWin0 1049 222 c0 20000 1496 0 0 693 1920 0 0 1080 13
+~ Key `main_dlg_cur` `proe_win` 9 1063 170 38993939 1536 1496 693 1920 1080 7022982 `Ctrl+S`
+~ Command `ProCmdModelSave` 
+!%CIASMJOEDELL has been saved.
+~ Exit `main_dlg_cur` `proe_win` 9 1115 -195 33554432 1536 1496 693 1920 1080 7023507
+~ Key `main_dlg_cur` `proe_win` 9 1115 -195 38993939 1536 1496 693 1920 1080 7023507 `Ctrl+S`
+~ Command `ProCmdModelSave` 
+!%CIASMJOEDELL has been saved.
+~ Key `main_dlg_cur` `proe_win` 9 1115 -195 38993939 1536 1496 693 1920 1080 7023507 `Ctrl+S`
+~ Command `ProCmdModelSave` 
+!%CIASMJOEDELL has been saved.
+~ Input `main_dlg_cur` `search_panel_pholder.search_panel_input_panel` `w`
+~ Input `main_dlg_cur` `search_panel_pholder.search_panel_input_panel` `wi`
+~ Input `main_dlg_cur` `search_panel_pholder.search_panel_input_panel` `win`
+~ Input `main_dlg_cur` `search_panel_pholder.search_panel_input_panel` `wind`
+~ Input `main_dlg_cur` `search_panel_pholder.search_panel_input_panel` `windo`
+~ Update `main_dlg_cur` `search_panel_pholder.search_panel_input_panel` `windo`
+~ Trigger `search_panel_list_of_main_dlg_cur` `search_panel_list` `` `commands_group`
+~ Trigger `search_panel_list_of_main_dlg_cur` `search_panel_list` `ProCmdWinRadio`
+~ Trigger `search_panel_list_of_main_dlg_cur` `search_panel_list` `ProCmdWinRadio(1)`
+~ Trigger `search_panel_list_of_main_dlg_cur` `search_panel_list` `ProCmdMankVisionWnd`
+~ Trigger `search_panel_list_of_main_dlg_cur` `search_panel_list` `casc_windows`
+~ Trigger `search_panel_list_of_main_dlg_cur` `search_panel_list` `casc_windows(1)`
+~ Trigger `search_panel_list_of_main_dlg_cur` `search_panel_list` `` `Not_in_rbn_group`
+~ Trigger `search_panel_list_of_main_dlg_cur` `search_panel_list` `ProCmdWinOpenSystem`
+~ Trigger `search_panel_list_of_main_dlg_cur` `search_panel_list` `` `Not_in_rbn_group`
+~ Trigger `search_panel_list_of_main_dlg_cur` `search_panel_list` `casc_windows(1)`
+~ Trigger `search_panel_list_of_main_dlg_cur` `search_panel_list` `casc_windows`
+~ Trigger `search_panel_list_of_main_dlg_cur` `search_panel_list` ``
+>M Chain_oa_sel_CB ProeWin0 912 260 100c0 0 1496 0 0 693 1920 0 0 1080 13
+~ Trigger `search_panel_list_of_main_dlg_cur` `search_panel_list` `ProCmdWinOpenSystem`
+~ Trigger `search_panel_list_of_main_dlg_cur` `search_panel_list` `` `Not_in_rbn_group`
+~ Trigger `search_panel_list_of_main_dlg_cur` `search_panel_list` `casc_windows(1)`
+~ Trigger `search_panel_list_of_main_dlg_cur` `search_panel_list` `casc_windows`
+~ Trigger `search_panel_list_of_main_dlg_cur` `search_panel_list` `ProCmdMankVisionWnd`
+~ Trigger `search_panel_list_of_main_dlg_cur` `search_panel_list` `ProCmdWinRadio(1)`
+~ Trigger `search_panel_list_of_main_dlg_cur` `search_panel_list` ``
+~ Trigger `search_panel_list_of_main_dlg_cur` `search_panel_list` `casc_windows(1)`
+~ Trigger `search_panel_list_of_main_dlg_cur` `search_panel_list` `` `Not_in_rbn_group`
+~ Trigger `search_panel_list_of_main_dlg_cur` `search_panel_list` `ProCmdWinOpenSystem`
+~ Trigger `search_panel_list_of_main_dlg_cur` `search_panel_list` ``
+~ Trigger `search_panel_list_of_main_dlg_cur` `search_panel_list` `ProCmdWinOpenSystem`
+~ Trigger `search_panel_list_of_main_dlg_cur` `search_panel_list` ``
+~ LButtonArm `main_dlg_cur` `proe_win` 9 1364 357 0 1 1496 693 1920 1080 7055756
+~ Move `main_dlg_cur` `proe_win` 9 1364 358 0 1025 1496 693 1920 1080 7055785
+~ Move `main_dlg_cur` `proe_win` 9 1364 358 0 1 1496 693 1920 1080 7055814
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 1364 358 0 0 1496 693 1920 1080 7055824
+@sel_pz_xyz 1250.0000000000 409.0909090909 861.2968221703 541.8103498777 -1214.6838291885
+@ sel view 0
+ -4.546949 0.244354 -0.384455 0.360729 -0.423785 -4.535696
+ -0.278189 -4.543452 0.402385 582.377837 107.707800 -1221.691918 2.136648 0.000000 0
+@ stack attr 8
+@ stack attr -1 -1  1
+@ stack attr twk_s_eps
+~ Trigger `search_panel_list_of_main_dlg_cur` `search_panel_list` `ProCmdWinOpenSystem`
+~ Trigger `search_panel_list_of_main_dlg_cur` `search_panel_list` `` `Not_in_rbn_group`
+~ Trigger `search_panel_list_of_main_dlg_cur` `search_panel_list` `casc_windows(1)`
+~ Trigger `search_panel_list_of_main_dlg_cur` `search_panel_list` `casc_windows`
+~ Trigger `search_panel_list_of_main_dlg_cur` `search_panel_list` `ProCmdMankVisionWnd`
+~ Trigger `search_panel_list_of_main_dlg_cur` `search_panel_list` `ProCmdWinRadio(1)`
+~ Trigger `search_panel_list_of_main_dlg_cur` `search_panel_list` `ProCmdWinRadio`
+~ Trigger `search_panel_list_of_main_dlg_cur` `search_panel_list` `` `commands_group`
+~ Trigger `search_panel_list_of_main_dlg_cur` `search_panel_list` ``
+~ Input `main_dlg_cur` `search_panel_pholder.search_panel_input_panel` ``
+~ Input `main_dlg_cur` `search_panel_pholder.search_panel_input_panel` `s`
+~ Input `main_dlg_cur` `search_panel_pholder.search_panel_input_panel` `sy`
+~ Input `main_dlg_cur` `search_panel_pholder.search_panel_input_panel` `sys`
+~ Input `main_dlg_cur` `search_panel_pholder.search_panel_input_panel` `syst`
+~ Input `main_dlg_cur` `search_panel_pholder.search_panel_input_panel` `syste`
+~ Input `main_dlg_cur` `search_panel_pholder.search_panel_input_panel` `system`
+~ Input `main_dlg_cur` `search_panel_pholder.search_panel_input_panel` `system `
+~ Input `main_dlg_cur` `search_panel_pholder.search_panel_input_panel` `system w`
+~ Input `main_dlg_cur` `search_panel_pholder.search_panel_input_panel` `system wi`
+~ Input `main_dlg_cur` `search_panel_pholder.search_panel_input_panel` `system win`
+~ Update `main_dlg_cur` `search_panel_pholder.search_panel_input_panel` `system win`
+~ Trigger `search_panel_list_of_main_dlg_cur` `search_panel_list` `` `Not_in_rbn_group`
+~ Trigger `search_panel_list_of_main_dlg_cur` `search_panel_list` `ProCmdWinOpenSystem`
+~ Select `search_panel_list_of_main_dlg_cur` `search_panel_list` 1 `ProCmdWinOpenSystem`
+~ Command `ProCmdWinOpenSystem` 
+!%CDEntering system window. To return to application, logout of system window.
+~ Trigger `search_panel_list_of_main_dlg_cur` `search_panel_list` ``
