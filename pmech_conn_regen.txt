@@ -12,15 +12,23 @@ satisfied.
 properly oriented. 
 
 
-3) The rigid body body5 connected by Connection_69 in model ASMJOEDELL can't be
+3) The rigid body body5 connected by Connection_88 in model ASMJOEDELL can't be
 properly oriented. 
 
 
-4) The following kinematic loop can't be closed: Ground - body2 - body4 -
+4) The rigid body body5 connected by Connection_89 in model ASMJOEDELL can't be
+properly oriented. 
+
+
+5) The following kinematic loop can't be closed: Ground - body1 - body5 -
 Ground.
 
 
-5) The following kinematic loop can't be closed: Ground - body2 - body4 -
+6) The following kinematic loop can't be closed: Ground - body2 - body4 -
+Ground.
+
+
+7) The following kinematic loop can't be closed: Ground - body2 - body4 -
 Ground.
 
 
