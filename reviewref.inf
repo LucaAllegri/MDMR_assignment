@@ -1,0 +1,71 @@
+﻿|***************************|
+    REFERENCE INFORMATION    
+|***************************|
+ Reference No.1 out of 1 
+
+Reference:
+   TYPE   : AXIS
+
+Status   : not in geometry
+
+
+Reference owner:
+ Model   :
+   NAME   : PLATE_SX 
+   TYPE   : Part
+ Feature :
+
+    FEATURE NUMBER       20
+    INTERNAL FEATURE ID  2244
+    PARENTS = 1605(#7) 2240(#18) 2242(#19) 
+
+
+ HOLE
+
+  NO.       ELEMENT NAME         INFO                                           
+  ---       -------------        -------------                                  
+   1        Hole                 Defined                                        
+   1.1      Hole Type            Straight hole                                  
+   1.2      Hole Make            Regular                                        
+   1.3      Diameter             2.50                                           
+   1.4      Depth                Defined                                        
+   1.4.1    Side One             Defined                                        
+   1.4.1.1  Side One Depth       Blind                                          
+   1.4.1.2  Value                20.51                                          
+   1.4.2    Side Two             Defined                                        
+   1.4.2.1  Side Two Depth       None                                           
+   1.5      Flip                 Side 1                                         
+   1.6      Top Clearance        Implicit                                       
+   2        Placement            Defined                                        
+   2.1      Primary Reference    Surf:F7(FLANGE_4)                              
+   2.2      Placement Type       Linear                                         
+   2.3      Linear Reference     DTM6:F19(DATUM PLANE)                          
+   2.4      Align Option 1       Not Aligned                                    
+   2.5      Distance             0.00                                           
+   2.6      Linear Reference     DTM5:F18(DATUM PLANE)                          
+   2.7      Align Option 2       Not Aligned                                    
+   2.8      Distance             0.00                                           
+   2.9      Direction reference  Default                                        
+   3        Feature Name         Defined                                        
+   4        Body                 Defined                                        
+   4.1      Use body             Selected                                       
+   4.2      Selected bodies      Body 1                                         
+
+    PLACEMENT = LINEAR
+
+    FEATURE IS IN LAYER(S) :
+      02___PRT_ALL_AXES - OPERATION = SHOWN
+
+    FEATURE'S DIMENSIONS:
+    d163 = (Displayed:) 2.5 Dia
+           (   Stored:) 2.5 ( 0.01, -0.01 ) 
+    d164 = (Displayed:) 20.51
+           (   Stored:) 20.51 ( 0.01, -0.01 ) 
+    d165 = (Displayed:) 0
+           (   Stored:) 0.0 ( 0.01, -0.01 ) 
+    d166 = (Displayed:) 0
+           (   Stored:) 0.0 ( 0.01, -0.01 ) 
+RELATION                           PARAMETER                 NEW VALUE
+--------                           ---------                 --- -----
+
+*** Part relations driven by this feature:
