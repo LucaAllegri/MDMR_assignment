@@ -4,7 +4,7 @@
 The following position constraints can't be satisfied:
 
 
-1) Lower limit of the axis in slot Connection_82 in model ASMJOEDELL can't be
+1) Upper limit of the axis in slot Connection_82 in model ASMJOEDELL can't be
 satisfied.
 
 
@@ -24,11 +24,6 @@ properly oriented.
 Ground.
 
 
-6) The following kinematic loop can't be closed: Ground - body2 - body4 -
-Ground.
-
-
-7) The following kinematic loop can't be closed: Ground - body2 - body4 -
-Ground.
+6) The following kinematic loop can't be closed: Ground - body5 - Ground.
 
 

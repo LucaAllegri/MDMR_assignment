@@ -1,6 +1,21 @@
        Error Diagnostics for Analysis/Assembly Failure
 
-The following transition events could not be handled:
-   1. Contact event involving Connection_88 in model ASMJOEDELL.
+  All position constraints can't be simultaneously satisfied. 
+The following position constraints can't be satisfied:
+
+
+1) The rigid body body5 connected by Connection_88 in model ASMJOEDELL can't be
+properly oriented. 
+
+
+2) The rigid body body5 connected by Connection_89 in model ASMJOEDELL can't be
+properly oriented. 
+
+
+3) The following kinematic loop can't be closed: Ground - body1 - body5 -
+Ground.
+
+
+4) The following kinematic loop can't be closed: Ground - body5 - Ground.
 
 
