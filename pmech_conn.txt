@@ -4,18 +4,11 @@
 The following position constraints can't be satisfied:
 
 
-1) The rigid body body5 connected by Connection_88 in model ASMJOEDELL can't be
-properly oriented. 
+1) The rigid body body4 connected by Connection_82 in model ASM_THUMB (component
+id path [166]) can't be properly oriented. 
 
 
-2) The rigid body body5 connected by Connection_89 in model ASMJOEDELL can't be
-properly oriented. 
-
-
-3) The following kinematic loop can't be closed: Ground - body1 - body5 -
+2) The following kinematic loop can't be closed: Ground - body2 - body4 -
 Ground.
-
-
-4) The following kinematic loop can't be closed: Ground - body5 - Ground.
 
 
