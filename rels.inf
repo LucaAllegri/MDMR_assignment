@@ -1,0 +1,149 @@
+﻿RELATION                           PARAMETER                 NEW VALUE
+--------                           ---------                 --- -----
+
+/*** THUMB2 has no relations.
+
+Local Parameters
+----------------
+
+Symbolic constant               Current value        Properties                  
+------------------------------- -------------------- --------------------------- 
+PTC_MATERIAL_TYPE               9                    TYPE: Integer              
+                                                     SOURCE: Material           
+                                                     ACCESS: Locked             
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION:               
+
+PTC_FAILURE_CRITERION_TYPE      NONE                 TYPE: String               
+                                                     SOURCE: Material           
+                                                     ACCESS: Locked             
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION:               
+                                                     RESTRICTED: YES            
+
+PTC_FATIGUE_TYPE                NONE                 TYPE: String               
+                                                     SOURCE: Material           
+                                                     ACCESS: Locked             
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION:               
+                                                     RESTRICTED: YES            
+
+PTC_MATERIAL_SUB_TYPE           LINEAR               TYPE: String               
+                                                     SOURCE: Material           
+                                                     ACCESS: Locked             
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION:               
+                                                     RESTRICTED: YES            
+
+PTC_MATERIAL_DESCRIPTION        Sample materials dat TYPE: String               
+                                a from ANSYS Granta
+ SOURCE: Material           
+                                See grantadesign.com ACCESS: Full               
+                                /PTC for more        DESIGNATED: NO             
+                                                     DESCRIPTION:               
+
+GRANTA_DATALINK_VERSION         5                    TYPE: String               
+                                                     SOURCE: User-Defined       
+                                                     ACCESS: Full               
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION:               
+
+GRANTA_DATABASE_KEY             Granta_Typical_Mater TYPE: String               
+                                ials                 SOURCE: User-Defined       
+                                                     ACCESS: Full               
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION:               
+
+GRANTA_IDENTITY_GUID            4b6dbd91-43c6-4d25-8 TYPE: String               
+                                df6-8066300df3c8     SOURCE: User-Defined       
+                                                     ACCESS: Full               
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION:               
+
+GRANTA_VERSION_GUID             872c0de9-107e-461c-8 TYPE: String               
+                                020-82957b4c2c9d     SOURCE: User-Defined       
+                                                     ACCESS: Full               
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION:               
+
+GRANTA_MODEL_REFERENCE          00000000-0000-0000-0 TYPE: String               
+                                000-000000000000     SOURCE: User-Defined       
+                                                     ACCESS: Full               
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION:               
+
+PTC_MASS_DENSITY                2.710000e-09         TYPE: Real Number          
+                                                     SOURCE: Material           
+                                                     ACCESS: Full               
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION:               
+                                                     UNIT: tonne / mm^3         
+                                                     RESTRICTED: YES            
+
+PTC_YOUNG_MODULUS               6.830000e+04         TYPE: Real Number          
+                                                     SOURCE: Material           
+                                                     ACCESS: Full               
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION:               
+                                                     UNIT: MPa                  
+                                                     RESTRICTED: YES            
+
+PTC_POISSON_RATIO               3.300000e-01         TYPE: Real Number          
+                                                     SOURCE: Material           
+                                                     ACCESS: Full               
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION:               
+                                                     RESTRICTED: YES            
+
+PTC_THERMAL_CONDUCTIVITY        1.600000e+02         TYPE: Real Number          
+                                                     SOURCE: Material           
+                                                     ACCESS: Full               
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION:               
+                                                     UNIT: mW / (mm C)          
+                                                     RESTRICTED: YES            
+
+PTC_THERMAL_EXPANSION_COEF      2.330000e-05         TYPE: Real Number          
+                                                     SOURCE: Material           
+                                                     ACCESS: Full               
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION:               
+                                                     UNIT: 1 / C                
+                                                     RESTRICTED: YES            
+
+PTC_SPECIFIC_HEAT               8.960000e+08         TYPE: Real Number          
+                                                     SOURCE: Material           
+                                                     ACCESS: Full               
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION:               
+                                                     UNIT: mJ / (tonne C)       
+                                                     RESTRICTED: YES            
+
+PTC_TENSILE_YIELD_STRESS        2.590000e+02         TYPE: Real Number          
+                                                     SOURCE: Material           
+                                                     ACCESS: Full               
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION:               
+                                                     UNIT: MPa                  
+                                                     RESTRICTED: YES            
+
+TEMPERATURE                     0.000000e+00         TYPE: Real Number          
+                                                     SOURCE: Material           
+                                                     ACCESS: Full               
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION:               
+                                                     UNIT: C                    
+
+PTC_INITIAL_BEND_Y_FACTOR       5.000000e-01         TYPE: Real Number          
+                                                     SOURCE: Material           
+                                                     ACCESS: Full               
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION:               
+                                                     RESTRICTED: YES            
+
+PTC_BEND_TABLE                                       TYPE: String               
+                                                     SOURCE: Material           
+                                                     ACCESS: Full               
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION:               
+
