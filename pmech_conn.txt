@@ -1,7 +1,9 @@
        Error Diagnostics for Analysis/Assembly Failure
 
-The following transition events could not be handled:
-   1. Contact event involving Connection_88 in model ASM_FINGERS (component id
-path [167]).
+3-D contact Contact 1 in model ASMJOEDELL has encountered an error:
+In a sphere-cylinder contact, the penetration is too deep for the contact patch
+to be calculated properly.
+This violates contact-patch assumptions related to Hertzian compliant contact
+calculations.
 
 
