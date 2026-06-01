@@ -4,26 +4,15 @@
 The following position constraints can't be satisfied:
 
 
-1) Upper limit of the axis in slot Connection_82 in model ASMJOEDELL can't be
-satisfied.
+1) The rigid body body4 connected by Connection_82 in model ASM_THUMB (component
+id path [166]) can't be properly oriented. 
 
 
-2) The rigid body body4 connected by Connection_82 in model ASMJOEDELL can't be
-properly oriented. 
+2) The rigid body body5 connected by Connection_88 in model ASM_FINGERS
+(component id path [167]) can't be properly oriented. 
 
 
-3) The rigid body body5 connected by Connection_88 in model ASMJOEDELL can't be
-properly oriented. 
-
-
-4) The rigid body body5 connected by Connection_89 in model ASMJOEDELL can't be
-properly oriented. 
-
-
-5) The following kinematic loop can't be closed: Ground - body1 - body5 -
+3) The following kinematic loop can't be closed: Ground - body1 - body5 -
 Ground.
-
-
-6) The following kinematic loop can't be closed: Ground - body5 - Ground.
 
 

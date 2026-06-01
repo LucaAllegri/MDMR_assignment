@@ -1,14 +1,7 @@
        Error Diagnostics for Analysis/Assembly Failure
 
-  All position constraints can't be simultaneously satisfied. 
-The following position constraints can't be satisfied:
-
-
-1) The rigid body body4 connected by Connection_82 in model ASM_THUMB (component
-id path [166]) can't be properly oriented. 
-
-
-2) The following kinematic loop can't be closed: Ground - body2 - body4 -
-Ground.
+The following transition events could not be handled:
+   1. Contact event involving Connection_88 in model ASM_FINGERS (component id
+path [167]).
 
 
